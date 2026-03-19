@@ -1,0 +1,36 @@
+[package]
+name = "kuickmoney"
+version = "0.1.0"
+edition = "2021"
+description = "KuickMoney Retail Bot - ATC and Checkout Automation"
+authors = ["KuickMoney"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["devtools"] }
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+reqwest = { version = "0.12", features = ["json", "cookies"] }
+chromiumoxide = "0.2"
+futures = "0.3"
+log = "0.4"
+env_logger = "0.11"
+chrono = "0.4"
+aes-gcm = "0.10"
+rand = "0.8"
+base64 = "0.22"
+dirs = "5"
+toml = "0.8"
+
+[profile.release]
+strip = true
+lto = true
+opt-level = "z"
+panic = "abort"
+
+[target.x86_64-pc-windows-msvc]
+linker = "lld"

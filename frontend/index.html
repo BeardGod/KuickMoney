@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KuickMoney - Retail Bot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --bg-dark: #0f0f14;
+            --bg-card: #1a1a24;
+            --bg-input: #252532;
+            --text: #e4e4e7;
+            --text-muted: #71717a;
+            --border: #2e2e3e;
+            --success: #22c55e;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            min-height: 100vh;
+        }
+        
+        /* Header */
+        .header {
+            background: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--primary), #a855f7);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+        }
+        
+        .logo-text {
+            font-size: 20px;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), #a855f7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: var(--bg-input);
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+        
+        /* Layout */
+        .layout {
+            display: flex;
+            height: calc(100vh - 69px);
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 220px;
+            background: var(--bg-card);
+            border-right: 1px solid var(--border);
+            padding: 16px;
+        }
+        
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 4px;
+            color: var(--text-muted);
+        }
+        
+        .nav-item:hover {
+            background: var(--bg-input);
+            color: var(--text);
+        }
+        
+        .nav-item.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .nav-item .icon {
+            font-size: 18px;
+        }
+        
+        /* Main Content */
+        .main {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+        }
+        
+        .page {
+            display: none;
+        }
+        
+        .page.active {
+            display: block;
+        }
+        
+        .page-title {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 24px;
+        }
+        
+        /* Cards */
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        
+        .card-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        
+        /* Buttons */
+        .btn {
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 14px;
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--primary-dark);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-input);
+            color: var(--text);
+        }
+        
+        .btn-danger {
+            background: var(--danger);
+            color: white;
+        }
+        
+        .btn-success {
+            background: var(--success);
+            color: white;
+        }
+        
+        .btn-sm {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+        
+        /* Forms */
+        .form-group {
+            margin-bottom: 16px;
+        }
+        
+        .form-label {
+            display: block;
+            font-size: 14px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        
+        .form-input {
+            width: 100%;
+            padding: 12px 16px;
+            background: var(--bg-input);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            color: var(--text);
+            font-size: 14px;
+            transition: border-color 0.2s;
+        }
+        
+        .form-input:focus {
+            outline: none;
+            border-color: var(--primary);
+        }
+        
+        .form-input::placeholder {
+            color: var(--text-muted);
+        }
+        
+        /* Product List */
+        .product-item {
+            background: var(--bg-input);
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .product-info {
+            flex: 1;
+        }
+        
+        .product-name {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        
+        .product-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        
+        .product-status {
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .status-monitoring {
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--success);
+        }
+        
+        .status-queue {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--warning);
+        }
+        
+        .status-available {
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--success);
+        }
+        
+        .product-actions {
+            display: flex;
+            gap: 8px;
+            margin-left: 16px;
+        }
+        
+        /* Activity Log */
+        .log-item {
+            padding: 12px;
+            border-bottom: 1px solid var(--border);
+            font-size: 13px;
+        }
+        
+        .log-time {
+            color: var(--text-muted);
+            margin-right: 12px;
+        }
+        
+        .log-success { color: var(--success); }
+        .log-warning { color: var(--warning); }
+        .log-error { color: var(--danger); }
+        
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+        
+        .modal-overlay.active {
+            display: flex;
+        }
+        
+        .modal {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 24px;
+            width: 500px;
+            max-width: 90%;
+        }
+        
+        .modal-header {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        
+        .modal-actions {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+        
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .tab {
+            padding: 8px 16px;
+            background: var(--bg-input);
+            border: none;
+            border-radius: 8px;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 14px;
+        }
+        
+        .tab.active {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Grid */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        /* Payment Card Display */
+        .payment-display {
+            background: linear-gradient(135deg, #1e1e2e, #2d2d44);
+            border-radius: 16px;
+            padding: 20px;
+            margin-top: 12px;
+        }
+        
+        .card-number {
+            font-size: 18px;
+            letter-spacing: 2px;
+            margin: 16px 0;
+        }
+        
+        .card-details {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .card-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+        
+        .card-value {
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+        
+        .empty-state .icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">💰</div>
+            <span class="logo-text">KuickMoney</span>
+        </div>
+        <div class="status-indicator">
+            <div class="status-dot"></div>
+            <span>Connected</span>
+        </div>
+    </header>
+    
+    <!-- Layout -->
+    <div class="layout">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="nav-item active" data-page="dashboard">
+                <span class="icon">📊</span>
+                <span>Dashboard</span>
+            </div>
+            <div class="nav-item" data-page="products">
+                <span class="icon">📦</span>
+                <span>Products</span>
+            </div>
+            <div class="nav-item" data-page="cart">
+                <span class="icon">🛒</span>
+                <span>Cart</span>
+            </div>
+            <div class="nav-item" data-page="settings">
+                <span class="icon">⚙️</span>
+                <span>Settings</span>
+            </div>
+            <div class="nav-item" data-page="logs">
+                <span class="icon">📋</span>
+                <span>Activity</span>
+            </div>
+        </nav>
+        
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Dashboard Page -->
+            <div class="page active" id="page-dashboard">
+                <h1 class="page-title">Dashboard</h1>
+                
+                <div class="grid-2">
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Monitored Products</span>
+                            <button class="btn btn-primary btn-sm" onclick="showAddProduct()">+ Add</button>
+                        </div>
+                        <div id="dashboard-products">
+                            <div class="empty-state">
+                                <div class="icon">📦</div>
+                                <p>No products being monitored</p>
+                                <button class="btn btn-primary" onclick="showAddProduct()">Add Product</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="card-title">Quick Actions</span>
+                        </div>
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <button class="btn btn-primary" onclick="switchPage('products')">
+                                🔍 Monitor New Product
+                            </button>
+                            <button class="btn btn-secondary" onclick="switchPage('settings')">
+                                ⚙️ Configure Proxy
+                            </button>
+                            <button class="btn btn-secondary" onclick="testConnection()">
+                                ✅ Test Connections
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Recent Activity</span>
+                    </div>
+                    <div id="dashboard-activity">
+                        <div class="log-item">
+                            <span class="log-time">--:--:--</span>
+                            <span>System ready. Add products to start monitoring.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Products Page -->
+            <div class="page" id="page-products">
+                <h1 class="page-title">Products</h1>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Monitored Products</span>
+                        <button class="btn btn-primary btn-sm" onclick="showAddProduct()">+ Add Product</button>
+                    </div>
+                    <div id="products-list">
+                        <div class="empty-state">
+                            <div class="icon">📦</div>
+                            <p>No products added yet</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Cart Page -->
+            <div class="page" id="page-cart">
+                <h1 class="page-title">Cart</h1>
+                
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-title">Items in Cart</span>
+                    </div>
+                    <div id="cart-items">
+                        <div class="empty-state">
+                            <div class="icon">🛒</div>
+                            <p>Your cart is empty</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="btn btn-success" style="width: 100%;" onclick="checkoutAll()">
+                    🚀 Proceed to Checkout
+                </button>
+            </div>
+            
+            <!-- Settings Page -->
+            <div class="page" id="page-settings">
+                <h1 class="page-title">Settings</h1>
+                
+                <div class="tabs">
+                    <button class="tab active" data-tab="proxy">Proxy</button>
+                    <button class="tab" data-tab="telegram">Telegram</button>
+                    <button class="tab" data-tab="payment">Payment</button>
+                </div>
+                
+                <!-- Proxy Settings -->
+                <div class="tab-content active" id="tab-proxy">
+                    <div class="card">
+                        <div class="card-title">Proxy Configuration</div>
+                        <div class="form-group">
+                            <label class="form-label">Proxy Host</label>
+                            <input type="text" class="form-input" id="proxy-host" placeholder="gate.decodo.com">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Proxy Port</label>
+                            <input type="number" class="form-input" id="proxy-port" placeholder="10001">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-input" id="proxy-user" placeholder="your-proxy-username">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-input" id="proxy-pass" placeholder="••••••••">
+                        </div>
+                        <div style="display: flex; gap: 12px;">
+                            <button class="btn btn-primary" onclick="saveProxy()">Save Proxy</button>
+                            <button class="btn btn-secondary" onclick="testProxy()">Test Connection</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Telegram Settings -->
+                <div class="tab-content" id="tab-telegram">
+                    <div class="card">
+                        <div class="card-title">Telegram Alerts</div>
+                        <div class="form-group">
+                            <label class="form-label">Bot Token</label>
+                            <input type="text" class="form-input" id="telegram-token" placeholder="123456:ABC-DEF...">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Chat ID</label>
+                            <input type="text" class="form-input" id="telegram-chat" placeholder="your-chat-id">
+                        </div>
+                        <button class="btn btn-primary" onclick="saveTelegram()">Save Telegram</button>
+                    </div>
+                </div>
+                
+                <!-- Payment Settings -->
+                <div class="tab-content" id="tab-payment">
+                    <div class="card">
+                        <div class="card-title">Payment Information</div>
+                        <p style="color: var(--text-muted); font-size: 14px; margin-bottom: 16px;">
+                            🔒 Your payment info is encrypted and stored locally
+                        </p>
+                        <div class="form-group">
+                            <label class="form-label">Cardholder Name</label>
+                            <input type="text" class="form-input" id="payment-name" placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Card Number</label>
+                            <input type="text" class="form-input" id="payment-number" placeholder="1234 5678 9012 3456" maxlength="19">
+                        </div>
+                        <div style="display: flex; gap: 16px;">
+                            <div class="form-group" style="flex: 1;">
+                                <label class="form-label">Expiry</label>
+                                <input type="text" class="form-input" id="payment-expiry" placeholder="MM/YY" maxlength="5">
+                            </div>
+                            <div class="form-group" style="flex: 1;">
+                                <label class="form-label">CVV</label>
+                                <input type="password" class="form-input" id="payment-cvv" placeholder="•••" maxlength="4">
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" onclick="savePayment()">Save Payment Info</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Logs Page -->
+            <div class="page" id="page-logs">
+                <h1 class="page-title">Activity Log</h1>
+                
+                <div class="card">
+                    <div id="activity-log">
+                        <div class="log-item">
+                            <span class="log-time">--:--:--</span>
+                            <span>System initialized</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Add Product Modal -->
+    <div class="modal-overlay" id="modal-add-product">
+        <div class="modal">
+            <div class="modal-header">Add Product to Monitor</div>
+            <div class="form-group">
+                <label class="form-label">Product URL</label>
+                <input type="text" class="form-input" id="product-url" placeholder="https://www.pokemoncenter.com/...">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Retailer</label>
+                <select class="form-input" id="product-retailer">
+                    <option value="pokemoncenter">Pokemon Center</option>
+                    <option value="target">Target</option>
+                    <option value="walmart">Walmart</option>
+                </select>
+            </div>
+            <div class="modal-actions">
+                <button class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="addProduct()">Add Product</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // State
+        let products = [];
+        let config = null;
+        
+        // Navigation
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const page = item.dataset.page;
+                switchPage(page);
+            });
+        });
+        
+        function switchPage(page) {
+            document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            
+            document.querySelector(`.nav-item[data-page="${page}"]`)?.classList.add('active');
+            document.getElementById(`page-${page}`)?.classList.add('active');
+        }
+        
+        // Tabs
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                const tabName = tab.dataset.tab;
+                document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+                document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+                tab.classList.add('active');
+                document.getElementById(`tab-${tabName}`)?.classList.add('active');
+            });
+        });
+        
+        // Modal
+        function showAddProduct() {
+            document.getElementById('modal-add-product').classList.add('active');
+        }
+        
+        function closeModal() {
+            document.getElementById('modal-add-product').classList.remove('active');
+        }
+        
+        // Products
+        async function loadProducts() {
+            try {
+                const result = await invoke('get_config');
+                config = result;
+                products = result.products || [];
+                renderProducts();
+            } catch (e) {
+                console.error('Failed to load products:', e);
+            }
+        }
+        
+        async function addProduct() {
+            const url = document.getElementById('product-url').value;
+            const retailer = document.getElementById('product-retailer').value;
+            
+            if (!url) {
+                alert('Please enter a product URL');
+                return;
+            }
+            
+            try {
+                const product = await invoke('add_product', { url, retailer });
+                products.push(product);
+                renderProducts();
+                closeModal();
+                addLog(`Added ${retailer} product`, 'success');
+                document.getElementById('product-url').value = '';
+            } catch (e) {
+                console.error('Failed to add product:', e);
+                addLog(`Failed to add product: ${e}`, 'error');
+            }
+        }
+        
+        async function removeProduct(id) {
+            try {
+                await invoke('remove_product', { id });
+                products = products.filter(p => p.id !== id);
+                renderProducts();
+                addLog('Product removed', 'warning');
+            } catch (e) {
+                console.error('Failed to remove product:', e);
+            }
+        }
+        
+        async function checkoutProduct(id) {
+            addLog('Starting checkout...', 'warning');
+            try {
+                await invoke('checkout_product', { id });
+                addLog('Checkout initiated!', 'success');
+            } catch (e) {
+                console.error('Checkout failed:', e);
+                addLog(`Checkout failed: ${e}`, 'error');
+            }
+        }
+        
+        function renderProducts() {
+            const container = document.getElementById('products-list');
+            const dashboardContainer = document.getElementById('dashboard-products');
+            
+            if (products.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">📦</div>
+                        <p>No products added yet</p>
+                    </div>
+                `;
+                dashboardContainer.innerHTML = `
+                    <div class="empty-state">
+                        <div class="icon">📦</div>
+                        <p>No products being monitored</p>
+                        <button class="btn btn-primary" onclick="showAddProduct()">Add Product</button>
+                    </div>
+                `;
+                return;
+            }
+            
+            const html = products.map(p => `
+                <div class="product-item">
+                    <div class="product-info">
+                        <div class="product-name">${p.retailer.toUpperCase()}</div>
+                        <div class="product-meta">${p.url.substring(0, 50)}...</div>
+                    </div>
+                    <span class="product-status status-${p.status}">${p.status}</span>
+                    <div class="product-actions">
+                        <button class="btn btn-success btn-sm" onclick="checkoutProduct('${p.id}')">Buy</button>
+                        <button class="btn btn-danger btn-sm" onclick="removeProduct('${p.id}')">×</button>
+                    </div>
+                </div>
+            `).join('');
+            
+            container.innerHTML = html;
+            dashboardContainer.innerHTML = html;
+        }
+        
+        // Settings
+        async function loadConfig() {
+            try {
+                config = await invoke('get_config');
+                
+                if (config.proxy) {
+                    document.getElementById('proxy-host').value = config.proxy.host || '';
+                    document.getElementById('proxy-port').value = config.proxy.port || '';
+                    document.getElementById('proxy-user').value = config.proxy.username || '';
+                    document.getElementById('proxy-pass').value = config.proxy.password || '';
+                }
+                
+                if (config.telegram) {
+                    document.getElementById('telegram-token').value = config.telegram.bot_token || '';
+                    document.getElementById('telegram-chat').value = config.telegram.chat_id || '';
+                }
+            } catch (e) {
+                console.error('Failed to load config:', e);
+            }
+        }
+        
+        async function saveProxy() {
+            const proxy = {
+                host: document.getElementById('proxy-host').value,
+                port: parseInt(document.getElementById('proxy-port').value),
+                username: document.getElementById('proxy-user').value,
+                password: document.getElementById('proxy-pass').value
+            };
+            
+            try {
+                config.proxy = proxy;
+                await invoke('save_config', config);
+                addLog('Proxy saved', 'success');
+            } catch (e) {
+                console.error('Failed to save proxy:', e);
+                addLog(`Failed to save proxy: ${e}`, 'error');
+            }
+        }
+        
+        async function testProxy() {
+            const proxy = {
+                host: document.getElementById('proxy-host').value,
+                port: parseInt(document.getElementById('proxy-port').value),
+                username: document.getElementById('proxy-user').value,
+                password: document.getElementById('proxy-pass').value
+            };
+            
+            addLog('Testing proxy connection...', 'warning');
+            
+            try {
+                const result = await invoke('test_proxy', { proxy });
+                if (result) {
+                    addLog('Proxy connection successful!', 'success');
+                } else {
+                    addLog('Proxy connection failed', 'error');
+                }
+            } catch (e) {
+                addLog(`Proxy test error: ${e}`, 'error');
+            }
+        }
+        
+        async function saveTelegram() {
+            const telegram = {
+                bot_token: document.getElementById('telegram-token').value,
+                chat_id: document.getElementById('telegram-chat').value
+            };
+            
+            try {
+                config.telegram = telegram;
+                await invoke('save_config', config);
+                addLog('Telegram settings saved', 'success');
+            } catch (e) {
+                console.error('Failed to save telegram:', e);
+                addLog(`Failed to save telegram: ${e}`, 'error');
+            }
+        }
+        
+        async function savePayment() {
+            const payment = {
+                name: document.getElementById('payment-name').value,
+                card_number: document.getElementById('payment-number').value,
+                expiry: document.getElementById('payment-expiry').value,
+                cvv: document.getElementById('payment-cvv').value
+            };
+            
+            try {
+                config.payment = payment;
+                await invoke('save_config', config);
+                addLog('Payment info saved (encrypted)', 'success');
+            } catch (e) {
+                console.error('Failed to save payment:', e);
+                addLog(`Failed to save payment: ${e}`, 'error');
+            }
+        }
+        
+        // Test Connections
+        async function testConnection() {
+            addLog('Testing all connections...', 'warning');
+            if (config?.proxy) {
+                await testProxy();
+            } else {
+                addLog('No proxy configured', 'error');
+            }
+        }
+        
+        // Checkout
+        async function checkoutAll() {
+            if (products.length === 0) {
+                addLog('Cart is empty', 'error');
+                return;
+            }
+            
+            addLog('Starting checkout for all items...', 'warning');
+            
+            for (const product of products) {
+                await checkoutProduct(product.id);
+                await new Promise(r => setTimeout(r, 1000));
+            }
+        }
+        
+        // Activity Log
+        function addLog(message, type = 'info') {
+            const logContainer = document.getElementById('activity-log');
+            const dashboardLog = document.getElementById('dashboard-activity');
+            
+            const time = new Date().toLocaleTimeString();
+            const html = `<div class="log-item"><span class="log-time">${time}</span><span class="log-${type}">${message}</span></div>`;
+            
+            logContainer.innerHTML = html + logContainer.innerHTML;
+            if (dashboardLog) {
+                dashboardLog.innerHTML = html + dashboardLog.innerHTML;
+            }
+        }
+        
+        // Initialize
+        async function init() {
+            addLog('KuickMoney initialized', 'success');
+            await loadConfig();
+            await loadProducts();
+        }
+        
+        init();
+    </script>
+</body>
+</html>
