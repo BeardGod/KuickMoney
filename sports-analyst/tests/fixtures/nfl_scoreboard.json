@@ -1,0 +1,17 @@
+{"events": [
+ {"id": "401", "date": "2026-10-04T17:00Z", "name": "Buffalo Bills at Kansas City Chiefs",
+  "status": {"type": {"state": "pre", "completed": false, "detail": "Sun, October 4th at 1:00 PM EDT"}},
+  "weather": {"displayValue": "Sunny", "temperature": 68},
+  "competitions": [{"neutralSite": false, "venue": {"fullName": "GEHA Field at Arrowhead Stadium"},
+   "broadcasts": [{"names": ["CBS"]}],
+   "competitors": [
+    {"homeAway": "home", "score": "0", "team": {"displayName": "Kansas City Chiefs", "abbreviation": "KC"}, "records": [{"summary": "3-1"}], "curatedRank": {"current": 99}},
+    {"homeAway": "away", "score": "0", "team": {"displayName": "Buffalo Bills", "abbreviation": "BUF"}, "records": [{"summary": "4-0"}]}],
+   "odds": [{"provider": {"name": "ESPN BET"}, "details": "KC -2.5", "spread": -2.5, "overUnder": 48.5,
+             "homeTeamOdds": {"moneyLine": -135}, "awayTeamOdds": {"moneyLine": 115}}]}]},
+ {"id": "402", "date": "2026-10-04T20:25Z",
+  "status": {"type": {"state": "post", "completed": true, "detail": "Final"}},
+  "competitions": [{"competitors": [
+    {"homeAway": "home", "score": "20", "team": {"displayName": "Dallas Cowboys", "abbreviation": "DAL"}},
+    {"homeAway": "away", "score": "24", "team": {"displayName": "Philadelphia Eagles", "abbreviation": "PHI"}}]}]}
+]}

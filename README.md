@@ -14,6 +14,10 @@ A powerful Windows desktop application for automated retail purchasing. Monitor 
 - 🌐 **Proxy Support** - Residential proxy integration for bypassing blocks
 - 🖥️ **Nice GUI** - Modern dark theme interface
 
+## 🏈 AI Sports Betting Analyst
+
+The repo also includes an automated, Claude-powered betting analyst for NCAA and pro sports. It runs daily on GitHub Actions. See [`sports-analyst/README.md`](sports-analyst/README.md).
+
 ## Download
 
 **Latest Release:** [KuickMoney v0.1.0 (Windows .exe)](https://github.com/YOUR_USERNAME/kuickmoney/releases/latest)
