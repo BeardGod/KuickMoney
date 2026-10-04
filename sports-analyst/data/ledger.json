@@ -55,5 +55,24 @@
   "summary": "Henderson's 3.32 FIP vs King's 4.13 at home; fair price near -160.",
   "units": 1,
   "win_probability": 0.61
+ },
+ {
+  "book": "best available (shop)",
+  "confidence": 3,
+  "date": "2026-10-04",
+  "game_id": "IND@WAS",
+  "id": "2026-10-04:nfl:IND@WAS:spread:home",
+  "league": "nfl",
+  "line": 4.5,
+  "market": "spread",
+  "matchup": "Indianapolis Colts @ Washington Commanders (London)",
+  "odds": -104,
+  "result_units": null,
+  "selection": "Commanders +4.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "Fade 97% public Colts money; Mariota competent, Colts offense can't separate, neutral site.",
+  "units": 1,
+  "win_probability": 0.55
  }
 ]

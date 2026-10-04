@@ -9,11 +9,12 @@
 | MLB | San Diego Padres @ Milwaukee Brewers | Brewers ML | -142 | ESPN BET | 1 | 61.0 | 58.7 | 3 |
 | NFL | Los Angeles Rams @ Philadelphia Eagles | Eagles +3.5 | -110 | consensus | 1 | 54.0 | 52.4 | 3 |
 | NFL | Tennessee Titans @ Baltimore Ravens | Titans +11.5 | -112 | FanDuel | 1 | 54.5 | 52.8 | 3 |
+| NFL | Indianapolis Colts @ Washington Commanders (London) | Commanders +4.5 | -104 | best available (shop) | 1 | 55.0 | 51.0 | 3 |
 
 ## League reports
 
 - [MLB](mlb.md) - 1 pick(s)
-- [NFL](nfl.md) - 2 pick(s)
+- [NFL](nfl.md) - 3 pick(s)
 
 ## Track record
 
