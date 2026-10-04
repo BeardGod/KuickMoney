@@ -56,7 +56,7 @@ def write_daily_index(out_dir: Path, date: str, analyses: list[tuple[str, Analys
         f"# KuickMoney daily card - {date}\n\n{DISCLAIMER}\n\n"
         f"## All picks\n\n{picks_table(all_picks)}\n\n"
         f"## League reports\n\n{links or '_No leagues analyzed._'}\n\n"
-        + (f"No games today: {', '.join(skipped)}\n\n" if skipped else "")
+        + (f"No upcoming games: {', '.join(skipped)}\n\n" if skipped else "")
         + f"## Track record\n\n{track_record}\n")
     return path
 

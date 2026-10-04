@@ -9,6 +9,9 @@ on:
       leagues:
         description: "Comma-separated leagues, or 'all'"
         default: all
+      date:
+        description: "Date to analyze, YYYY-MM-DD (blank = today, US Eastern)"
+        default: ''
       effort:
         description: "Claude effort level (low/medium/high/xhigh/max)"
         default: high
@@ -44,9 +47,11 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python -m kuick_analyst run --leagues "${{ github.event.inputs.leagues || 'all' }}" --effort "${{ github.event.inputs.effort || 'high' }}"
+        run: python -m kuick_analyst run --leagues "${{ github.event.inputs.leagues || 'all' }}" --effort "${{ github.event.inputs.effort || 'high' }}" ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }}
 
       - name: Commit reports and ledger
+        # Keep partial results when one league fails.
+        if: success() || failure()
         run: |
           git config user.name "kuickmoney-analyst"
           git config user.email "actions@users.noreply.github.com"

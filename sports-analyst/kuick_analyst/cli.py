@@ -85,6 +85,11 @@ def cmd_grade(args: argparse.Namespace) -> int:
 def cmd_run(args: argparse.Namespace) -> int:
     from .analyst import Analyst  # imported lazily so `slate`/`grade` work without the SDK
 
+    if not (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
+        log.error("ANTHROPIC_API_KEY is not set. Add it as an environment variable "
+                  "(or a GitHub Actions repository secret) and run again.")
+        return 2
+
     session = requests.Session()
     ledger = Ledger(HOME / "data" / "ledger.json")
     log.info("Graded %d pending pick(s)", grade(ledger, session))
@@ -93,7 +98,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     date_s = args.date.isoformat()
     out_dir = HOME / "reports" / date_s
     analyst = Analyst(model=args.model, effort=args.effort, max_searches=args.max_searches)
-    analyses, skipped = [], []
+    analyses, skipped, failed = [], [], []
     for lg in resolve(args.leagues):
         try:
             slate = build_slate(lg, args.date, args.max_games, session)
@@ -109,6 +114,7 @@ def cmd_run(args: argparse.Namespace) -> int:
             a = analyst.analyze(lg.key, lg.name, date_s, slate, track_record)
         except Exception as e:  # keep going with the other leagues
             log.exception("Analysis failed for %s: %s", lg.name, e)
+            failed.append(lg.name)
             continue
         write_league_report(out_dir, date_s, lg.name, a)
         ledger.add(date_s, a.picks)
@@ -122,6 +128,9 @@ def cmd_run(args: argparse.Namespace) -> int:
     if send_telegram(date_s, all_picks):
         log.info("Telegram alert sent")
     print(f"Report: {index}")
+    if failed:
+        log.error("Analysis failed for: %s", ", ".join(failed))
+        return 1
     return 0
 
 
