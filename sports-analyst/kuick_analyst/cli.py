@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as dt
+import json
 import logging
 import os
 import time
@@ -134,6 +135,54 @@ def cmd_run(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_record(args: argparse.Namespace) -> int:
+    """Save an analysis produced outside the API path (e.g. by a Claude Code session)."""
+    from .analyst import Analysis
+
+    data = json.loads(Path(args.file).read_text())
+    league = LEAGUES[data["league"]]
+    date_s = args.date.isoformat()
+    a = Analysis(league=league.key, report_markdown=data.get("report_markdown", ""),
+                 picks=[{**p, "league": league.key} for p in data.get("picks", [])],
+                 sources=data.get("sources", []), stop_reason="claude-code")
+    out_dir = HOME / "reports" / date_s
+    write_league_report(out_dir, date_s, league.name, a)
+    (out_dir / f"{league.key}.json").write_text(json.dumps(data, indent=1))
+    ledger = Ledger(HOME / "data" / "ledger.json")
+    added = ledger.add(date_s, a.picks)
+    ledger.save()
+
+    analyses = []
+    for f in sorted(out_dir.glob("*.json")):
+        d = json.loads(f.read_text())
+        lg = LEAGUES[d["league"]]
+        analyses.append((lg.name, Analysis(league=lg.key, report_markdown="", sources=[],
+                                           picks=[{**p, "league": lg.key} for p in d.get("picks", [])])))
+    write_daily_index(out_dir, date_s, analyses, [], ledger.track_record_text())
+    write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
+    print(f"{league.name}: recorded {added} new pick(s) -> {out_dir / (league.key + '.md')}")
+    return 0
+
+
+def cmd_settle(args: argparse.Namespace) -> int:
+    """Grade pending picks for one game from a final score (no ESPN access needed)."""
+    ledger = Ledger(HOME / "data" / "ledger.json")
+    game = espn.Game(id=args.game_id, league=args.league, start="", state="post", status="Final",
+                     home=espn.Team(args.home, args.home, score=args.home_score),
+                     away=espn.Team(args.away, args.away, score=args.away_score))
+    n = ledger.grade(lambda lg, d: [game] if lg == args.league else [])
+    ledger.save()
+    write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
+    print(f"Settled {n} pick(s) for {args.game_id}.")
+    return 0
+
+
+def cmd_pending(args: argparse.Namespace) -> int:
+    for p in Ledger(HOME / "data" / "ledger.json").pending():
+        print(json.dumps({k: p.get(k) for k in ("date", "league", "game_id", "matchup", "selection")}))
+    return 0
+
+
 def cmd_schedule(args: argparse.Namespace) -> int:
     """Run forever, producing a fresh card every N hours (for a PC or server)."""
     while True:
@@ -174,6 +223,22 @@ def main(argv: list[str] | None = None) -> int:
     sp.set_defaults(func=cmd_slate)
     sp = sub.add_parser("grade", help="grade pending picks and update performance.md")
     sp.set_defaults(func=cmd_grade)
+
+    # Commands for running the analyst from a Claude Code session (no API key).
+    sp = sub.add_parser("record", help="save a league analysis JSON file (Claude Code mode)")
+    sp.add_argument("file")
+    sp.add_argument("--date", type=dt.date.fromisoformat, default=today())
+    sp.set_defaults(func=cmd_record)
+    sp = sub.add_parser("settle", help="grade pending picks for a game from its final score")
+    sp.add_argument("--league", required=True, choices=list(LEAGUES))
+    sp.add_argument("--game-id", required=True)
+    sp.add_argument("--home", required=True)
+    sp.add_argument("--away", required=True)
+    sp.add_argument("--home-score", type=int, required=True)
+    sp.add_argument("--away-score", type=int, required=True)
+    sp.set_defaults(func=cmd_settle)
+    sp = sub.add_parser("pending", help="list picks waiting to be graded")
+    sp.set_defaults(func=cmd_pending)
 
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")

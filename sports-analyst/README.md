@@ -18,7 +18,13 @@ An automated betting analyst powered by Claude. Each run it:
 
 Leagues with no games that day are skipped automatically, so `all` only spends money on sports that are in season.
 
-## Setup
+## Two ways to run it
+
+**A. Claude Code routine (no API key, uses your Claude plan) - the default.** A scheduled Claude Code session follows the playbook in [`.claude/skills/betting-card/SKILL.md`](../.claude/skills/betting-card/SKILL.md). It grades open picks, researches the day's games with web search, saves picks with `record`, and pushes the card. You can also open any Claude Code session in this repo and say "make today's betting card".
+
+**B. Standalone Python app (needs `ANTHROPIC_API_KEY`).** `python -m kuick_analyst run` calls the Claude API directly. The manual GitHub Actions workflow uses this path.
+
+## Setup (option B)
 
 ```bash
 cd sports-analyst
@@ -37,13 +43,18 @@ python -m kuick_analyst run --leagues nfl,ncaaf --effort xhigh
 python -m kuick_analyst run --date 2026-10-10 --max-games 25
 python -m kuick_analyst grade                      # grade picks, refresh reports/performance.md
 python -m kuick_analyst schedule --every-hours 6   # keep running on your own PC/server
+
+# Claude Code mode helpers (no API key)
+python -m kuick_analyst record league.json --date 2026-10-04   # save a league analysis + picks
+python -m kuick_analyst pending                                # picks waiting for results
+python -m kuick_analyst settle --league nfl --game-id BUF@KC --home KC --away BUF --home-score 24 --away-score 20
 ```
 
-## Running it automatically (GitHub Actions)
+## GitHub Actions (option B, manual)
 
-`.github/workflows/sports-analyst.yml` runs every day at 10:52 AM ET. It grades yesterday's picks, builds the new card and commits `reports/` and `data/` back to the repo. You can also start it by hand from the **Actions** tab (**Run workflow**) and choose the leagues and effort level.
+`.github/workflows/sports-analyst.yml` runs only when you start it from the **Actions** tab (**Run workflow**). You choose the leagues, date and effort level. It grades past picks, builds the card and commits `reports/` and `data/` back to the repo.
 
-To set it up, add these repository secrets (**Settings → Secrets and variables → Actions**):
+To use it, add these repository secrets (**Settings → Secrets and variables → Actions**):
 - `ANTHROPIC_API_KEY` (required)
 - `ODDS_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` (optional)
 

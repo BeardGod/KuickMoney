@@ -14,7 +14,7 @@ _No graded picks yet._
 
 _No graded picks yet._
 
-Pending picks: 0
+Pending picks: 3
 
 ## Last 50 graded picks
 

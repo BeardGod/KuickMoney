@@ -1,9 +1,8 @@
 name: AI Sports Betting Analyst
 
+# Manual only: this path needs an ANTHROPIC_API_KEY secret. The default daily run is a
+# Claude Code routine that follows .claude/skills/betting-card (no API key needed).
 on:
-  schedule:
-    # 10:52 AM US Eastern (EDT) daily - after morning injury news, before the early games
-    - cron: '52 14 * * *'
   workflow_dispatch:
     inputs:
       leagues:

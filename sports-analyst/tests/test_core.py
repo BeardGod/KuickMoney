@@ -127,3 +127,21 @@ def test_analyst_handles_pause_turn():
     assert a.usage == {"input_tokens": 20, "output_tokens": 10}
     assert calls[1]["messages"][1]["role"] == "assistant"
     assert calls[0]["model"] == "claude-opus-5-5" and calls[0]["fallbacks"] == "default"
+
+
+def test_record_and_settle_cli(tmp_path, monkeypatch):
+    from kuick_analyst import cli
+    monkeypatch.setattr(cli, "HOME", tmp_path)
+    f = tmp_path / "nfl.json"
+    f.write_text(json.dumps({"league": "nfl", "report_markdown": "## Slate overview\nText",
+                             "sources": [{"url": "https://a.com", "title": "A"}],
+                             "picks": [{"game_id": "BUF@KC", "matchup": "Bills @ Chiefs", "market": "spread",
+                                        "side": "away", "line": 2.5, "odds": -110, "units": 1,
+                                        "selection": "Bills +2.5"}]}))
+    assert cli.main(["record", str(f), "--date", "2026-10-04"]) == 0
+    card = (tmp_path / "reports/2026-10-04/README.md").read_text()
+    assert "Bills +2.5" in card and "nfl.md" in card
+    assert cli.main(["settle", "--league", "nfl", "--game-id", "BUF@KC", "--home", "KC", "--away", "BUF",
+                     "--home-score", "24", "--away-score", "23"]) == 0
+    led = json.loads((tmp_path / "data/ledger.json").read_text())
+    assert led[0]["status"] == "win" and led[0]["result_units"] == pytest.approx(0.909, abs=0.001)

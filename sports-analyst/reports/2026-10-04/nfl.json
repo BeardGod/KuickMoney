@@ -1,0 +1,68 @@
+{
+ "league": "nfl",
+ "report_markdown": "## Slate overview\nWeek 4 is being shaped by injuries more than anything else. Caleb Williams (CHI), Jayden Daniels (WAS), Justin Jefferson (MIN), DeVonta Smith and Hollywood Brown (PHI) and Keenan Allen (IND) are all out. The market has already adjusted hard: Bears -8.5 to -3.5, Ravens -8.5 to -11.5, Bills -3 to -7, the Vikings-Dolphins total 42.5 to 38.5, and Arizona flipped from +2.5 to -1.5 at the Giants ([RotoWire line moves](https://www.rotowire.com/football/article/nfl-week-4-odds-biggest-line-moves-betting-splits-and-key-injuries-137813)). Most of the obvious injury value is gone. Our edges come from fading lopsided public positions where the number has moved past the injury news.\n\n## Best bets\n\n### Eagles +3.5 (-110) vs. Rams - 1 unit\n- **Win probability 54% vs. 52.4% implied.**\n- The Rams are taking nearly all of the money as 3.5-point road favorites ([RotoWire](https://www.rotowire.com/football/article/nfl-week-4-odds-biggest-line-moves-betting-splits-and-key-injuries-137813)), and the local and national pick consensus is lopsided toward L.A. ([Inquirer](https://www.inquirer.com/eagles/rams-predictions-week-4-nick-sirianni-sean-mcvay-devonta-smith-zack-baun-20261002.html)).\n- Philadelphia is without DeVonta Smith (29.5% target share) and Hollywood Brown. That is real, but it is the reason the home side is getting more than a field goal.\n- The hook through 3 matters in a projected low total (about 42.5). Philadelphia's pass rush can copy the pressure plan Denver used to rattle Stafford ([Covers ATS picks](https://covers.com/nfl/picks-against-the-spread-week-4-2026)).\n- Only take +3.5. At +3 this drops to a lean.\n\n### Titans +11.5 (-112) at Ravens - 1 unit\n- **Win probability 54.5% vs. 52.8% implied.**\n- Baltimore is the public's favorite bet of the week, with 82% of ATS money, and the line has moved three points from the -8.5 open ([RotoWire](https://www.rotowire.com/football/article/nfl-week-4-odds-biggest-line-moves-betting-splits-and-key-injuries-137813)).\n- The Ravens have lost both rostered centers, Jovaughn Gwyn and Ethan Pocic, to long-term injuries, and edge rusher Trey Hendrickson is out ([SI](https://www.si.com/betting/titans-vs-ravens-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026)). An emergency center is a snap-exchange and interior-protection problem that hurts the ability to pile on late.\n- numberFire's model also shows the Titans +11.5 at 53% ([FanDuel Research](https://www.fanduel.com/research/ravens-vs-titans-predictions-odds-picks-best-bets-for-nfl-week-4-2026)).\n- Risk: Tennessee has scored only 37 points in three games, so this is a bet on the number, not on the Titans.\n\n## Leans & passes\n- **Bears -3.5 vs. Jets:** pass. The line already fell five points on the Williams news, and Tyson Bagent is the expected but unannounced starter ([NBC Sports](https://www.nbcsports.com/fantasy/football/player-news/2026-10-02/caleb-williams-hamstring-wont-play-vs-jets)). There is no edge left at -3.5.\n- **Vikings -10.5 / Under 38.5 vs. Dolphins:** pass. The total has dropped four points since De'Von Achane's ACL tear and Jefferson is out ([Star Tribune](https://www.startribune.com/minnesota-vikings-miami-dolphins-prediction-pick-odds-nfl-week-4-news-kyler-murray-justin-jefferson/601889954)). The under was the right side at 42.5, not 38.5.\n- **Giants +1.5 vs. Cardinals:** lean only. A model favorite ([SportsLine](https://www.sportsline.com/insiders/nfl-odds-lines-spreads-2026-week-4-picks-predictions-from-proven-model/)), but we can't verify enough.\n- **Colts -3.5 vs. Commanders (international, 9:30 AM ET):** pass. Daniels and Allen both out, so the injuries roughly cancel.\n- **Lions -3.5 at Panthers (SNF, total 50.5):** pass, no edge.\n\n## Risks\n- Late inactives or weather can move both picks. Re-check the Eagles line before kickoff and skip it at +3.\n- These lines came from search-result snippets, not a live odds screen, so shop for the best price before you bet.",
+ "sources": [
+  {
+   "url": "https://www.rotowire.com/football/article/nfl-week-4-odds-biggest-line-moves-betting-splits-and-key-injuries-137813",
+   "title": "RotoWire - Week 4 line moves, betting splits, key injuries"
+  },
+  {
+   "url": "https://www.si.com/betting/titans-vs-ravens-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026",
+   "title": "SI - Titans vs. Ravens prediction, injuries"
+  },
+  {
+   "url": "https://www.fanduel.com/research/ravens-vs-titans-predictions-odds-picks-best-bets-for-nfl-week-4-2026",
+   "title": "FanDuel Research - Ravens vs Titans"
+  },
+  {
+   "url": "https://www.inquirer.com/eagles/rams-predictions-week-4-nick-sirianni-sean-mcvay-devonta-smith-zack-baun-20261002.html",
+   "title": "Inquirer - Eagles vs. Rams predictions"
+  },
+  {
+   "url": "https://covers.com/nfl/picks-against-the-spread-week-4-2026",
+   "title": "Covers - Week 4 ATS picks"
+  },
+  {
+   "url": "https://www.nbcsports.com/fantasy/football/player-news/2026-10-02/caleb-williams-hamstring-wont-play-vs-jets",
+   "title": "NBC Sports - Caleb Williams won't play vs. Jets"
+  },
+  {
+   "url": "https://www.startribune.com/minnesota-vikings-miami-dolphins-prediction-pick-odds-nfl-week-4-news-kyler-murray-justin-jefferson/601889954",
+   "title": "Star Tribune - Vikings vs Dolphins"
+  },
+  {
+   "url": "https://www.nfl.com/news/nfl-week-4-injury-report-player-statuses-for-all-16-games",
+   "title": "NFL.com - Week 4 injury report"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "LAR@PHI",
+   "matchup": "Los Angeles Rams @ Philadelphia Eagles",
+   "market": "spread",
+   "side": "home",
+   "selection": "Eagles +3.5",
+   "line": 3.5,
+   "odds": -110,
+   "book": "consensus",
+   "win_probability": 0.54,
+   "units": 1,
+   "confidence": 3,
+   "summary": "Home dog through the key number against a heavily bet Rams side; injuries already priced."
+  },
+  {
+   "game_id": "TEN@BAL",
+   "matchup": "Tennessee Titans @ Baltimore Ravens",
+   "market": "spread",
+   "side": "away",
+   "selection": "Titans +11.5",
+   "line": 11.5,
+   "odds": -112,
+   "book": "FanDuel",
+   "win_probability": 0.545,
+   "units": 1,
+   "confidence": 3,
+   "summary": "Fade 82% public money; Ravens down both centers and Hendrickson after a 3-point move."
+  }
+ ]
+}

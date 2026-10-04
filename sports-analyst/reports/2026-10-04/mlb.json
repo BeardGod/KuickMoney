@@ -1,0 +1,42 @@
+{
+ "league": "mlb",
+ "report_markdown": "## Slate overview\nThere are two NLDS Game 2s today. Padres at Brewers is at 4:00 PM ET on FS1. Braves at Dodgers is at 8:00 PM ET on FS1, with L.A. up 1-0 after a 5-3 Game 1 win behind Tarik Skubal ([ESPN recap](https://www.espn.com/mlb/recap/_/gameId/401908007)).\n\n## Best bets\n\n### Brewers moneyline (-142) vs. Padres - 1 unit\n- **Win probability 61% vs. 58.7% implied.**\n- The pitching matchup favors Milwaukee: Logan Henderson (11-3, 2.47 ERA, 3.32 FIP) against Michael King (12-10, 3.21 ERA, 4.13 FIP) ([Brew Crew Ball](https://www.brewcrewball.com/milwaukee-brewers-game-information/90756/2026-nlds-series-preview-milwaukee-brewers-vs-san-diego-padres)). King's FIP is almost a run worse than his ERA, which points to regression risk.\n- Home field at American Family Field.\n- Published win probabilities put Milwaukee around 62%, which is about -163 fair, against the -142 price ([Fox Sports](https://www.foxsports.com/stories/mlb/2026-mlb-nlds-brewers-padres-odds)).\n- Playable to -150.\n\n## Leans & passes\n- **Dodgers -147 vs. Braves:** pass for now. Atlanta has not confirmed Chris Sale on short rest after he threw 95 pitches Tuesday and 21 more Thursday ([MLB.com](https://www.mlb.com/news/chris-sale-pitching-plan-nlds-vs-dodgers)). If Grant Holmes starts instead, the Dodgers become a lean up to about -165 behind Blake Snell (11.6 K/9). If Sale goes, pass.\n- **Totals:** no edge at 7.5 in L.A.\n\n## Risks\n- Playoff bullpen usage is aggressive, so a short Henderson outing hands the game to relievers.\n- Lineups and prices came from search snippets. Confirm them before betting.",
+ "sources": [
+  {
+   "url": "https://www.brewcrewball.com/milwaukee-brewers-game-information/90756/2026-nlds-series-preview-milwaukee-brewers-vs-san-diego-padres",
+   "title": "Brew Crew Ball - NLDS preview"
+  },
+  {
+   "url": "https://www.sportsgrid.com/mlb/game/san-diego-padres-milwaukee-brewers-scores-odds-picks-props-october-04-2026/f5d87075-8170-463f-9064-dc324e2fce94",
+   "title": "SportsGrid - Padres vs Brewers Oct 4"
+  },
+  {
+   "url": "https://www.foxsports.com/stories/mlb/2026-mlb-nlds-brewers-padres-odds",
+   "title": "Fox Sports - Brewers-Padres NLDS odds"
+  },
+  {
+   "url": "https://www.espn.com/mlb/recap/_/gameId/401908007",
+   "title": "ESPN - Dodgers 5-3 Braves Game 1 recap"
+  },
+  {
+   "url": "https://www.mlb.com/news/chris-sale-pitching-plan-nlds-vs-dodgers",
+   "title": "MLB.com - Chris Sale pitching plan"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "SD@MIL",
+   "matchup": "San Diego Padres @ Milwaukee Brewers",
+   "market": "moneyline",
+   "side": "home",
+   "selection": "Brewers ML",
+   "line": null,
+   "odds": -142,
+   "book": "ESPN BET",
+   "win_probability": 0.61,
+   "units": 1,
+   "confidence": 3,
+   "summary": "Henderson's 3.32 FIP vs King's 4.13 at home; fair price near -160."
+  }
+ ]
+}
