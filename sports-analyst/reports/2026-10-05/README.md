@@ -8,12 +8,15 @@
 |---|---|---|---|---|---|---|---|---|
 | MLB | New York Yankees @ Tampa Bay Rays | Yankees ML | -128 | consensus | 1 | 60.0 | 56.1 | 3 |
 | NFL | Atlanta Falcons @ New Orleans Saints | Falcons +2.5 | -110 | consensus | 1 | 55.0 | 52.4 | 3 |
+| UNL | Georgia @ Northern Ireland | Northern Ireland to win (3-way) | +150 | best available | 1 | 45.0 | 40.0 | 3 |
+| UNL | Sweden @ Romania | Sweden to win (3-way) | -125 | best available | 1 | 59.0 | 55.6 | 3 |
 
 ## League reports
 
 - [MLB](mlb.md) - 1 pick(s)
 - [NFL](nfl.md) - 1 pick(s)
 - [NHL](nhl.md) - 0 pick(s)
+- [UEFA Nations League](unl.md) - 2 pick(s)
 
 ## Track record
 

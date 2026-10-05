@@ -145,3 +145,12 @@ def test_record_and_settle_cli(tmp_path, monkeypatch):
                      "--home-score", "24", "--away-score", "23"]) == 0
     led = json.loads((tmp_path / "data/ledger.json").read_text())
     assert led[0]["status"] == "win" and led[0]["result_units"] == pytest.approx(0.909, abs=0.001)
+
+
+def test_soccer_draw_loses_team_moneyline():
+    from kuick_analyst.espn import Game, Team
+    g = Game(id="x", league="unl", start="", state="post", status="FT",
+             home=Team("NIR", "NIR", score=1), away=Team("GEO", "GEO", score=1))
+    assert grade_pick({"league": "unl", "market": "moneyline", "side": "home"}, g) == "loss"
+    assert grade_pick({"league": "unl", "market": "moneyline", "side": "draw"}, g) == "win"
+    assert grade_pick({"league": "nhl", "market": "moneyline", "side": "home"}, g) == "push"

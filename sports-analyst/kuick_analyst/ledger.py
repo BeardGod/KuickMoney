@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any, Callable
 
 from .espn import Game
+from .leagues import LEAGUES
 from .odds import profit
 
 GRADEABLE = {"spread", "moneyline", "total"}
@@ -119,7 +120,9 @@ def grade_pick(p: dict[str, Any], g: Game) -> str | None:
         if side not in ("home", "away"):
             return None
         if hs == as_:
-            return "push"
+            # Soccer moneylines are three-way: a draw loses a bet on either team.
+            league = LEAGUES.get(p.get("league", ""))
+            return "loss" if league and league.espn_sport == "soccer" else "push"
         return "win" if (hs > as_) == (side == "home") else "loss"
     if line is None:
         return None

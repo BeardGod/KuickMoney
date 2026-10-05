@@ -116,5 +116,43 @@
   "summary": "Schlittler (1.95 ERA, 1.16 road ERA) vs a small-sample Peralta; fair near -150.",
   "units": 1,
   "win_probability": 0.6
+ },
+ {
+  "book": "best available",
+  "confidence": 3,
+  "date": "2026-10-05",
+  "game_id": "GEO@NIR",
+  "id": "2026-10-05:unl:GEO@NIR:moneyline:home",
+  "league": "unl",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Georgia @ Northern Ireland",
+  "odds": 150,
+  "result_units": null,
+  "selection": "Northern Ireland to win (3-way)",
+  "side": "home",
+  "status": "pending",
+  "summary": "Unbeaten, clean-sheet group leaders at home vs a Georgia side 5 games without a goal.",
+  "units": 1,
+  "win_probability": 0.45
+ },
+ {
+  "book": "best available",
+  "confidence": 3,
+  "date": "2026-10-05",
+  "game_id": "SWE@ROU",
+  "id": "2026-10-05:unl:SWE@ROU:moneyline:away",
+  "league": "unl",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Sweden @ Romania",
+  "odds": -125,
+  "result_units": null,
+  "selection": "Sweden to win (3-way)",
+  "side": "away",
+  "status": "pending",
+  "summary": "Group leaders vs a pointless Romania missing Dr\u0103gu\u0219in, Dr\u0103gu\u0219 and Munteanu.",
+  "units": 1,
+  "win_probability": 0.59
  }
 ]
