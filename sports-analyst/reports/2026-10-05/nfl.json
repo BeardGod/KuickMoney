@@ -1,0 +1,46 @@
+{
+ "league": "nfl",
+ "report_markdown": "## Slate overview\nThere's one game tonight: Falcons at Saints on Monday Night Football (8:15 PM ET, Caesars Superdome). Both teams are 1-2. The consensus line is Saints -2.5 with a total of 47.5, but BetMGM and Fanatics have moved to Saints -2 ([Sports Betting Dime](https://www.sportsbettingdime.com/news/nfl/falcons-saints-predictions-odds-best-bets-mnf/)). Our NFL spread bets went 1-2 yesterday, so the bar for tonight is higher.\n\n## Best bets\n\n### Falcons +2.5 (-110) at Saints - 1 unit\n- **Win probability 55% vs. 52.4% implied.**\n- **Sharp/public split.** About 54% of bets are on Atlanta, but 62% of the money is on New Orleans, and two books have still moved toward Atlanta (-2.5 to -2) ([Sports Betting Dime](https://www.sportsbettingdime.com/news/nfl/falcons-saints-predictions-odds-best-bets-mnf/)). When a line moves against the bigger-money side, it's usually sharp money on the other side.\n- **New Orleans' front seven is depleted.** Edge rusher Carl Granderson (ankle), LB/edge Anfernee Jennings (knee) and LB Kaden Elliss (calf) are out, and LB Pete Werner and TE Noah Fant are questionable ([Yahoo injury report](https://sports.yahoo.com/articles/falcons-injury-report-latest-updates-202755087.html)). The Saints already rank 27th against the run, allowing about 129 rushing yards a game ([Saints report](https://saintsreport.com/threads/statistically-speaking-saints-vs-falcons.532305/)).\n- **Atlanta is trending up.** Michael Penix Jr. led a 35-14 win over Green Bay in Week 3 ([The Falcoholic](https://www.thefalcoholic.com/atlanta-falcons-analysis/96739/what-to-know-about-falcons-saints-on-monday-night-football-tyler-shough-michael-penix-jr)). New Orleans passes on 69% of plays (second-most in the league) with Tyler Shough, so the game plays into an Atlanta defense built to stop the pass.\n- The Falcons moneyline (+110 to +114) is a reasonable alternative. Wait for kickoff if you can: if more books drop to -2, the moneyline gets cheaper.\n\n## Leans & passes\n- **Total 47.5:** pass. The public is all over the over (95% of handle) ([Sports Betting Dime](https://www.sportsbettingdime.com/news/nfl/falcons-saints-predictions-odds-best-bets-mnf/)). That leans us toward the under, but it isn't strong enough on its own. It's a dome game, and the Saints' pass-heavy pace supports scoring.\n\n## Risks\n- Atlanta has three questionable defenders (LBs Divine Deablo and Yasir Abdullah, edge Samson Ebukam) ([The Falcoholic](https://www.thefalcoholic.com/atlanta-falcons-injuries/96923/falcons-vs-saints-injury-report-divine-deablo-samson-ebukam-questionable-for-monday-night)). Check inactives about 90 minutes before kickoff.\n- Penix has only one strong game this season.",
+ "sources": [
+  {
+   "url": "https://www.sportsbettingdime.com/news/nfl/falcons-saints-predictions-odds-best-bets-mnf/",
+   "title": "Sports Betting Dime - Falcons vs Saints odds and splits"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/falcons-injury-report-latest-updates-202755087.html",
+   "title": "Yahoo - Falcons injury report Week 4"
+  },
+  {
+   "url": "https://www.thefalcoholic.com/atlanta-falcons-injuries/96923/falcons-vs-saints-injury-report-divine-deablo-samson-ebukam-questionable-for-monday-night",
+   "title": "The Falcoholic - injury report"
+  },
+  {
+   "url": "https://www.thefalcoholic.com/atlanta-falcons-analysis/96739/what-to-know-about-falcons-saints-on-monday-night-football-tyler-shough-michael-penix-jr",
+   "title": "The Falcoholic - What to know"
+  },
+  {
+   "url": "https://saintsreport.com/threads/statistically-speaking-saints-vs-falcons.532305/",
+   "title": "Saints Report - Statistically speaking"
+  },
+  {
+   "url": "https://www.covers.com/nfl/falcons-vs-saints-prediction-picks-oct-5-2026",
+   "title": "Covers - Falcons vs Saints prediction"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "ATL@NO",
+   "matchup": "Atlanta Falcons @ New Orleans Saints",
+   "market": "spread",
+   "side": "away",
+   "selection": "Falcons +2.5",
+   "line": 2.5,
+   "odds": -110,
+   "book": "consensus",
+   "win_probability": 0.55,
+   "units": 1,
+   "confidence": 3,
+   "summary": "Line ticking toward ATL against Saints money; NO missing three front-seven starters vs a 27th-ranked run D."
+  }
+ ]
+}
