@@ -158,5 +158,43 @@
   "summary": "Group leaders vs a pointless Romania missing Dr\u0103gu\u0219in, Dr\u0103gu\u0219 and Munteanu.",
   "units": 1,
   "win_probability": 0.59
+ },
+ {
+  "book": "consensus (verify)",
+  "confidence": 3,
+  "date": "2026-10-06",
+  "game_id": "USM@TROY",
+  "id": "2026-10-06:ncaaf:USM@TROY:total:under",
+  "league": "ncaaf",
+  "line": 49.5,
+  "market": "total",
+  "matchup": "Southern Miss Golden Eagles @ Troy Trojans",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Under 49.5",
+  "side": "under",
+  "status": "pending",
+  "summary": "USM without starting QB and two WRs, capped at 21 pts in last three; Troy should grind with a lead.",
+  "units": 1,
+  "win_probability": 0.57
+ },
+ {
+  "book": "consensus",
+  "confidence": 3,
+  "date": "2026-10-07",
+  "game_id": "NMSU@FIU",
+  "id": "2026-10-07:ncaaf:NMSU@FIU:spread:away",
+  "league": "ncaaf",
+  "line": 6.5,
+  "market": "spread",
+  "matchup": "New Mexico State Aggies @ FIU Panthers",
+  "odds": -110,
+  "result_units": null,
+  "selection": "New Mexico State +6.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Market FIU -6.5 vs model -4.5; Aggies on a two-game win streak into a low-total game.",
+  "units": 1,
+  "win_probability": 0.55
  }
 ]

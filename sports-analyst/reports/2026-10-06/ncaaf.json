@@ -1,0 +1,34 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "## Slate overview\nThere's one FBS game tonight: Southern Miss (1-3) at Troy (2-2), 8:00 PM ET on ESPN2, Troy's Sun Belt opener at Veterans Memorial Stadium. Troy opened -9.5 and moved to -10.5 with 100% of tracked spread money, and the total is 49.5 ([Covers](https://covers.com/ncaaf/southern-miss-vs-troy-prediction-picks-odds-oct-6-2026), [Bleacher Nation](https://www.bleachernation.com/picks/2026/10/04/troy-vs-southern-miss-prediction-live-odds-stats-history-and-picks-october-6-2026/)).\n\n## Best bets\n\n### Under 49.5 (-110) - Southern Miss at Troy - 1 unit\n- **Win probability 57% vs. 52.4% implied.**\n- **Southern Miss can't score much.** They are without starting QB Ethan Hampton and two wide receivers ([Bleacher Nation](https://www.bleachernation.com/picks/2026/10/04/troy-vs-southern-miss-prediction-live-odds-stats-history-and-picks-october-6-2026/)), and they haven't scored more than 21 points in any of their last three games, even with Hampton ([WagerTalk](https://www.wagertalk.com/news/college-football/southern-miss-vs-troy-prediction-picks-best-bets-for-october-6-2026/)).\n- **A big home favorite usually slows the game down.** If Troy builds a lead against a backup QB, it can run the ball and the clock. Previews project about Troy 30, Southern Miss 16, which is 46 points.\n- **Why the under and not Troy -10.5:** all of the money is already on Troy, and the line moved a full point on it. Laying double digits at that price has no value left. The under gets the same read on the game without paying for public money.\n- We couldn't confirm the exact price on the under. Take it at 49 or higher, at -115 or better.\n\n## Leans & passes\n- **Troy -10.5:** pass. Same read as the under, but the line has already moved to it.\n\n## Risks\n- Backup-QB turnovers could give Troy short fields and quick touchdowns.\n- Midweek MACtion-style games sometimes turn into shootouts. Check weather and Troy's injury report before kickoff.",
+ "sources": [
+  {
+   "url": "https://covers.com/ncaaf/southern-miss-vs-troy-prediction-picks-odds-oct-6-2026",
+   "title": "Covers - Southern Miss vs Troy"
+  },
+  {
+   "url": "https://www.bleachernation.com/picks/2026/10/04/troy-vs-southern-miss-prediction-live-odds-stats-history-and-picks-october-6-2026/",
+   "title": "Bleacher Nation - Troy vs Southern Miss"
+  },
+  {
+   "url": "https://www.wagertalk.com/news/college-football/southern-miss-vs-troy-prediction-picks-best-bets-for-october-6-2026/",
+   "title": "WagerTalk - Southern Miss vs Troy"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "USM@TROY",
+   "matchup": "Southern Miss Golden Eagles @ Troy Trojans",
+   "market": "total",
+   "side": "under",
+   "selection": "Under 49.5",
+   "line": 49.5,
+   "odds": -110,
+   "book": "consensus (verify)",
+   "win_probability": 0.57,
+   "units": 1,
+   "confidence": 3,
+   "summary": "USM without starting QB and two WRs, capped at 21 pts in last three; Troy should grind with a lead."
+  }
+ ]
+}

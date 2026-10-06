@@ -1,4 +1,4 @@
-# KuickMoney daily card - 2026-10-06
+# KuickMoney daily card - 2026-10-07
 
 > AI-generated analysis for entertainment and research. No outcome is guaranteed. Bet only what you can afford to lose. Problem gambling help: 1-800-GAMBLER.
 
@@ -6,14 +6,11 @@
 
 | League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
 |---|---|---|---|---|---|---|---|---|
-| NCAAF | Southern Miss Golden Eagles @ Troy Trojans | Under 49.5 | -110 | consensus (verify) | 1 | 57.0 | 52.4 | 3 |
+| NCAAF | New Mexico State Aggies @ FIU Panthers | New Mexico State +6.5 | -110 | consensus | 1 | 55.0 | 52.4 | 3 |
 
 ## League reports
 
-- [MLB](mlb.md) - 0 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
-- [NHL](nhl.md) - 0 pick(s)
-- [UEFA Nations League](unl.md) - 0 pick(s)
 
 ## Track record
 

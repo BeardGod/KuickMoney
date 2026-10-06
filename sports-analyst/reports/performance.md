@@ -21,7 +21,7 @@
 | moneyline | 2-2-0 | -0.5 | -12.4% | 4 |
 | spread | 2-2-0 | -0.2 | -4.9% | 4 |
 
-Pending picks: 0
+Pending picks: 2
 
 ## Last 50 graded picks
 
