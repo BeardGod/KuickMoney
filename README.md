@@ -16,7 +16,7 @@ A powerful Windows desktop application for automated retail purchasing. Monitor 
 
 ## 🏈 AI Sports Betting Analyst
 
-The repo also includes an automated, Claude-powered betting analyst for NCAA and pro sports. It runs daily on GitHub Actions. See [`sports-analyst/README.md`](sports-analyst/README.md).
+The repo also includes a Claude-powered betting analyst for NCAA and pro sports. It runs on demand when you ask Claude. See [`KUICKMONEY_ANALYST.md`](KUICKMONEY_ANALYST.md) and [`sports-analyst/README.md`](sports-analyst/README.md).
 
 ## Download
 

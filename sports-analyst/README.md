@@ -18,11 +18,13 @@ An automated betting analyst powered by Claude. Each run it:
 
 Leagues with no games that day are skipped automatically, so `all` only spends money on sports that are in season.
 
-## Two ways to run it
+## How to run it (on demand)
 
-**A. Claude Code routine (no API key, uses your Claude plan) - the default.** A scheduled Claude Code session follows the playbook in [`.claude/skills/betting-card/SKILL.md`](../.claude/skills/betting-card/SKILL.md). It grades open picks, researches the day's games with web search, saves picks with `record`, and pushes the card. You can also open any Claude Code session in this repo and say "make today's betting card".
+Nothing runs on a schedule. To run it, ask Claude in Claude Code (on your computer or in a Claude Code session) with this repo open. For example: "run KuickMoney", "NCAA football picks for Saturday", "analyze Colts vs Commanders" or "grade my picks". Claude follows the playbook in [`.claude/skills/betting-card/SKILL.md`](../.claude/skills/betting-card/SKILL.md): it grades open picks, researches with web search, records picks, and updates the reports. No API key is needed.
 
-**B. Standalone Python app (needs `ANTHROPIC_API_KEY`).** `python -m kuick_analyst run` calls the Claude API directly. The manual GitHub Actions workflow uses this path.
+[`KUICKMONEY_ANALYST.md`](../KUICKMONEY_ANALYST.md) at the repo root is a one-page reference you can save to Claude's memory, a project, or `~/.claude/skills/` so any Claude session knows how to run it.
+
+There is also a standalone Python path, `python -m kuick_analyst run`. It calls the Claude API directly and needs `ANTHROPIC_API_KEY`.
 
 ## Setup (option B)
 
@@ -42,7 +44,6 @@ python -m kuick_analyst run                        # full card, all leagues
 python -m kuick_analyst run --leagues nfl,ncaaf --effort xhigh
 python -m kuick_analyst run --date 2026-10-10 --max-games 25
 python -m kuick_analyst grade                      # grade picks, refresh reports/performance.md
-python -m kuick_analyst schedule --every-hours 6   # keep running on your own PC/server
 
 # Claude Code mode helpers (no API key)
 python -m kuick_analyst record league.json --date 2026-10-04   # save a league analysis + picks
@@ -66,14 +67,6 @@ The model itself does not change. What changes is what the analyst reads before 
 - **Lessons log:** after grading, a short post-mortem is added to `data/lessons.md`. The most recent lessons are shown to the analyst before every card.
 
 All of it is in `reports/performance.md`.
-
-## GitHub Actions (option B, manual)
-
-`.github/workflows/sports-analyst.yml` runs only when you start it from the **Actions** tab (**Run workflow**). You choose the leagues, date and effort level. It grades past picks, builds the card and commits `reports/` and `data/` back to the repo.
-
-To use it, add these repository secrets (**Settings → Secrets and variables → Actions**):
-- `ANTHROPIC_API_KEY` (required)
-- `ODDS_API_KEY`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` (optional)
 
 ## Cost
 

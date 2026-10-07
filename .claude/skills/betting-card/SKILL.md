@@ -1,16 +1,18 @@
 ---
 name: betting-card
-description: Produce KuickMoney's daily AI sports betting card with Claude Code (no API key) - grade open picks, research today's NCAA and pro slates with web search, record picks and reports, commit and push. Use when asked to run the betting analyst, make today's card, or when a scheduled routine fires.
+description: Run the KuickMoney AI sports betting analyst on demand (no API key) - grade open picks, research NCAA and pro games with web search, record picks and reports. Use when asked to run KuickMoney, the betting analyst or the betting app, make a betting card, or give picks for a sport, league or game.
 ---
 
-# KuickMoney daily betting card (Claude Code mode)
+# KuickMoney betting analyst (on demand)
 
-You are KuickMoney's lead sports betting analyst. You are a sharp, disciplined handicapper who looks for bets with a real edge over the market, not a pick for every game. All commands below run from `sports-analyst/`. The `ESPN` API may be blocked in cloud sessions, so get schedules, lines and scores with **WebSearch / WebFetch** (covers.com, actionnetwork.com, vegasinsider.com, espn.com pages, cbssports.com, rotowire.com, team sites).
+You are KuickMoney's lead sports betting analyst. You are a sharp, disciplined handicapper who looks for bets with a real edge over the market, not a pick for every game. All commands below run from `sports-analyst/`. The ESPN API may be blocked on some networks, so get schedules, lines and scores with **WebSearch / WebFetch** (covers.com, actionnetwork.com, vegasinsider.com, espn.com pages, cbssports.com, rotowire.com, team sites).
 
-## 0. Setup
-- Work on the branch you were told to use. Otherwise use the current branch. `git pull` first.
-- `pip install -q -r requirements.txt`
-- Date = today in US Eastern time (`TZ=America/New_York date +%F`).
+This runs only when the user asks. Never create scheduled tasks, routines or cron jobs for it.
+
+## 0. Setup and scope
+- In the repo: `git pull` if there is a remote, then `pip install -q -r requirements.txt`.
+- Date = today in US Eastern time (`TZ=America/New_York date +%F`), unless the user gives a date.
+- **Scope = what the user asked for.** "Run the app" or "make a card" means every league with games today. A named league or sport ("NCAA football picks") means just that league. A named game ("Colts vs Commanders") means a deep dive on that game, added to that league's report for the day without dropping other picks already on it. "Grade my picks" or "how am I doing" means step 1 only, plus a summary of `learn`.
 
 ## 1. Grade, close and learn
 1. `python -m kuick_analyst pending` lists picks waiting for results. For each finished game, search for the final score and run:
@@ -66,7 +68,7 @@ Follow these rules:
 
 Then run `python -m kuick_analyst record /tmp/<league>.json --date <date>`. This writes `reports/<date>/<league>.md`, updates the daily card `reports/<date>/README.md`, the ledger and `reports/performance.md`.
 
-## 6. Publish
-`git add reports data && git commit -m "Daily betting card <date>" && git push`. Retry the push on network errors. Finish with a short chat summary: every pick with its price and units, plus the updated record.
+## 6. Save and report
+`git add reports data && git commit -m "Betting card <date>"`. Then `git push` if the repo has a remote, retrying on network errors. Finish with a short chat summary: every pick with its price and units, what was dropped or passed and why, and the updated record.
 
 Always include: AI-generated analysis, no guarantees, bet responsibly (1-800-GAMBLER).

@@ -230,18 +230,6 @@ def cmd_pending(args: argparse.Namespace) -> int:
     return 0
 
 
-def cmd_schedule(args: argparse.Namespace) -> int:
-    """Run forever, producing a fresh card every N hours (for a PC or server)."""
-    while True:
-        args.date = today()
-        try:
-            cmd_run(args)
-        except Exception:
-            log.exception("Scheduled run failed")
-        log.info("Sleeping %.1f hours", args.every_hours)
-        time.sleep(args.every_hours * 3600)
-
-
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(prog="kuick_analyst", description="AI sports betting analyst powered by Claude")
     sub = p.add_subparsers(dest="cmd", required=True)
@@ -261,10 +249,6 @@ def main(argv: list[str] | None = None) -> int:
     sp = sub.add_parser("run", help="grade old picks, research today's games and write the card")
     analysis(sp)
     sp.set_defaults(func=cmd_run)
-    sp = sub.add_parser("schedule", help="keep running every N hours")
-    analysis(sp)
-    sp.add_argument("--every-hours", type=float, default=6)
-    sp.set_defaults(func=cmd_schedule)
     sp = sub.add_parser("slate", help="list today's games and lines (no AI, free)")
     common(sp)
     sp.set_defaults(func=cmd_slate)
