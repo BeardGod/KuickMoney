@@ -163,6 +163,7 @@
   "book": "consensus (verify)",
   "confidence": 3,
   "date": "2026-10-06",
+  "final": "USM 34 - TROY 55",
   "game_id": "USM@TROY",
   "id": "2026-10-06:ncaaf:USM@TROY:total:under",
   "league": "ncaaf",
@@ -170,10 +171,10 @@
   "market": "total",
   "matchup": "Southern Miss Golden Eagles @ Troy Trojans",
   "odds": -110,
-  "result_units": null,
+  "result_units": -1.0,
   "selection": "Under 49.5",
   "side": "under",
-  "status": "pending",
+  "status": "loss",
   "summary": "USM without starting QB and two WRs, capped at 21 pts in last three; Troy should grind with a lead.",
   "units": 1,
   "win_probability": 0.57
@@ -196,5 +197,24 @@
   "summary": "Market FIU -6.5 vs model -4.5; Aggies on a two-game win streak into a low-total game.",
   "units": 1,
   "win_probability": 0.55
+ },
+ {
+  "book": "consensus",
+  "confidence": 3,
+  "date": "2026-10-07",
+  "game_id": "MIL@SD",
+  "id": "2026-10-07:mlb:MIL@SD:moneyline:away",
+  "league": "mlb",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Milwaukee Brewers @ San Diego Padres",
+  "odds": -104,
+  "result_units": null,
+  "selection": "Brewers ML",
+  "side": "away",
+  "status": "pending",
+  "summary": "Buehler (4.63 ERA, 1.35 WHIP) vs a deeper Brewers pitching plan; SD priced on desperation.",
+  "units": 1,
+  "win_probability": 0.545
  }
 ]
