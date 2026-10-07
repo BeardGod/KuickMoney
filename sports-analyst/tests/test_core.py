@@ -154,3 +154,84 @@ def test_soccer_draw_loses_team_moneyline():
     assert grade_pick({"league": "unl", "market": "moneyline", "side": "home"}, g) == "loss"
     assert grade_pick({"league": "unl", "market": "moneyline", "side": "draw"}, g) == "win"
     assert grade_pick({"league": "nhl", "market": "moneyline", "side": "home"}, g) == "push"
+
+
+# --- feedback loop ---------------------------------------------------------
+
+from kuick_analyst import learning
+
+
+def test_clv_spread_total_and_price():
+    # Took +6.5, closed +5.5: one point better than the close.
+    assert learning.clv({"market": "spread", "line": 6.5, "closing_line": 5.5, "odds": -110, "closing_odds": -110}) \
+        == {"points": 1.0, "prob": 0.0}
+    # Took under 49.5, closed 47: 2.5 points better; an over at 49.5 would be 2.5 worse.
+    assert learning.clv({"market": "total", "side": "under", "line": 49.5, "closing_line": 47,
+                         "odds": -110, "closing_odds": -110})["points"] == 2.5
+    assert learning.clv({"market": "total", "side": "over", "line": 49.5, "closing_line": 47,
+                         "odds": -110, "closing_odds": -110})["points"] == -2.5
+    # Took -104, closed -130: price got more expensive, so we beat it.
+    c = learning.clv({"market": "moneyline", "odds": -104, "closing_odds": -130})
+    assert c["points"] == 0 and c["prob"] > 0.05
+    assert learning.clv({"market": "moneyline", "odds": -104}) is None
+    s = learning.clv_summary([{"market": "moneyline", "odds": -104, "closing_odds": -130},
+                              {"market": "moneyline", "odds": 150, "closing_odds": 170}])
+    assert s["n"] == 2 and s["beat_pct"] == 50.0
+
+
+def test_calibration_and_edge_factor():
+    few = [{"status": "win", "win_probability": 0.6}, {"status": "loss", "win_probability": 0.6},
+           {"status": "push", "win_probability": 0.6}]
+    c = learning.calibration(few)
+    assert c["n"] == 2 and c["actual"] == 0.5 and c["edge_factor"] is None
+    # 40 picks at 60% that won only half the time: the claimed edge did not show up.
+    many = [{"status": "win" if i % 2 else "loss", "win_probability": 0.6} for i in range(40)]
+    assert learning.calibration(many)["edge_factor"] == 0.3
+    good = [{"status": "win" if i % 5 else "loss", "win_probability": 0.6} for i in range(40)]
+    assert learning.calibration(good)["edge_factor"] == 1.2
+
+
+def test_angle_summary_and_lessons(tmp_path):
+    picks = [{"status": "win", "result_units": 0.9, "angles": ["public_fade", "injury_edge"]},
+             {"status": "loss", "result_units": -1, "angles": ["public_fade"]},
+             {"status": "loss", "result_units": -1}]
+    a = learning.angle_summary(picks)
+    assert a["public_fade"] == {"record": "1-1", "units": -0.1, "bets": 2}
+    assert a["untagged"]["record"] == "0-1"
+    assert learning.unknown_angles(["public_fade", "vibes"]) == ["vibes"]
+    path = tmp_path / "lessons.md"
+    learning.add_lesson(path, "2026-10-06", "Backup QB does not mean a slow game.", "x:y")
+    learning.add_lesson(path, "2026-10-07", "Second lesson.")
+    assert learning.recent_lessons(path, n=1) == ["- **2026-10-07**: Second lesson."]
+    text = learning.learning_text(picks, path, today=__import__("datetime").date(2026, 10, 7))
+    assert "Backup QB" in text and "Fewer than 30" not in text  # no win_probability -> no calibration
+
+
+def test_cli_feedback_commands(tmp_path, monkeypatch):
+    from kuick_analyst import cli
+    monkeypatch.setattr(cli, "HOME", tmp_path)
+    monkeypatch.setattr(cli, "LESSONS", tmp_path / "data/lessons.md")
+    f = tmp_path / "mlb.json"
+    pick = {"game_id": "MIL@SD", "matchup": "Brewers @ Padres", "market": "moneyline", "side": "away",
+            "selection": "Brewers ML", "odds": -104, "units": 1, "win_probability": 0.545,
+            "angles": ["pitching_mismatch"]}
+    f.write_text(json.dumps({"league": "mlb", "report_markdown": "x", "picks": [pick]}))
+    assert cli.main(["record", str(f), "--date", "2026-10-07"]) == 0
+    # Rerun with the pick changed and a second pick: pending pick is replaced, not duplicated.
+    f.write_text(json.dumps({"league": "mlb", "report_markdown": "x", "picks": [
+        {**pick, "units": 0.5}, {**pick, "game_id": "LAD@ATL", "selection": "Dodgers ML"}]}))
+    assert cli.main(["record", str(f), "--date", "2026-10-07"]) == 0
+    led = json.loads((tmp_path / "data/ledger.json").read_text())
+    assert len(led) == 2 and led[0]["units"] == 0.5
+    f.write_text(json.dumps({"league": "mlb", "report_markdown": "x", "picks": [pick]}))
+    assert cli.main(["record", str(f), "--date", "2026-10-07"]) == 0
+    assert len(json.loads((tmp_path / "data/ledger.json").read_text())) == 1
+    assert cli.main(["close", "--date", "2026-10-07", "--game-id", "MIL@SD", "--odds", "-125"]) == 0
+    assert cli.main(["tag", "--date", "2026-10-07", "--game-id", "MIL@SD", "--angles", "bullpen_edge,vibes"]) == 1
+    assert cli.main(["tag", "--date", "2026-10-07", "--game-id", "MIL@SD", "--angles", "bullpen_edge"]) == 0
+    assert cli.main(["settle", "--league", "mlb", "--game-id", "MIL@SD", "--home", "SD", "--away", "MIL",
+                     "--home-score", "2", "--away-score", "5"]) == 0
+    assert cli.main(["lesson", "Bullpen depth showed up.", "--date", "2026-10-08"]) == 0
+    perf = (tmp_path / "reports/performance.md").read_text()
+    assert "Beat the closing line on **100.0%**" in perf and "| bullpen_edge | 1-0 |" in perf
+    assert "## Calibration" in perf

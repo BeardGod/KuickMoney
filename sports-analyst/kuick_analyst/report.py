@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .analyst import Analysis
+from .learning import MIN_SAMPLE_TO_ADJUST, angle_summary, calibration, clv_summary
 from .odds import implied_probability
 
 DISCLAIMER = ("> AI-generated analysis for entertainment and research. No outcome is guaranteed. "
@@ -61,6 +62,31 @@ def write_daily_index(out_dir: Path, date: str, analyses: list[tuple[str, Analys
     return path
 
 
+def learning_sections(picks: list[dict[str, Any]]) -> str:
+    v = clv_summary(picks)
+    clv_txt = ("_No closing lines recorded yet._" if not v["n"] else
+               f"Beat the closing line on **{v['beat_pct']}%** of {v['n']} picks; average "
+               f"{v['avg_points']:+} points and {v['avg_prob']:+}% implied probability. "
+               "Positive CLV over time is the best early sign of a real edge.")
+    c = calibration(picks)
+    if c["n"]:
+        rows = ["| Predicted range | Bets | Avg predicted | Actual win rate |", "|---|---|---|---|"]
+        rows += [f"| {b['range']} | {b['n']} | {b['predicted']:.1%} | {b['actual']:.1%} |" for b in c["buckets"]]
+        factor = (f"Edge factor: **{c['edge_factor']}** (the analyst scales its estimated edge by this)."
+                  if c["edge_factor"] is not None else
+                  f"Edge factor: not applied until {MIN_SAMPLE_TO_ADJUST} graded picks.")
+        cal_txt = (f"Predicted {c['predicted']:.1%} vs. actual {c['actual']:.1%} over {c['n']} bets "
+                   f"(Brier {c['brier']}). {factor}\n\n" + "\n".join(rows))
+    else:
+        cal_txt = "_No graded picks yet._"
+    a = angle_summary(picks)
+    ang_txt = ("_No graded picks yet._" if not a else
+               "\n".join(["| Angle | Record | Units | Bets |", "|---|---|---|---|"]
+                         + [f"| {k} | {v['record']} | {v['units']:+} | {v['bets']} |" for k, v in a.items()]))
+    return (f"## Closing line value\n\n{clv_txt}\n\n## Calibration\n\n{cal_txt}\n\n"
+            f"## By angle\n\n{ang_txt}\n\nLessons log: `data/lessons.md`\n\n")
+
+
 def write_performance(path: Path, summary: dict[str, Any], picks: list[dict[str, Any]]) -> Path:
     def table(d: dict[str, dict[str, Any]]) -> str:
         if not d:
@@ -80,6 +106,7 @@ def write_performance(path: Path, summary: dict[str, Any], picks: list[dict[str,
         f"## By league\n\n{table(summary['by_league'])}\n\n"
         f"## By market\n\n{table(summary['by_market'])}\n\n"
         f"Pending picks: {summary['pending']}\n\n"
+        + learning_sections(picks) +
         "## Last 50 graded picks\n\n| Date | League | Bet | Odds | Units | Result | Final | Units +/- |\n"
         "|---|---|---|---|---|---|---|---|\n" + recent_rows + "\n")
     return path

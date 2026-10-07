@@ -48,7 +48,24 @@ python -m kuick_analyst schedule --every-hours 6   # keep running on your own PC
 python -m kuick_analyst record league.json --date 2026-10-04   # save a league analysis + picks
 python -m kuick_analyst pending                                # picks waiting for results
 python -m kuick_analyst settle --league nfl --game-id BUF@KC --home KC --away BUF --home-score 24 --away-score 20
+
+# Feedback loop
+python -m kuick_analyst close --date 2026-10-05 --game-id ATL@NO --odds -110 --line 1.5   # closing line -> CLV
+python -m kuick_analyst tag --date 2026-10-05 --game-id ATL@NO --angles sharp_move,injury_edge
+python -m kuick_analyst lesson --date 2026-10-05 "what this result teaches"
+python -m kuick_analyst learn            # calibration, CLV, results by angle, recent lessons
 ```
+
+## How it adjusts over time
+
+The model itself does not change. What changes is what the analyst reads before every card:
+
+- **Closing line value (CLV):** each pick's price is compared to the closing line. Beating the close consistently is the earliest reliable sign of a real edge.
+- **Calibration:** predicted win % vs. actual win rate, by bucket. After 30 graded picks an *edge factor* is computed, and the analyst scales its claimed edges by it.
+- **Results by angle:** every pick is tagged with its reasons (`public_fade`, `injury_edge`, `pitching_mismatch`, ...). Losing angles need bigger edges; winning ones get more trust.
+- **Lessons log:** after grading, a short post-mortem is added to `data/lessons.md`. The most recent lessons are shown to the analyst before every card.
+
+All of it is in `reports/performance.md`.
 
 ## GitHub Actions (option B, manual)
 

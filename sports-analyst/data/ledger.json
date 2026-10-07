@@ -1,6 +1,12 @@
 [
  {
+  "angles": [
+   "public_fade",
+   "key_number"
+  ],
   "book": "consensus",
+  "closing_line": 3.5,
+  "closing_odds": -110,
   "confidence": 3,
   "date": "2026-10-04",
   "final": "LAR 24 - PHI 20",
@@ -20,7 +26,13 @@
   "win_probability": 0.54
  },
  {
+  "angles": [
+   "public_fade",
+   "injury_edge"
+  ],
   "book": "FanDuel",
+  "closing_line": 11.5,
+  "closing_odds": -112,
   "confidence": 3,
   "date": "2026-10-04",
   "final": "TEN 18 - BAL 24",
@@ -40,6 +52,10 @@
   "win_probability": 0.545
  },
  {
+  "angles": [
+   "pitching_mismatch",
+   "model_disagreement"
+  ],
   "book": "ESPN BET",
   "confidence": 3,
   "date": "2026-10-04",
@@ -60,7 +76,13 @@
   "win_probability": 0.61
  },
  {
+  "angles": [
+   "public_fade",
+   "qb_change"
+  ],
   "book": "best available (shop)",
+  "closing_line": 4.5,
+  "closing_odds": -104,
   "confidence": 3,
   "date": "2026-10-04",
   "final": "IND 30 - WAS 13",
@@ -80,7 +102,13 @@
   "win_probability": 0.55
  },
  {
+  "angles": [
+   "sharp_move",
+   "injury_edge"
+  ],
   "book": "consensus",
+  "closing_line": 1.5,
+  "closing_odds": -110,
   "confidence": 3,
   "date": "2026-10-05",
   "final": "ATL 45 - NO 24",
@@ -100,6 +128,9 @@
   "win_probability": 0.55
  },
  {
+  "angles": [
+   "pitching_mismatch"
+  ],
   "book": "consensus",
   "confidence": 3,
   "date": "2026-10-05",
@@ -120,6 +151,9 @@
   "win_probability": 0.6
  },
  {
+  "angles": [
+   "form_gap"
+  ],
   "book": "best available",
   "confidence": 3,
   "date": "2026-10-05",
@@ -140,6 +174,10 @@
   "win_probability": 0.45
  },
  {
+  "angles": [
+   "form_gap",
+   "injury_edge"
+  ],
   "book": "best available",
   "confidence": 3,
   "date": "2026-10-05",
@@ -160,7 +198,13 @@
   "win_probability": 0.59
  },
  {
+  "angles": [
+   "qb_change",
+   "low_scoring_script"
+  ],
   "book": "consensus (verify)",
+  "closing_line": 49.5,
+  "closing_odds": -110,
   "confidence": 3,
   "date": "2026-10-06",
   "final": "USM 34 - TROY 55",
@@ -180,41 +224,27 @@
   "win_probability": 0.57
  },
  {
-  "book": "consensus",
-  "confidence": 3,
+  "angles": [
+   "sharp_move",
+   "model_disagreement",
+   "key_number"
+  ],
+  "book": "best available (need +3)",
+  "confidence": 2,
   "date": "2026-10-07",
-  "game_id": "NMSU@FIU",
-  "id": "2026-10-07:ncaaf:NMSU@FIU:spread:away",
+  "game_id": "JXST@KSU",
+  "id": "2026-10-07:ncaaf:JXST@KSU:spread:home",
   "league": "ncaaf",
-  "line": 6.5,
+  "line": 3,
   "market": "spread",
-  "matchup": "New Mexico State Aggies @ FIU Panthers",
+  "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls",
   "odds": -110,
   "result_units": null,
-  "selection": "New Mexico State +6.5",
-  "side": "away",
+  "selection": "Kennesaw State +3",
+  "side": "home",
   "status": "pending",
-  "summary": "Market FIU -6.5 vs model -4.5; Aggies on a two-game win streak into a low-total game.",
-  "units": 1,
-  "win_probability": 0.55
- },
- {
-  "book": "consensus",
-  "confidence": 3,
-  "date": "2026-10-07",
-  "game_id": "MIL@SD",
-  "id": "2026-10-07:mlb:MIL@SD:moneyline:away",
-  "league": "mlb",
-  "line": null,
-  "market": "moneyline",
-  "matchup": "Milwaukee Brewers @ San Diego Padres",
-  "odds": -104,
-  "result_units": null,
-  "selection": "Brewers ML",
-  "side": "away",
-  "status": "pending",
-  "summary": "Buehler (4.63 ERA, 1.35 WHIP) vs a deeper Brewers pitching plan; SD priced on desperation.",
-  "units": 1,
-  "win_probability": 0.545
+  "summary": "Line moved off -3.5 toward the dog; model has KSU 57.9% outright; take only +3.",
+  "units": 0.5,
+  "win_probability": 0.56
  }
 ]

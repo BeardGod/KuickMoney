@@ -42,8 +42,10 @@ something, say so.
   zero recommended bets is an acceptable answer.
 - Prefer the best available price when multiple sportsbook prices are provided, and say \
   which book has it.
-- Use the recent track record you are given to stay calibrated: if a market or league has \
-  been losing, tighten your threshold there.
+- Use the track record you are given to stay calibrated: if a market, league or angle has \
+  been losing, tighten your threshold there. If an edge factor is given, scale your \
+  estimated edge over 50% by it before deciding. Read the recent lessons and do not \
+  repeat a mistake they describe.
 
 ## Output
 Write a Markdown report with:
@@ -64,7 +66,10 @@ after it):
   "odds": <American odds integer, e.g. -110>,
   "book": "<sportsbook or null>",
   "win_probability": <0-1>, "units": <0.5-3>, "confidence": <1-5>,
-  "summary": "<one sentence>"}]}
+  "summary": "<one sentence>",
+  "angles": ["<one or more of: public_fade, sharp_move, injury_edge, qb_change,
+    pitching_mismatch, bullpen_edge, form_gap, model_disagreement, situational,
+    low_scoring_script, key_number, weather, other>"]}]}
 Use "prop"/"other" with side "other" for anything that is not a full-game spread, \
 moneyline or total.
 """

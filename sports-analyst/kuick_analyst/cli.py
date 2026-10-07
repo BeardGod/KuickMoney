@@ -16,6 +16,7 @@ import requests
 
 from . import espn, odds
 from .leagues import LEAGUES, League, resolve
+from .learning import ANGLES, add_lesson, unknown_angles
 from .ledger import Ledger
 from .notify import send_telegram
 from .report import write_daily_index, write_league_report, write_performance
@@ -23,6 +24,7 @@ from .report import write_daily_index, write_league_report, write_performance
 log = logging.getLogger("kuick_analyst")
 HOME = Path(os.environ.get("KUICK_HOME", Path(__file__).resolve().parent.parent))
 EASTERN = ZoneInfo("America/New_York")
+LESSONS = HOME / "data" / "lessons.md"
 
 
 def today() -> dt.date:
@@ -79,7 +81,7 @@ def cmd_grade(args: argparse.Namespace) -> int:
     ledger = Ledger(HOME / "data" / "ledger.json")
     n = grade(ledger, requests.Session())
     print(f"Graded {n} pick(s).")
-    print(ledger.track_record_text())
+    print(ledger.track_record_text(lessons_path=LESSONS))
     return 0
 
 
@@ -94,7 +96,7 @@ def cmd_run(args: argparse.Namespace) -> int:
     session = requests.Session()
     ledger = Ledger(HOME / "data" / "ledger.json")
     log.info("Graded %d pending pick(s)", grade(ledger, session))
-    track_record = ledger.track_record_text()
+    track_record = ledger.track_record_text(lessons_path=LESSONS)
 
     date_s = args.date.isoformat()
     out_dir = HOME / "reports" / date_s
@@ -148,9 +150,17 @@ def cmd_record(args: argparse.Namespace) -> int:
     out_dir = HOME / "reports" / date_s
     write_league_report(out_dir, date_s, league.name, a)
     (out_dir / f"{league.key}.json").write_text(json.dumps(data, indent=1))
+    for p in a.picks:
+        bad = unknown_angles(p.get("angles") or [])
+        if not p.get("angles"):
+            log.warning("Pick %s has no angles; tag it so results can be tracked by reasoning.", p.get("selection"))
+        elif bad:
+            log.warning("Unknown angle(s) %s on %s. Known: %s", bad, p.get("selection"), ", ".join(ANGLES))
     ledger = Ledger(HOME / "data" / "ledger.json")
-    added = ledger.add(date_s, a.picks)
+    added, removed = ledger.replace_pending(date_s, league.key, a.picks)
     ledger.save()
+    if removed > added:
+        print(f"{league.name}: dropped {removed - added} pick(s) no longer on the card.")
 
     analyses = []
     for f in sorted(out_dir.glob("*.json")):
@@ -158,7 +168,7 @@ def cmd_record(args: argparse.Namespace) -> int:
         lg = LEAGUES[d["league"]]
         analyses.append((lg.name, Analysis(league=lg.key, report_markdown="", sources=[],
                                            picks=[{**p, "league": lg.key} for p in d.get("picks", [])])))
-    write_daily_index(out_dir, date_s, analyses, [], ledger.track_record_text())
+    write_daily_index(out_dir, date_s, analyses, [], ledger.track_record_text(lessons_path=LESSONS))
     write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
     print(f"{league.name}: recorded {added} new pick(s) -> {out_dir / (league.key + '.md')}")
     return 0
@@ -174,6 +184,43 @@ def cmd_settle(args: argparse.Namespace) -> int:
     ledger.save()
     write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
     print(f"Settled {n} pick(s) for {args.game_id}.")
+    return 0
+
+
+def cmd_close(args: argparse.Namespace) -> int:
+    """Record the closing price/line for a game's picks (for closing line value)."""
+    ledger = Ledger(HOME / "data" / "ledger.json")
+    n = ledger.set_closing(args.date.isoformat(), args.game_id, args.odds, args.line, args.market)
+    ledger.save()
+    write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
+    print(f"Closing line set on {n} pick(s) for {args.game_id}.")
+    return 0 if n else 1
+
+
+def cmd_tag(args: argparse.Namespace) -> int:
+    angles = args.angles.split(",")
+    if bad := unknown_angles(angles):
+        print(f"Unknown angle(s): {bad}. Known: {', '.join(ANGLES)}")
+        return 1
+    ledger = Ledger(HOME / "data" / "ledger.json")
+    n = ledger.tag(args.date.isoformat(), args.game_id, angles, args.market)
+    ledger.save()
+    write_performance(HOME / "reports" / "performance.md", ledger.summary(), ledger.picks)
+    print(f"Tagged {n} pick(s) for {args.game_id}: {', '.join(angles)}")
+    return 0 if n else 1
+
+
+def cmd_lesson(args: argparse.Namespace) -> int:
+    add_lesson(LESSONS, args.date.isoformat(), args.text, args.pick_id)
+    print(f"Lesson added to {LESSONS}")
+    return 0
+
+
+def cmd_learn(args: argparse.Namespace) -> int:
+    """Print what the analyst should take into account before picking."""
+    ledger = Ledger(HOME / "data" / "ledger.json")
+    print(ledger.track_record_text(lessons_path=LESSONS))
+    print("\nAngles: " + "; ".join(f"{k} = {v}" for k, v in ANGLES.items()))
     return 0
 
 
@@ -239,6 +286,28 @@ def main(argv: list[str] | None = None) -> int:
     sp.set_defaults(func=cmd_settle)
     sp = sub.add_parser("pending", help="list picks waiting to be graded")
     sp.set_defaults(func=cmd_pending)
+
+    # Feedback loop.
+    sp = sub.add_parser("close", help="record a game's closing odds/line for closing line value")
+    sp.add_argument("--date", type=dt.date.fromisoformat, required=True, help="card date of the pick")
+    sp.add_argument("--game-id", required=True)
+    sp.add_argument("--odds", type=int, required=True, help="closing American odds for the side we bet")
+    sp.add_argument("--line", type=float, default=None, help="closing spread for our side, or closing total")
+    sp.add_argument("--market", choices=["spread", "moneyline", "total"], default=None)
+    sp.set_defaults(func=cmd_close)
+    sp = sub.add_parser("tag", help="set the angles (reasons) on a game's picks")
+    sp.add_argument("--date", type=dt.date.fromisoformat, required=True)
+    sp.add_argument("--game-id", required=True)
+    sp.add_argument("--angles", required=True, help=f"comma list from: {','.join(ANGLES)}")
+    sp.add_argument("--market", choices=["spread", "moneyline", "total"], default=None)
+    sp.set_defaults(func=cmd_tag)
+    sp = sub.add_parser("lesson", help="append a post-mortem note the analyst reads before picking")
+    sp.add_argument("text")
+    sp.add_argument("--date", type=dt.date.fromisoformat, default=today())
+    sp.add_argument("--pick-id", default=None)
+    sp.set_defaults(func=cmd_lesson)
+    sp = sub.add_parser("learn", help="show calibration, CLV, results by angle and recent lessons")
+    sp.set_defaults(func=cmd_learn)
 
     args = p.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")

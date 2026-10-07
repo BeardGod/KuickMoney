@@ -23,7 +23,38 @@
 | spread | 2-2-0 | -0.2 | -4.9% | 4 |
 | total | 0-1-0 | -1.0 | -100.0% | 1 |
 
-Pending picks: 2
+Pending picks: 1
+
+## Closing line value
+
+Beat the closing line on **20.0%** of 5 picks; average +0.2 points and +0.0% implied probability. Positive CLV over time is the best early sign of a real edge.
+
+## Calibration
+
+Predicted 55.6% vs. actual 44.4% over 9 bets (Brier 0.246). Edge factor: not applied until 30 graded picks.
+
+| Predicted range | Bets | Avg predicted | Actual win rate |
+|---|---|---|---|
+| 0%-50% | 1 | 45.0% | 0.0% |
+| 50%-55% | 2 | 54.2% | 50.0% |
+| 55%-60% | 4 | 56.5% | 50.0% |
+| 60%-65% | 2 | 60.5% | 50.0% |
+
+## By angle
+
+| Angle | Record | Units | Bets |
+|---|---|---|---|
+| form_gap | 1-1 | -0.2 | 2 |
+| injury_edge | 3-0 | +2.6 | 3 |
+| key_number | 0-1 | -1.0 | 1 |
+| low_scoring_script | 0-1 | -1.0 | 1 |
+| model_disagreement | 1-0 | +0.7 | 1 |
+| pitching_mismatch | 1-1 | -0.3 | 2 |
+| public_fade | 1-2 | -1.11 | 3 |
+| qb_change | 0-2 | -2.0 | 2 |
+| sharp_move | 1-0 | +0.91 | 1 |
+
+Lessons log: `data/lessons.md`
 
 ## Last 50 graded picks
 

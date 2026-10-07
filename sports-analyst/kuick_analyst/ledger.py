@@ -11,6 +11,7 @@ from typing import Any, Callable
 
 from .espn import Game
 from .leagues import LEAGUES
+from .learning import learning_text
 from .odds import profit
 
 GRADEABLE = {"spread", "moneyline", "total"}
@@ -43,6 +44,34 @@ class Ledger:
             existing.add(pid)
             added += 1
         return added
+
+    def replace_pending(self, date: str, league: str, picks: list[dict[str, Any]]) -> tuple[int, int]:
+        """Re-record a league's card: ungraded picks for that date/league are replaced
+        by `picks`, so a rerun can update or drop picks. Graded picks are never touched."""
+        keep = [p for p in self.picks
+                if not (p["date"] == date and p.get("league") == league and p["status"] in ("pending", "manual"))]
+        removed = len(self.picks) - len(keep)
+        self.picks = keep
+        return self.add(date, picks), removed
+
+    def find(self, date: str, game_id: str, market: str | None = None) -> list[dict[str, Any]]:
+        return [p for p in self.picks if p["date"] == date and str(p.get("game_id")) == game_id
+                and (market is None or p.get("market") == market)]
+
+    def set_closing(self, date: str, game_id: str, odds: int, line: float | None,
+                    market: str | None = None) -> int:
+        rows = self.find(date, game_id, market)
+        for p in rows:
+            p["closing_odds"] = odds
+            if line is not None:
+                p["closing_line"] = line
+        return len(rows)
+
+    def tag(self, date: str, game_id: str, angles: list[str], market: str | None = None) -> int:
+        rows = self.find(date, game_id, market)
+        for p in rows:
+            p["angles"] = angles
+        return len(rows)
 
     def pending(self) -> list[dict[str, Any]]:
         return [p for p in self.picks if p["status"] == "pending"]
@@ -98,10 +127,14 @@ class Ledger:
                 "by_market": {k: agg(v) for k, v in sorted(by_market.items())},
                 "pending": len(self.pending())}
 
-    def track_record_text(self, today: dt.date | None = None) -> str:
+    def track_record_text(self, today: dt.date | None = None, lessons_path: Path | None = None) -> str:
         s = self.summary(since_days=60, today=today)
         if not s["overall"]["bets"]:
             return "No graded picks yet."
+        return self._record_lines(s) + "\n\n" + learning_text(self.picks, lessons_path, today)
+
+    @staticmethod
+    def _record_lines(s: dict[str, Any]) -> str:
         lines = [f"Last 60 days overall: {s['overall']['record']}, {s['overall']['units']:+} units, "
                  f"ROI {s['overall']['roi']}%"]
         lines += [f"- {k}: {v['record']}, {v['units']:+}u, ROI {v['roi']}%" for k, v in s["by_league"].items()]
