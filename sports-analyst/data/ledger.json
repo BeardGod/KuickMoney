@@ -248,5 +248,73 @@
   "summary": "Line moved off -3.5 toward the dog; model has KSU 57.9% outright; take only +3.",
   "units": 0.5,
   "win_probability": 0.56
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "public_fade"
+  ],
+  "book": "BetMGM",
+  "confidence": 3,
+  "date": "2026-10-08",
+  "game_id": "USA@ARST",
+  "id": "2026-10-08:ncaaf:USA@ARST:total:under",
+  "league": "ncaaf",
+  "line": 60.5,
+  "market": "total",
+  "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Under 60.5",
+  "side": "under",
+  "status": "pending",
+  "summary": "Total inflated 4 points by over money; model projections average about 55.",
+  "units": 1.0,
+  "win_probability": 0.58
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "public_fade"
+  ],
+  "book": "BetRivers",
+  "confidence": 2,
+  "date": "2026-10-08",
+  "game_id": "USA@ARST",
+  "id": "2026-10-08:ncaaf:USA@ARST:moneyline:home",
+  "league": "ncaaf",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "South Alabama Jaguars @ Arkansas State Red Wolves",
+  "odds": -105,
+  "result_units": null,
+  "selection": "Arkansas State ML",
+  "side": "home",
+  "status": "pending",
+  "summary": "Models make ARST a 56-59% favorite; the line held despite 89% of money on USA.",
+  "units": 0.5,
+  "win_probability": 0.56
+ },
+ {
+  "angles": [
+   "model_disagreement"
+  ],
+  "book": "FanDuel",
+  "confidence": 2,
+  "date": "2026-10-08",
+  "game_id": "MOST@WKU",
+  "id": "2026-10-08:ncaaf:MOST@WKU:moneyline:home",
+  "league": "ncaaf",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Missouri State Bears @ Western Kentucky Hilltoppers",
+  "odds": -118,
+  "result_units": null,
+  "selection": "Western Kentucky ML",
+  "side": "home",
+  "status": "pending",
+  "summary": "numberFire 64% and Covers WKU by 3; defensive numbers distorted by Georgia/Indiana.",
+  "units": 0.5,
+  "win_probability": 0.58
  }
 ]

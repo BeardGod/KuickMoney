@@ -4,12 +4,16 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | South Alabama Jaguars @ Arkansas State Red Wolves | Under 60.5 | -110 | BetMGM | 1.0 | 58.0 | 52.4 | 3 |
+| NCAAF | South Alabama Jaguars @ Arkansas State Red Wolves | Arkansas State ML | -105 | BetRivers | 0.5 | 56.0 | 51.2 | 2 |
+| NCAAF | Missouri State Bears @ Western Kentucky Hilltoppers | Western Kentucky ML | -118 | FanDuel | 0.5 | 58.0 | 54.1 | 2 |
 
 ## League reports
 
 - [MLB](mlb.md) - 0 pick(s)
-- [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 3 pick(s)
 - [NFL](nfl.md) - 0 pick(s)
 - [NHL](nhl.md) - 0 pick(s)
 
