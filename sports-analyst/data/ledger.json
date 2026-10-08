@@ -226,12 +226,14 @@
  {
   "angles": [
    "sharp_move",
-   "model_disagreement",
-   "key_number"
+   "model_disagreement"
   ],
   "book": "best available (need +3)",
+  "closing_line": 3.0,
+  "closing_odds": -110,
   "confidence": 2,
   "date": "2026-10-07",
+  "final": "JXST 27 - KSU 26",
   "game_id": "JXST@KSU",
   "id": "2026-10-07:ncaaf:JXST@KSU:spread:home",
   "league": "ncaaf",
@@ -239,10 +241,10 @@
   "market": "spread",
   "matchup": "Jacksonville State Gamecocks @ Kennesaw State Owls",
   "odds": -110,
-  "result_units": null,
+  "result_units": 0.455,
   "selection": "Kennesaw State +3",
   "side": "home",
-  "status": "pending",
+  "status": "win",
   "summary": "Line moved off -3.5 toward the dog; model has KSU 57.9% outright; take only +3.",
   "units": 0.5,
   "win_probability": 0.56
