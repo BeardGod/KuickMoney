@@ -1,0 +1,71 @@
+{
+ "league": "nfl",
+ "report_markdown": "## Slate overview\nWeek 5 Sunday has 13 games (KC and CAR on bye). Line movement this week was driven mostly by injuries ([Rotowire](https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246), [Yahoo/BetMGM](https://sports.yahoo.com/nfl/betting/article/everything-to-know-for-betting-nfl-week-5-odds-sharp-action-public-betting-splits-and-big-bets-154331058.html)). The biggest moves:\n- BAL @ ATL went from BAL -6 to ATL -3/-3.5 (Lamar Jackson, C Cam Jurgens and Trey Hendrickson out).\n- PHI @ JAX (London) went from JAX -2.5 to -7.5, with sharp money all the way (Barkley, D. Smith, Hollywood Brown and C Kendall out).\n- HOU @ TEN went from HOU -3.5 to -7, sharp.\n- CHI @ GB flipped from GB -2.5 to CHI -3 and is back to -1.5 on sharp GB money (Caleb Williams questionable).\n- DET @ ARI total rose from 48.5 to 54.5. The CIN @ MIA total fell from 48.5 to 42.5.\n\n**Feedback loop:** we've won 40% against 56% predicted over 15 picks and beaten the close on 2 of 9. That's a cold, overconfident model. Only the injury-edge angle (3-1) and the line-move angle (2-1) have earned trust, so we're betting small and only those two.\n\n## Best bets\n### Raiders +3.5 (-105, FanDuel) at Patriots: 1 unit\n- **Win probability 55% vs. 51.2% implied.**\n- **New England's secondary is gutted.** CBs Christian Gonzalez, Carlton Davis, Karon Prunty and Channing Canada are all OUT, and CB Charles Woods and S Craig Woodson are questionable ([CBS injury report](https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-eagles-saquon-barkley-devonta-smith-out/)). That's their top four corners against Kirk Cousins (11 TD / 4 INT) and TE Brock Bowers (healthy).\n- Drake Maye has committed 2+ turnovers in every game this season. The Raiders have forced 9 turnovers, are 2-0 on the road and 4-0 ATS ([SBR](https://www.sportsbookreview.com/picks/nfl/raiders-vs-patriots-prediction-odds-picks-week-5-2026/)). SBR projects Raiders 24-20.\n- **Risks:** Raiders WRs Nailor and Thornton are OUT and Ashton Jeanty is questionable. The line hasn't moved off 3.5, so the market isn't confirming the edge. Per the Oct 8 lesson, we're not reading that as a sharp signal either way. This is an injury-edge bet only.\n\n### Dolphins +7.5 (-108) vs. Bengals: 0.5 units\n- **Win probability 55% vs. 51.9% implied.**\n- **Sharps are on Miami +7.5** while 71% of bets are on Cincinnati ([SBR splits](https://www.sportsbookreview.com/betting-odds/nfl-football/), [Yahoo/BetMGM](https://sports.yahoo.com/nfl/betting/article/everything-to-know-for-betting-nfl-week-5-odds-sharp-action-public-betting-splits-and-big-bets-154331058.html)).\n- **The total collapsed six points (48.5 to 42.5).** In a low-scoring game, 7.5 points is worth more, and it's past the key number of 7.\n- Cincinnati's WRs are compromised. Ja'Marr Chase (concussion protocol) needs a neurologist's clearance, and Tee Higgins (adductor) didn't practice Friday ([Heavy](https://heavy.com/sports/nfl/miami-dolphins/jamarr-chase-tee-higgins-update-bengals-dolphins/)). S Kyle Dugger is out.\n- **Risks:** Miami is without De'Von Achane. If Chase is cleared, the line may tick to 8. Half a unit because the underdog's offense is the weak link (Oct 9 lesson).\n\n## Leans & passes\n- **PHI @ JAX, HOU @ TEN:** pass. The sharp moves (5 and 3.5 points) are done, and chasing after the move is what has hurt our closing-line value.\n- **BAL @ ATL:** pass. A 9-point swing for Lamar plus two other starters is roughly fair, and our QB-change angle is 0-2.\n- **DEN @ LAC (DEN -3.5):** pass. The Chargers' OL is gutted (Slater, Alt, Awosika, Penning out) and WRs Johnston and Thompson plus S Derwin James are out. But Denver is missing both starting CBs (Surtain, Moss), and the line already went through 3.\n- **CHI @ GB:** pass. It depends on Caleb Williams's hamstring, and the sharp move back to GB is already priced.\n- **NYG @ WAS:** pass. Sharps are on WAS -3.5 with Daniels back, but Washington is missing three safeties plus Diggs, which favors the Giants' passing game. The signals conflict.\n- **DET @ ARI over 54.5:** pass. The 6-point rise already priced in the shootout.\n- **SF @ SEA, MIN @ NO, CLE @ NYJ, IND @ PIT:** no edge found.\n\n## Risks\n- Final inactives come out 90 minutes before kickoff. Recheck Chase, Higgins and the Patriots' CB list.\n- Both picks are underdogs, at a time when our win estimates have been running 16 points too high.",
+ "sources": [
+  {
+   "url": "https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246",
+   "title": "Rotowire Week 5 line moves"
+  },
+  {
+   "url": "https://sports.yahoo.com/nfl/betting/article/everything-to-know-for-betting-nfl-week-5-odds-sharp-action-public-betting-splits-and-big-bets-154331058.html",
+   "title": "Yahoo/BetMGM sharp action"
+  },
+  {
+   "url": "https://www.cbssports.com/nfl/news/nfl-week-5-injury-report-eagles-saquon-barkley-devonta-smith-out/",
+   "title": "CBS Week 5 injury report"
+  },
+  {
+   "url": "https://www.sportsbookreview.com/betting-odds/nfl-football/",
+   "title": "SBR odds & splits"
+  },
+  {
+   "url": "https://www.sportsbookreview.com/picks/nfl/raiders-vs-patriots-prediction-odds-picks-week-5-2026/",
+   "title": "SBR Raiders-Patriots"
+  },
+  {
+   "url": "https://heavy.com/sports/nfl/miami-dolphins/jamarr-chase-tee-higgins-update-bengals-dolphins/",
+   "title": "Heavy Chase/Higgins update"
+  },
+  {
+   "url": "https://athlonsports.com/nfl/los-angeles-chargers/chargers-offensive-line-severely-depleted-sunday-broncos",
+   "title": "Athlon Chargers OL"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "LV@NE",
+   "matchup": "Las Vegas Raiders @ New England Patriots",
+   "market": "spread",
+   "side": "away",
+   "selection": "Raiders +3.5",
+   "line": 3.5,
+   "odds": -105,
+   "book": "FanDuel",
+   "win_probability": 0.55,
+   "units": 1.0,
+   "confidence": 3,
+   "summary": "Patriots' top four CBs are out against Cousins and Bowers; Maye is turnover-prone.",
+   "angles": [
+    "injury_edge"
+   ]
+  },
+  {
+   "game_id": "CIN@MIA",
+   "matchup": "Cincinnati Bengals @ Miami Dolphins",
+   "market": "spread",
+   "side": "home",
+   "selection": "Dolphins +7.5",
+   "line": 7.5,
+   "odds": -108,
+   "book": "consensus",
+   "win_probability": 0.55,
+   "units": 0.5,
+   "confidence": 2,
+   "summary": "Sharp money on +7.5 against 71% public; total fell 6 points; Chase and Higgins compromised.",
+   "angles": [
+    "sharp_move",
+    "injury_edge"
+   ]
+  }
+ ]
+}
