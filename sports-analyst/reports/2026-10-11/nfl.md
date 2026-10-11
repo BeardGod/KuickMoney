@@ -46,6 +46,15 @@ Week 5 Sunday has 13 games (KC and CAR on bye). Line movement this week was driv
 - Final inactives come out 90 minutes before kickoff. Recheck Chase, Higgins and the Patriots' CB list.
 - Both picks are underdogs, at a time when our win estimates have been running 16 points too high.
 
+## Deep dive: Eagles @ Jaguars (London, 9:30 AM ET): PASS
+- **Line:** JAX opened -2.5 (Caesars) / -6 and is now -7.5 (-108). The total opened 42.5 and is now 41.5. Early in the week up to 95% of spread money was on JAX. Now 57% of the money is on PHI while 64% of tickets are on JAX. On the total, 70% of the money is on the under and 66% of tickets are on the over ([WagerTalk](https://www.wagertalk.com/news/nfl/eagles-vs-jaguars-picks-predictions-and-odds-week-5-october-11-2026/)).
+- **Why it moved:** RT Lane Johnson retired and C Cam Jurgens was traded to Baltimore. Inactives: Saquon Barkley, DeVonta Smith, Hollywood Brown, C Drew Kendall, S Marcus Epps and OLB Jonathan Greenard ([Eagles.com](https://www.philadelphiaeagles.com/news/eagles-at-jaguars-inactives-2026-nfl-week-6-london-international-game-saquon-barkley-lane-johnson), [Inquirer](https://www.inquirer.com/eagles/eagles-jaguars-week-5-nfl-odds-prop-bets-20261008.html)). Philly went 0-for-12 on third down vs. the Rams, Hurts averaged 2.19 yards per dropback, and the offense has gone scoreless in back-to-back second halves.
+- **Jacksonville:** 16-5 over its last 21 regular-season games. Its defense forces a turnover on a league-high 21.6% of drives and allows a score on only 29.7% ([Yahoo](https://sports.yahoo.com/nfl/live/eagles-jaguars--score-live-updates-inactives-highlights-stats-where-to-watch-week-5-london-game-120000627.html)).
+- **Eagles +7.5:** pass. Late money is buying the dog, but the Oct 4 lesson applies directly: an underdog missing its best skill players (plus two OL starters) isn't saved by the hook. The Oct 9 lesson agrees: injuries don't help a dog that can't score.
+- **Jaguars -7.5:** pass. That's a 5-point move already made, and laying 7.5 after it is the chasing that has hurt our closing-line value.
+- **Under 41.5:** lean, no bet. Sharp money is on the under and WagerTalk projects 23-13. But the Oct 6 and Oct 8 lessons say a broken offense doesn't make a game low-scoring when the other defense creates turnovers and short fields. We're 0-2 on totals.
+
+
 ## Sources
 
 - [Rotowire Week 5 line moves](https://www.rotowire.com/football/article/nfl-week-5-odds-biggest-line-moves-betting-splits-and-key-injuries-139246)
@@ -55,5 +64,8 @@ Week 5 Sunday has 13 games (KC and CAR on bye). Line movement this week was driv
 - [SBR Raiders-Patriots](https://www.sportsbookreview.com/picks/nfl/raiders-vs-patriots-prediction-odds-picks-week-5-2026/)
 - [Heavy Chase/Higgins update](https://heavy.com/sports/nfl/miami-dolphins/jamarr-chase-tee-higgins-update-bengals-dolphins/)
 - [Athlon Chargers OL](https://athlonsports.com/nfl/los-angeles-chargers/chargers-offensive-line-severely-depleted-sunday-broncos)
+- [WagerTalk PHI-JAX splits](https://www.wagertalk.com/news/nfl/eagles-vs-jaguars-picks-predictions-and-odds-week-5-october-11-2026/)
+- [Eagles inactives](https://www.philadelphiaeagles.com/news/eagles-at-jaguars-inactives-2026-nfl-week-6-london-international-game-saquon-barkley-lane-johnson)
+- [Inquirer PHI odds/OL changes](https://www.inquirer.com/eagles/eagles-jaguars-week-5-nfl-odds-prop-bets-20261008.html)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>
