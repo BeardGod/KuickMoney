@@ -442,5 +442,28 @@
   "summary": "Man Utd missing five starters incl. their only striker and winless in four; Atletico won four straight at home form.",
   "units": 0.5,
   "win_probability": 0.55
+ },
+ {
+  "angles": [
+   "sharp_move",
+   "low_scoring_script"
+  ],
+  "book": "Caesars",
+  "confidence": 3,
+  "date": "2026-10-13",
+  "game_id": "FIU@JXST",
+  "id": "2026-10-13:ncaaf:FIU@JXST:total:under",
+  "league": "ncaaf",
+  "line": 43.5,
+  "market": "total",
+  "matchup": "FIU Panthers @ Jacksonville State Gamecocks",
+  "odds": -108,
+  "result_units": null,
+  "selection": "Under 43.5",
+  "side": "under",
+  "status": "pending",
+  "summary": "95% of money on the under drove 45.5 to 43.5; FIU's elite defense and the worst offense in CUSA; every projection is 29-43.",
+  "units": 1.0,
+  "win_probability": 0.58
  }
 ]

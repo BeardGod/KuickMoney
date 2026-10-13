@@ -6,10 +6,12 @@
 
 | League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
 |---|---|---|---|---|---|---|---|---|
+| NCAAF | FIU Panthers @ Jacksonville State Gamecocks | Under 43.5 | -108 | Caesars | 1.0 | 58.0 | 51.9 | 3 |
 | UCL | Manchester United @ Atletico Madrid | Atletico Madrid ML | -105 | consensus (2.00 at 1xBet) | 0.5 | 55.0 | 51.2 | 2 |
 
 ## League reports
 
+- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
 - [UEFA Champions League](ucl.md) - 1 pick(s)
 
 ## Track record

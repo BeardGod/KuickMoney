@@ -1,0 +1,50 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "## Slate overview\nTwo Tuesday Conference USA games ([Covers](https://www.covers.com/picks/ncaaf)):\n- **Delaware @ Middle Tennessee** (7:00, CBSSN): DEL -1.5 (it flipped from MTSU -1.5/+2.5 range), ML DEL -113 to -120 / MTSU -105 to +100, total 47.5-48.5\n- **FIU @ Jacksonville State** (8:00, ESPNU): JXST -3 (it opened -3, dipped to -1.5 and came back), total opened 45.5 and is now 43.5 (it touched 42.5)\n\n**Feedback loop:** we've won 41% against 56% predicted over 17 picks. The line-move angle is our best (3-1) and we're 0-2 on totals. Lessons: don't stack two correlated bets on one game (Oct 8), and don't treat a bad defense as an under argument (Oct 8).\n\n## Best bets\n### Under 43.5 (-108, Caesars) FIU @ Jacksonville State: 1 unit\n- **Win probability 58% vs. 51.9% implied.** Bet it down to 42. Below that, pass.\n- **Sharp money:** the total fell from 45.5 to 43.5 with **95% of the money on the under** while 60% of tickets are on the over ([WagerTalk](https://www.wagertalk.com/news/college-football/florida-international-vs-jacksonville-state-picks-prediction-odds-for-october-13-2026/)). Action Network's staff also play the under to 42 ([Yahoo/Action](https://sports.yahoo.com/articles/tuesday-college-football-predictions-picks-140721914.html)).\n- **Projections all land under:** WagerTalk 20-19 (39), Yahoo's CUSA preview 16-13 (29) ([Yahoo](https://sports.yahoo.com/articles/weekday-cusa-previews-2026-week-100000315.html)), Covers 23.1-19.7 (42.7).\n- **The case rests on a GOOD defense (passes the Oct 8 lesson).** FIU allows 12.2 points per game (6th in the nation) and hasn't allowed a TD in 11 quarters. Only 4 of 13 opponent red-zone trips have ended in TDs. FIU's offense is last in CUSA in scoring (18.8 points per game; JJ Kohl has 5 TD / 7 INT), and 4 of FIU's 5 games went under. JXST converts only 48% of red-zone trips into TDs and ranks 108th in passing explosiveness. RB Andrew Paul is out for the season, and WRs Hoyt, Watkins and Baret are questionable.\n- **Turnover check (Oct 8 lesson):** JXST forces only 1.0 turnover per game, so a short-field blowup is less likely.\n- **Risk:** Caden Creel's running (405 yards) can break the script, and we're buying after the move, at 43.5 rather than 45.5.\n\n## Leans & passes\n- **FIU +3:** pass. Projections have JXST by 1-3.4, so there's no edge at 3. It's also correlated with the under, and the Oct 8 lesson says no stacking.\n- **Middle Tennessee +1.5:** lean, no bet. Delaware lost QB Nick Minicucci for the season and has rotated three QBs, it lost 42-3 and 30-14, and its run game ranks 132nd. Sharps moved the line toward MTSU, and Action and Yahoo both like MTSU ([Yahoo](https://sports.yahoo.com/articles/delaware-vs-middle-tennessee-prediction-120359795.html)). But MTSU coach Derek Mason is 0-15 off a bye and 8-21 overall, MTSU was shut out 55-0 by Kansas, and the models are split (numberFire has DEL at 51.4%, Covers DEL by 0.7). The edge is under 3 points.\n- **DEL/MTSU total 47.5:** pass. Both teams have gone under in 4 of 5, but the 120th- and 121st-ranked offenses are already priced in.\n\n## Risks\n- Late weather or QB news in Jacksonville could move the total.",
+ "sources": [
+  {
+   "url": "https://www.wagertalk.com/news/college-football/florida-international-vs-jacksonville-state-picks-prediction-odds-for-october-13-2026/",
+   "title": "WagerTalk FIU-JXST splits"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/tuesday-college-football-predictions-picks-140721914.html",
+   "title": "Action Network Tuesday picks"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/weekday-cusa-previews-2026-week-100000315.html",
+   "title": "Yahoo weekday CUSA previews"
+  },
+  {
+   "url": "https://www.covers.com/picks/ncaaf",
+   "title": "Covers NCAAF odds"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/delaware-vs-middle-tennessee-prediction-120359795.html",
+   "title": "Delaware-MTSU prediction"
+  },
+  {
+   "url": "https://www.fanduel.com/research/middle-tennessee-vs-delaware-college-football-odds-picks-best-bets-for-10-13-2026",
+   "title": "FanDuel/numberFire DEL-MTSU"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "FIU@JXST",
+   "matchup": "FIU Panthers @ Jacksonville State Gamecocks",
+   "market": "total",
+   "side": "under",
+   "selection": "Under 43.5",
+   "line": 43.5,
+   "odds": -108,
+   "book": "Caesars",
+   "win_probability": 0.58,
+   "units": 1.0,
+   "confidence": 3,
+   "summary": "95% of money on the under drove 45.5 to 43.5; FIU's elite defense and the worst offense in CUSA; every projection is 29-43.",
+   "angles": [
+    "sharp_move",
+    "low_scoring_script"
+   ]
+  }
+ ]
+}
