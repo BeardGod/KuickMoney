@@ -37,6 +37,7 @@ LEAGUES: dict[str, League] = {
         League("mls", "MLS", "soccer", "usa.1", "soccer_usa_mls"),
         League("epl", "English Premier League", "soccer", "eng.1", "soccer_epl"),
         League("unl", "UEFA Nations League", "soccer", "uefa.nations", "soccer_uefa_nations_league"),
+        League("ucl", "UEFA Champions League", "soccer", "uefa.champions", "soccer_uefa_champs_league"),
     ]
 }
 

@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 6-9-0 | -3.81 | -29.3% | 15 |
+| All | 7-10-0 | -4.35 | -30.0% | 17 |
 
 ## By league
 
@@ -12,7 +12,7 @@
 |---|---|---|---|---|
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | ncaaf | 2-5-0 | -3.12 | -62.4% | 7 |
-| nfl | 2-2-0 | -0.2 | -4.9% | 4 |
+| nfl | 3-3-0 | -0.73 | -13.4% | 6 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
 ## By market
@@ -20,10 +20,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 3-3-0 | -0.57 | -11.4% | 6 |
-| spread | 3-4-0 | -1.24 | -20.7% | 7 |
+| spread | 4-5-0 | -1.78 | -23.7% | 9 |
 | total | 0-2-0 | -2.0 | -100.0% | 2 |
 
-Pending picks: 2
+Pending picks: 1
 
 ## Closing line value
 
@@ -31,13 +31,13 @@ Beat the closing line on **22.2%** of 9 picks; average +0.28 points and -0.07% i
 
 ## Calibration
 
-Predicted 56.2% vs. actual 40.0% over 15 bets (Brier 0.259). Edge factor: not applied until 30 graded picks.
+Predicted 56.0% vs. actual 41.2% over 17 bets (Brier 0.258). Edge factor: not applied until 30 graded picks.
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 1 | 45.0% | 0.0% |
 | 50%-55% | 2 | 54.2% | 50.0% |
-| 55%-60% | 10 | 56.8% | 40.0% |
+| 55%-60% | 12 | 56.5% | 41.7% |
 | 60%-65% | 2 | 60.5% | 50.0% |
 
 ## By angle
@@ -45,14 +45,14 @@ Predicted 56.2% vs. actual 40.0% over 15 bets (Brier 0.259). Edge factor: not ap
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 1-1 | -0.2 | 2 |
-| injury_edge | 3-1 | +1.6 | 4 |
+| injury_edge | 4-2 | +1.07 | 6 |
 | key_number | 0-1 | -1.0 | 1 |
 | low_scoring_script | 0-1 | -1.0 | 1 |
 | model_disagreement | 3-3 | -0.42 | 6 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 1-4 | -2.61 | 5 |
 | qb_change | 0-2 | -2.0 | 2 |
-| sharp_move | 2-1 | +0.36 | 3 |
+| sharp_move | 3-1 | +0.83 | 4 |
 
 Lessons log: `data/lessons.md`
 
@@ -60,6 +60,8 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-11 | NFL | Dolphins +7.5 | -108 | 0.5 | WIN | CIN 31 - MIA 24 | +0.463 |
+| 2026-10-11 | NFL | Raiders +3.5 | -105 | 1.0 | LOSS | LV 17 - NE 45 | -1.0 |
 | 2026-10-09 | NCAAF | Florida State +4 | -108 | 0.5 | LOSS | FSU 20 - LOU 44 | -0.5 |
 | 2026-10-09 | NCAAF | Iowa State +10.5 | -115 | 1 | LOSS | ISU 10 - BYU 24 | -1.0 |
 | 2026-10-08 | NCAAF | Western Kentucky ML | -118 | 0.5 | WIN | MOST 13 - WKU 34 | +0.424 |

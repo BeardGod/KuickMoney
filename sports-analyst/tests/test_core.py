@@ -235,3 +235,11 @@ def test_cli_feedback_commands(tmp_path, monkeypatch):
     perf = (tmp_path / "reports/performance.md").read_text()
     assert "Beat the closing line on **100.0%**" in perf and "| bullpen_edge | 1-0 |" in perf
     assert "## Calibration" in perf
+
+
+def test_ucl_draw_loses_team_moneyline():
+    from kuick_analyst.espn import Game, Team
+    g = Game(id="x", league="ucl", start="", state="post", status="FT",
+             home=Team("ARS", "ARS", score=1), away=Team("LIL", "LIL", score=1))
+    assert grade_pick({"league": "ucl", "market": "moneyline", "side": "away"}, g) == "loss"
+    assert grade_pick({"league": "ucl", "market": "moneyline", "side": "draw"}, g) == "win"
