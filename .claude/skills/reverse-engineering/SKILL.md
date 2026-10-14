@@ -25,11 +25,12 @@ run diagnostics before every investigation.
 - `.mcp.json` registers the `rea` server through `.claude/hooks/rea-mcp.sh`,
   which pins `rea-agents@6.5.0`. `.claude/settings.json` enables it.
 - In cloud sessions, `.claude/hooks/session-start.sh` caches the package
-  and installs Ghidra 12.1.x into `~/.cache/rea/ghidra/current`. Ghidra
-  needs github.com to be reachable, which the environment's network policy
-  may block. If it isn't installed, use `inspect_with_objdump` (GNU objdump
-  is preinstalled) for native disassembly, symbols, and headers. Tell the
-  user that pseudocode needs Ghidra, Hopper, or IDA.
+  and installs Ghidra 12.1.4 (pinned URL and SHA-256) into
+  `~/.cache/rea/ghidra/current`, so `open_binary` and pseudocode work with
+  the Ghidra provider. If the startup log says the Ghidra install failed,
+  use `inspect_with_objdump` (GNU objdump is preinstalled) for native
+  disassembly, symbols, and headers. Tell the user that pseudocode needs
+  Ghidra, Hopper, or IDA.
 - On a local machine, set `GHIDRA_INSTALL_DIR` before starting Claude Code
   to enable Ghidra.
 
