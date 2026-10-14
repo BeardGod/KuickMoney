@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 7-10-0 | -4.35 | -30.0% | 17 |
+| All | 8-10-0 | -3.88 | -25.8% | 18 |
 
 ## By league
 
@@ -13,17 +13,18 @@
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | ncaaf | 2-5-0 | -3.12 | -62.4% | 7 |
 | nfl | 3-3-0 | -0.73 | -13.4% | 6 |
+| ucl | 1-0-0 | +0.48 | 95.2% | 1 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
 ## By market
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| moneyline | 3-3-0 | -0.57 | -11.4% | 6 |
+| moneyline | 4-3-0 | -0.1 | -1.7% | 7 |
 | spread | 4-5-0 | -1.78 | -23.7% | 9 |
 | total | 0-2-0 | -2.0 | -100.0% | 2 |
 
-Pending picks: 2
+Pending picks: 3
 
 ## Closing line value
 
@@ -31,21 +32,21 @@ Beat the closing line on **22.2%** of 9 picks; average +0.28 points and -0.07% i
 
 ## Calibration
 
-Predicted 56.0% vs. actual 41.2% over 17 bets (Brier 0.258). Edge factor: not applied until 30 graded picks.
+Predicted 56.0% vs. actual 44.4% over 18 bets (Brier 0.255). Edge factor: not applied until 30 graded picks.
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 1 | 45.0% | 0.0% |
 | 50%-55% | 2 | 54.2% | 50.0% |
-| 55%-60% | 12 | 56.5% | 41.7% |
+| 55%-60% | 13 | 56.4% | 46.2% |
 | 60%-65% | 2 | 60.5% | 50.0% |
 
 ## By angle
 
 | Angle | Record | Units | Bets |
 |---|---|---|---|
-| form_gap | 1-1 | -0.2 | 2 |
-| injury_edge | 4-2 | +1.07 | 6 |
+| form_gap | 2-1 | +0.28 | 3 |
+| injury_edge | 5-2 | +1.54 | 7 |
 | key_number | 0-1 | -1.0 | 1 |
 | low_scoring_script | 0-1 | -1.0 | 1 |
 | model_disagreement | 3-3 | -0.42 | 6 |
@@ -60,6 +61,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-13 | UCL | Atletico Madrid ML | -105 | 0.5 | WIN | MUN 0 - ATM 2 | +0.476 |
 | 2026-10-11 | NFL | Dolphins +7.5 | -108 | 0.5 | WIN | CIN 31 - MIA 24 | +0.463 |
 | 2026-10-11 | NFL | Raiders +3.5 | -105 | 1.0 | LOSS | LV 17 - NE 45 | -1.0 |
 | 2026-10-09 | NCAAF | Florida State +4 | -108 | 0.5 | LOSS | FSU 20 - LOU 44 | -0.5 |

@@ -428,6 +428,7 @@
   "book": "consensus (2.00 at 1xBet)",
   "confidence": 2,
   "date": "2026-10-13",
+  "final": "MUN 0 - ATM 2",
   "game_id": "MUN@ATM",
   "id": "2026-10-13:ucl:MUN@ATM:moneyline:home",
   "league": "ucl",
@@ -435,10 +436,10 @@
   "market": "moneyline",
   "matchup": "Manchester United @ Atletico Madrid",
   "odds": -105,
-  "result_units": null,
+  "result_units": 0.476,
   "selection": "Atletico Madrid ML",
   "side": "home",
-  "status": "pending",
+  "status": "win",
   "summary": "Man Utd missing five starters incl. their only striker and winless in four; Atletico won four straight at home form.",
   "units": 0.5,
   "win_probability": 0.55
@@ -465,5 +466,51 @@
   "summary": "95% of money on the under drove 45.5 to 43.5; FIU's elite defense and the worst offense in CUSA; every projection is 29-43.",
   "units": 1.0,
   "win_probability": 0.58
+ },
+ {
+  "angles": [
+   "situational",
+   "form_gap"
+  ],
+  "book": "BetMGM",
+  "confidence": 2,
+  "date": "2026-10-14",
+  "game_id": "BVB@BOD",
+  "id": "2026-10-14:ucl:BVB@BOD:spread:home",
+  "league": "ucl",
+  "line": 0.5,
+  "market": "spread",
+  "matchup": "Borussia Dortmund @ Bod\u00f8/Glimt",
+  "odds": -127,
+  "result_units": null,
+  "selection": "Bod\u00f8/Glimt +0.5 (Asian handicap)",
+  "side": "home",
+  "status": "pending",
+  "summary": "Bod\u00f8 won 10 straight at home on turf; Dortmund depleted in midfield; +0.5 covers win or draw.",
+  "units": 0.5,
+  "win_probability": 0.6
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "key_number"
+  ],
+  "book": "consensus",
+  "confidence": 2,
+  "date": "2026-10-14",
+  "game_id": "KSU@MOST",
+  "id": "2026-10-14:ncaaf:KSU@MOST:spread:home",
+  "league": "ncaaf",
+  "line": 3,
+  "market": "spread",
+  "matchup": "Kennesaw State Owls @ Missouri State Bears",
+  "odds": -105,
+  "result_units": null,
+  "selection": "Missouri State +3",
+  "side": "home",
+  "status": "pending",
+  "summary": "Dimers and Covers both project KSU by about 2; getting the key number 3.",
+  "units": 0.5,
+  "win_probability": 0.55
  }
 ]
