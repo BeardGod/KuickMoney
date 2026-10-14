@@ -21,6 +21,18 @@ workspace, use normal repository tools and do not use REA.
 If `mcp__rea__*` tools are already in the session, go straight to step 2. Don't
 run diagnostics before every investigation.
 
+**This repository is already set up:**
+- `.mcp.json` registers the `rea` server through `.claude/hooks/rea-mcp.sh`,
+  which pins `rea-agents@6.5.0`. `.claude/settings.json` enables it.
+- In cloud sessions, `.claude/hooks/session-start.sh` caches the package
+  and installs Ghidra 12.1.x into `~/.cache/rea/ghidra/current`. Ghidra
+  needs github.com to be reachable, which the environment's network policy
+  may block. If it isn't installed, use `inspect_with_objdump` (GNU objdump
+  is preinstalled) for native disassembly, symbols, and headers. Tell the
+  user that pseudocode needs Ghidra, Hopper, or IDA.
+- On a local machine, set `GHIDRA_INSTALL_DIR` before starting Claude Code
+  to enable Ghidra.
+
 If they are missing:
 
 1. Diagnose without changing anything:
@@ -48,6 +60,7 @@ For any other blocker, read `references/connection-and-recovery.md`.
 |---|---|
 | ASAR / extracted JS or Electron app | `analyze_javascript_application` (use `detail: "summary"` if large) |
 | Native exe/dll/so/dylib or analysis DB | `open_binary`, then `binary_overview` / `analyze_function` |
+| Native binary, no Ghidra/Hopper/IDA | `inspect_with_objdump` (`file_headers`, `symbols`, `disassemble`…) |
 | ZIP/APK/IPA/MSIX/DMG member inventory | `open_binary`, then `inspect_artifact` |
 | Android APK code / classes / methods | `inspect_android_package` |
 | .NET (managed PE/CLI) assembly | `inspect_managed_artifact` |
