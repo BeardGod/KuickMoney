@@ -243,3 +243,11 @@ def test_ucl_draw_loses_team_moneyline():
              home=Team("ARS", "ARS", score=1), away=Team("LIL", "LIL", score=1))
     assert grade_pick({"league": "ucl", "market": "moneyline", "side": "away"}, g) == "loss"
     assert grade_pick({"league": "ucl", "market": "moneyline", "side": "draw"}, g) == "win"
+
+
+def test_uel_is_soccer_three_way():
+    from kuick_analyst.espn import Game, Team
+    g = Game(id="x", league="uel", start="", state="post", status="FT",
+             home=Team("ROM", "ROM", score=0), away=Team("LYO", "LYO", score=0))
+    assert grade_pick({"league": "uel", "market": "moneyline", "side": "home"}, g) == "loss"
+    assert grade_pick({"league": "uel", "market": "moneyline", "side": "draw"}, g) == "win"
