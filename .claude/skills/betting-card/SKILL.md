@@ -26,7 +26,7 @@ This runs only when the user asks. Never create scheduled tasks, routines or cro
 4. Run `python -m kuick_analyst learn` and read all of it before you research anything. It covers calibration, closing line value, results by angle, and recent lessons.
 
 ## 2. Build the slate
-Find which leagues have games **today that have not started**: `nfl ncaaf nba wnba ncaamb ncaawb mlb ncaabase nhl mls epl unl ucl uel` (unl = UEFA Nations League, ucl = UEFA Champions League, uel = UEFA Europa League) (see `kuick_analyst/leagues.py`). For each league, collect matchups, start times, and the current spread / total / moneylines from a reputable odds page. Use the consensus line or the best price you can verify.
+Find which leagues have games **today that have not started**: `nfl ncaaf nba wnba ncaamb ncaawb mlb ncaabase nhl mls epl laliga bundesliga seriea ligue1 unl ucl uel` (unl = UEFA Nations League, ucl = UEFA Champions League, uel = UEFA Europa League) (see `kuick_analyst/leagues.py`). For each league, collect matchups, start times, and the current spread / total / moneylines from a reputable odds page. Use the consensus line or the best price you can verify.
 
 ## 3. Research
 Before you decide, research the games most likely to hold value. Check:

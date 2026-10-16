@@ -1,0 +1,42 @@
+{
+ "league": "ligue1",
+ "report_markdown": "## Slate overview\n**Le Mans v Toulouse, 2:45 PM ET.** 1X2 prices (Le Mans/draw/Toulouse): 22bet 3.11/3.60/2.40, Melbet 3.00/3.46/2.31, others 2.90/3.50/2.35. No-vig, that's Le Mans 31.6%, draw 27.3%, Toulouse 41.0% ([MightyTips](https://www.mightytips.com/football-predictions/le-mans-vs-toulouse-prediction-16-10-2026/)). The teams are level on 6 points after 6 games (14th and 15th, GD -2 each).\n\n## Best bets\n### Le Mans draw-no-bet (Asian handicap 0): take +110 (2.10) or better, 0.5 units\n- **Win probability 54% (draws refunded) vs. 47.6% implied at +110.** The fair DNB price from 22bet's 1X2 is about 2.25.\n- **Two independent models both rate Le Mans higher than the market:** Sports Mole has 37.7% / 31.0% / 31.3% ([Sports Mole](https://www.sportsmole.co.uk/football/ligue-1/le-mans-vs-toulouse_game_260023.html)) and Foresportia 39.0% / 27.3% / 33.7%, with xG of 1.47 vs. 1.34 ([Foresportia](https://www.foresportia.com/en/prediction/ligue-1/le-mans-fc-toulouse-fc-2026-10-16/)). The market has Le Mans at 31.6%. This meets the Oct 9 rule of two projections.\n- **Toulouse:** they've kept 1 clean sheet in their last 14 competitive games, captain Rasmus Nicolaisen has a calf knock, and Abu Francis is doubtful. **Le Mans:** Bourabaa is out, Rossignol and Colas are doubtful, and Sidib\u00e9 is back from suspension ([Sports Mole preview](https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html)).\n- **Why DNB instead of the moneyline:** both models put the draw at 27-31%, and the most likely score is 1-1. The Oct 5 lesson (a draw beat our Northern Ireland bet) and the Oct 14 Bod\u00f8 win point to draw-protected markets.\n- **Risk:** Foresportia rates its own confidence as low (40%). Le Mans just lost 3-1 to PSG. If DNB isn't offered at +110 or better, Le Mans or draw (1X) at 1.62 or better is the fallback. Don't take the moneyline.\n\n## Leans & passes\n- **Both teams to score (1.57):** pass. It's the previews' consensus tip, but the price is short.\n\n## Risks\n- Check lineups for Nicolaisen and Francis.",
+ "sources": [
+  {
+   "url": "https://www.mightytips.com/football-predictions/le-mans-vs-toulouse-prediction-16-10-2026/",
+   "title": "MightyTips Le Mans-Toulouse odds"
+  },
+  {
+   "url": "https://www.sportsmole.co.uk/football/ligue-1/le-mans-vs-toulouse_game_260023.html",
+   "title": "Sports Mole model"
+  },
+  {
+   "url": "https://www.foresportia.com/en/prediction/ligue-1/le-mans-fc-toulouse-fc-2026-10-16/",
+   "title": "Foresportia model"
+  },
+  {
+   "url": "https://www.sportsmole.co.uk/football/le-mans/preview/le-mans-vs-toulouse-prediction-team-news-lineups_606855.html",
+   "title": "Sports Mole team news"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "TFC@LEM",
+   "matchup": "Toulouse @ Le Mans",
+   "market": "spread",
+   "side": "home",
+   "selection": "Le Mans draw-no-bet (AH 0)",
+   "line": 0,
+   "odds": 110,
+   "book": "min price; fair ~+125 from 22bet 1X2",
+   "win_probability": 0.54,
+   "units": 0.5,
+   "confidence": 2,
+   "summary": "Two models (Sports Mole, Foresportia) put Le Mans at 38-39% vs 31.6% market; draw refunded.",
+   "angles": [
+    "model_disagreement",
+    "situational"
+   ]
+  }
+ ]
+}

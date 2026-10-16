@@ -515,5 +515,28 @@
   "summary": "Dimers and Covers both project KSU by about 2; getting the key number 3.",
   "units": 0.5,
   "win_probability": 0.55
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "situational"
+  ],
+  "book": "min price; fair ~+125 from 22bet 1X2",
+  "confidence": 2,
+  "date": "2026-10-16",
+  "game_id": "TFC@LEM",
+  "id": "2026-10-16:ligue1:TFC@LEM:spread:home",
+  "league": "ligue1",
+  "line": 0,
+  "market": "spread",
+  "matchup": "Toulouse @ Le Mans",
+  "odds": 110,
+  "result_units": null,
+  "selection": "Le Mans draw-no-bet (AH 0)",
+  "side": "home",
+  "status": "pending",
+  "summary": "Two models (Sports Mole, Foresportia) put Le Mans at 38-39% vs 31.6% market; draw refunded.",
+  "units": 0.5,
+  "win_probability": 0.54
  }
 ]

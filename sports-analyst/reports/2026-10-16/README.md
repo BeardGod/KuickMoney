@@ -4,12 +4,18 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| LIGUE1 | Toulouse @ Le Mans | Le Mans draw-no-bet (AH 0) | +110 | min price; fair ~+125 from 22bet 1X2 | 0.5 | 54.0 | 47.6 | 2 |
 
 ## League reports
 
+- [Bundesliga](bundesliga.md) - 0 pick(s)
+- [La Liga](laliga.md) - 0 pick(s)
+- [Ligue 1](ligue1.md) - 1 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
+- [Serie A](seriea.md) - 0 pick(s)
 
 ## Track record
 
