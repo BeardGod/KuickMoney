@@ -12,6 +12,7 @@
 
 - [Bundesliga](bundesliga.md) - 0 pick(s)
 - [La Liga](laliga.md) - 0 pick(s)
+- [Liga MX](ligamx.md) - 0 pick(s)
 - [Ligue 1](ligue1.md) - 1 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
