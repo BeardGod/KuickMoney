@@ -1,0 +1,110 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "## Slate overview\nWeek 7 Saturday. Headline lines ([CBS](https://cbssports.com/betting/news/college-football-score-predictions-picks-odds-lines-bets-week-7-2026)): Florida @ Texas -11, Miss State @ LSU -15.5, Ohio State @ Indiana +3.5, Auburn @ Georgia -19.5/-20.5, Alabama @ Tennessee +8.5 (from -1.5), Missouri @ Ole Miss -5.5, FSU @ Miami -21.5 (from -16.5), Penn State @ Michigan -6.5/-7, Notre Dame @ BYU +10.5, Utah @ Colorado +14.5, Nebraska @ Oregon -7.5, Wisconsin @ UCLA -2.5. Splits and moves from [CLEATZ](https://cleatz.com/college-football-week-7-betting-report-public-money-line-moves-market-signals/).\n\n**Feedback loop:** we're 10-12 and 3-6 in NCAAF. The Oct 14 win came from two independent projections agreeing, and this card applies the same rule. Every pick below has at least two independent models or markets on its side. Big favorites have burned us when the underdog can't score (Oct 9), so stakes stay at half a unit.\n\n## Best bets\n### Penn State +6.5 (-103; +7 at DraftKings if available) at Michigan: 0.5 units\n- **Win probability 56% vs. 50.7% implied.**\n- **Two independent models:** SportsLine has Penn State covering in well over 60% of simulations ([CBS](https://cbssports.com/betting/news/college-football-odds-lines-picks-predictions-best-bets-week-7-2026)). Blue Chip has Michigan -3.1, which is 3.9 points toward Penn State ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-penn-state-michigan/)). Kalshi's price implies about Michigan -5.3. Dimers (Michigan 26-18) disagrees ([Dimers](https://www.dimers.com/cfb/predictions/2026_7_mich_psu)).\n- **Michigan's offense is broken:** 180 total yards vs. Minnesota, Underwood went 10/21 for 101 yards and 2 INTs, and they were outgained by about 150 yards vs. Iowa. Penn State averages 30+ points, close to 6 yards per play, and ranks 18th in adjusted defensive EPA ([Covers](https://www.covers.com/ncaaf/penn-state-vs-michigan-prediction-picks-odds-oct-17-2026), [Field Level Media](https://fieldlevelmedia.com/ncaaf/penn-state-michigan-face-off-in-matchup-of-skidding-teams/)).\n- **Market:** 75% of bets and 96% of handle are on Penn State.\n- **Risk:** Penn State has lost three straight, and Michigan is coming off a bye.\n\n### BYU +10.5 (-110) vs. Notre Dame: 0.5 units\n- **Win probability 55% vs. 52.4% implied** (about 3 points after accounting for our overconfidence).\n- **Two independent numbers:** Blue Chip has ND -8.2, Kalshi's price implies ND -8.4, and the market is -10.5 ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-notre-dame-byu/)). **Sharp money:** BYU's moneyline has 74% of handle on 10% of tickets ([CLEATZ](https://cleatz.com/college-football-week-7-betting-report-public-money-line-moves-market-signals/)).\n- **Notre Dame's injury list is long:** WR Porter, OL Jagusah and Terek, DL Burgess and Hola, LB Kia, DB Smith and S B. Johnson are all OUT, with Onye and Moore questionable. BYU is without RBs LJ Martin and Damuni, and Glasker is questionable ([UHND](https://www.uhnd.com/football/2026/10/16/what-though-the-odds-notre-dame-football-betting-info-for-the-byu-game/)).\n- BYU is 5-0 ATS and 5-0 straight up, at home, at altitude, with ND traveling two time zones west. **Oct 9 lesson check:** BYU's offense can score (Bachmeier threw for 329 vs. ISU), unlike Iowa State's.\n\n### Auburn +20.5 (-102) at Georgia: 0.5 units\n- **Win probability 55% vs. 50.5% implied.**\n- **Three of four signals say the number is too big:** SportsLine has Auburn covering nearly 60% of simulations ([CBS](https://cbssports.com/betting/news/college-football-odds-lines-picks-predictions-best-bets-week-7-2026)), WagerTalk projects Georgia 38-20 (an 18-point margin) ([WagerTalk](https://www.wagertalk.com/news/college-football/auburn-vs-georgia-prediction-picks-odds-october-17-2026/)), and Kalshi implies about Georgia -15.4. Blue Chip (Georgia -21.9) is the dissent ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-auburn-georgia/)).\n- **Situation:** Auburn is off a bye, and Georgia is off a physical game against Alabama. The line went from 18.5 to 20.5, and we're taking the extra points.\n- **Risk:** Georgia scores 46.2 points per game (1st), Auburn scores only 26.8 (103rd), and Auburn is without LB Xavier Atkins. Take +19.5 or better.\n\n## Leans & passes\n- **Alabama -8.5 at Tennessee, Miami -21.5:** pass. Moves of 7 and 5 points are already made, and laying them now is chasing.\n- **Nebraska +7.5 at Oregon:** pass. There's heavy Nebraska handle, but we couldn't get two projections.\n- **UCLA -2.5 and under 43.5:** pass. It's one model (SportsLine), and unders are paused (0-3).\n- **Unders with heavy handle (PSU/Mich 42.5, UW/PUR, GaSo/ODU):** pass. Unders are paused.\n\n## Risks\n- Late injury news, especially Glasker for BYU and Frazier/Bowens for Georgia.",
+ "sources": [
+  {
+   "url": "https://cbssports.com/betting/news/college-football-odds-lines-picks-predictions-best-bets-week-7-2026",
+   "title": "CBS/SportsLine model picks"
+  },
+  {
+   "url": "https://cbssports.com/betting/news/college-football-score-predictions-picks-odds-lines-bets-week-7-2026",
+   "title": "CBS Week 7 lines"
+  },
+  {
+   "url": "https://cleatz.com/college-football-week-7-betting-report-public-money-line-moves-market-signals/",
+   "title": "CLEATZ Week 7 betting report"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-penn-state-michigan/",
+   "title": "Blue Chip PSU-MICH"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_7_mich_psu",
+   "title": "Dimers PSU-MICH"
+  },
+  {
+   "url": "https://www.covers.com/ncaaf/penn-state-vs-michigan-prediction-picks-odds-oct-17-2026",
+   "title": "Covers PSU-MICH"
+  },
+  {
+   "url": "https://fieldlevelmedia.com/ncaaf/penn-state-michigan-face-off-in-matchup-of-skidding-teams/",
+   "title": "Field Level Media PSU-MICH"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-notre-dame-byu/",
+   "title": "Blue Chip ND-BYU"
+  },
+  {
+   "url": "https://www.uhnd.com/football/2026/10/16/what-though-the-odds-notre-dame-football-betting-info-for-the-byu-game/",
+   "title": "UHND ND-BYU injuries"
+  },
+  {
+   "url": "https://www.wagertalk.com/news/college-football/auburn-vs-georgia-prediction-picks-odds-october-17-2026/",
+   "title": "WagerTalk AUB-UGA"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week7/2026-10-17-auburn-georgia/",
+   "title": "Blue Chip AUB-UGA"
+  },
+  {
+   "url": "https://www.fanduel.com/research/georgia-vs-auburn-college-football-odds-picks-best-bets-for-10-17-2026",
+   "title": "FanDuel/numberFire AUB-UGA"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "PSU@MICH",
+   "matchup": "Penn State Nittany Lions @ Michigan Wolverines",
+   "market": "spread",
+   "side": "away",
+   "selection": "Penn State +6.5",
+   "line": 6.5,
+   "odds": -103,
+   "book": "consensus (+7 at DraftKings)",
+   "win_probability": 0.56,
+   "units": 0.5,
+   "confidence": 3,
+   "summary": "SportsLine and Blue Chip both have Michigan's margin well under 6.5; Michigan offense broken.",
+   "angles": [
+    "model_disagreement"
+   ]
+  },
+  {
+   "game_id": "ND@BYU",
+   "matchup": "Notre Dame Fighting Irish @ BYU Cougars",
+   "market": "spread",
+   "side": "home",
+   "selection": "BYU +10.5",
+   "line": 10.5,
+   "odds": -110,
+   "book": "DraftKings",
+   "win_probability": 0.55,
+   "units": 0.5,
+   "confidence": 2,
+   "summary": "Blue Chip and Kalshi near ND -8; sharp handle on BYU; Notre Dame missing eight players.",
+   "angles": [
+    "model_disagreement",
+    "injury_edge",
+    "sharp_move"
+   ]
+  },
+  {
+   "game_id": "AUB@UGA",
+   "matchup": "Auburn Tigers @ Georgia Bulldogs",
+   "market": "spread",
+   "side": "away",
+   "selection": "Auburn +20.5",
+   "line": 20.5,
+   "odds": -102,
+   "book": "consensus",
+   "win_probability": 0.55,
+   "units": 0.5,
+   "confidence": 2,
+   "summary": "SportsLine, WagerTalk and Kalshi all imply a margin under 20.5; Auburn off a bye vs Georgia off Alabama.",
+   "angles": [
+    "model_disagreement",
+    "situational"
+   ]
+  }
+ ]
+}

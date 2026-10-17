@@ -4,12 +4,13 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 10-11-0 | -4.01 | -23.6% | 21 |
+| All | 10-12-0 | -4.51 | -25.7% | 22 |
 
 ## By league
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
+| ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | ncaaf | 3-6-0 | -3.65 | -56.1% | 9 |
 | nfl | 3-3-0 | -0.73 | -13.4% | 6 |
@@ -21,10 +22,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 4-3-0 | -0.1 | -1.7% | 7 |
-| spread | 6-5-0 | -0.91 | -10.7% | 11 |
+| spread | 6-6-0 | -1.41 | -15.7% | 12 |
 | total | 0-3-0 | -3.0 | -100.0% | 3 |
 
-Pending picks: 1
+Pending picks: 3
 
 ## Closing line value
 
@@ -32,12 +33,12 @@ Beat the closing line on **22.2%** of 9 picks; average +0.28 points and -0.07% i
 
 ## Calibration
 
-Predicted 56.2% vs. actual 47.6% over 21 bets (Brier 0.252). Edge factor: not applied until 30 graded picks.
+Predicted 56.1% vs. actual 45.5% over 22 bets (Brier 0.254). Edge factor: not applied until 30 graded picks.
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 1 | 45.0% | 0.0% |
-| 50%-55% | 2 | 54.2% | 50.0% |
+| 50%-55% | 3 | 54.2% | 33.3% |
 | 55%-60% | 15 | 56.4% | 46.7% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
@@ -49,12 +50,12 @@ Predicted 56.2% vs. actual 47.6% over 21 bets (Brier 0.252). Edge factor: not ap
 | injury_edge | 5-2 | +1.54 | 7 |
 | key_number | 1-1 | -0.52 | 2 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 4-3 | +0.06 | 7 |
+| model_disagreement | 4-4 | -0.44 | 8 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 1-4 | -2.61 | 5 |
 | qb_change | 0-2 | -2.0 | 2 |
 | sharp_move | 3-2 | -0.17 | 5 |
-| situational | 1-0 | +0.39 | 1 |
+| situational | 1-1 | -0.11 | 2 |
 
 Lessons log: `data/lessons.md`
 
@@ -62,6 +63,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-16 | LIGUE1 | Le Mans draw-no-bet (AH 0) | +110 | 0.5 | LOSS | TFC 3 - LEM 0 | -0.5 |
 | 2026-10-14 | NCAAF | Missouri State +3 | -105 | 0.5 | WIN | KSU 21 - MOST 24 | +0.476 |
 | 2026-10-14 | UCL | Bodø/Glimt +0.5 (Asian handicap) | -127 | 0.5 | WIN | BVB 0 - BOD 1 | +0.394 |
 | 2026-10-13 | NCAAF | Under 43.5 | -108 | 1.0 | LOSS | FIU 24 - JXST 27 | -1.0 |
