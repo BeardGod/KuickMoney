@@ -50,6 +50,16 @@ Big moves: HOU/JAX flipped to JAX -3. CAR/PHI went from PHI -1.5 to CAR -3.5 (Hu
 ## Risks
 - Check inactives 90 minutes before kickoff: Metcalf, Ramsey, A.J. Brown and the Chargers' OL.
 
+## Deep dive: Cowboys @ Packers (SNF, 8:20 PM ET): PASS on side and total
+**Line:** GB opened -3 and is now -1/-1.5 (ML GB -118 / DAL +101). The total opened 50.5-51.5 and is now 52.5-53.5 ([Rotowire](https://www.rotowire.com/football/article/nfl-week-6-odds-biggest-line-moves-betting-splits-and-key-injuries-140948), [Yahoo/BetMGM](https://sports.yahoo.com/nfl/betting/article/everything-to-know-for-betting-nfl-week-6-odds-sharp-action-public-betting-splits-and-big-bets-172246429.html)).
+**Splits (Oct 18):** spread DAL 57% of bets / 67% of money. Moneyline DAL 43% of bets / **88% of money**. Total over 64% of bets / 85% of money ([SportsBettingDime](https://www.sportsbettingdime.com/news/nfl/snf-week-6-cowboys-vs-packers-public-betting-splits/)).
+**Injuries:** CeeDee Lamb is off the report with no limitations ([SI](https://www.si.com/betting/ceedee-lamb-injury-update-betting-impact-for-cowboys-vs-packers-in-nfl-week-6-2026)). Green Bay is without DTs Hargrave and Ford and CB St-Juste, with DT Riley doubtful and CB Cisse, G Banks and C/G Monk questionable ([Packers.com](https://www.packers.com/news/packers-list-five-questionable-rule-out-four-vs-cowboys-week-6-injury-report-2026)). Dallas is without CB Durant and OT Shelton, with Overshown and Joey Porter Jr. questionable.
+**Projections:** Dimers GB 26-25, GB 55.8% to win, under 53.5 at 53.4% ([Dimers](https://dimers.com/nfl/news/dallas-cowboys-vs-green-bay-packers-prediction-week-6-2026-ac)). Covers AI GB 26-24, total 50 ([Covers AI](https://www.covers.com/nfl/cowboys-vs-packers-ai-predictions-week-6-2026)). SportsLine projects 54 total with the over hitting in 52% of simulations, and one side of the spread at 60% (hidden) ([CBS](https://www.cbssports.com/betting/news/cowboys-packers-prediction-odds-time-week-6-sunday-night-football-picks/)).
+
+- **Side:** pass. The models have GB by 1-2, right at the -1/-1.5 line. Sharp moneyline money on Dallas runs against the models, so the signals conflict.
+- **Total:** lean **Under 53.5**, no bet. Two models sit under (Covers 50, Dimers 53.4% under), and 53.5 is above the opener, which meets the Oct 13 rule of only taking unders above the opening number. But SportsLine projects 54, Dallas has gone over in 9 of its last 10, and Green Bay's interior DL and secondary are depleted. The Oct 8 lesson says weakened defenses mean more points, not fewer. That's an estimated 54-55% at -110, under our 3-point bar, and we're 0-3 on totals. Only worth a look at 54.5 or higher.
+
+
 ## Sources
 
 - [Rotowire Week 6 moves](https://www.rotowire.com/football/article/nfl-week-6-odds-biggest-line-moves-betting-splits-and-key-injuries-140948)
@@ -58,5 +68,11 @@ Big moves: HOU/JAX flipped to JAX -3. CAR/PHI went from PHI -1.5 to CAR -3.5 (Hu
 - [Covers AI Week 6](https://www.covers.com/nfl/ai-predictions-week-6-2026)
 - [SportsLine Week 6 picks](https://www.cbssports.com/betting/news/nfl-odds-spreads-picks-predictions-lines-best-bets-week-6-2026/)
 - [CBS AI Week 6](https://www.cbssports.com/betting/news/nfl-picks-ai-score-predictions-best-bets-projections-for-every-week-6-2026-game/)
+- [SBD SNF splits](https://www.sportsbettingdime.com/news/nfl/snf-week-6-cowboys-vs-packers-public-betting-splits/)
+- [Dimers DAL-GB](https://dimers.com/nfl/news/dallas-cowboys-vs-green-bay-packers-prediction-week-6-2026-ac)
+- [Covers AI DAL-GB](https://www.covers.com/nfl/cowboys-vs-packers-ai-predictions-week-6-2026)
+- [CBS/SportsLine SNF](https://www.cbssports.com/betting/news/cowboys-packers-prediction-odds-time-week-6-sunday-night-football-picks/)
+- [Packers injury report](https://www.packers.com/news/packers-list-five-questionable-rule-out-four-vs-cowboys-week-6-injury-report-2026)
+- [SI Lamb status](https://www.si.com/betting/ceedee-lamb-injury-update-betting-impact-for-cowboys-vs-packers-in-nfl-week-6-2026)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

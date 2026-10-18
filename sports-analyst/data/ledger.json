@@ -616,6 +616,29 @@
  },
  {
   "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "Novig",
+  "confidence": 2,
+  "date": "2026-10-18",
+  "game_id": "SUN@BOU",
+  "id": "2026-10-18:epl:SUN@BOU:moneyline:home",
+  "league": "epl",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Sunderland @ Bournemouth",
+  "odds": 117,
+  "result_units": null,
+  "selection": "Bournemouth ML",
+  "side": "home",
+  "status": "pending",
+  "summary": "Opta, Sports4cast and Dimers all above market; Sunderland missing Ballard, Mundle, Meunier, Isidor doubtful.",
+  "units": 0.5,
+  "win_probability": 0.5
+ },
+ {
+  "angles": [
    "sharp_move",
    "model_disagreement",
    "key_number"
@@ -705,28 +728,5 @@
   "summary": "SportsLine and Covers AI (27-17) both back NE; line fell from -10.",
   "units": 0.5,
   "win_probability": 0.56
- },
- {
-  "angles": [
-   "model_disagreement",
-   "injury_edge"
-  ],
-  "book": "Novig",
-  "confidence": 2,
-  "date": "2026-10-18",
-  "game_id": "SUN@BOU",
-  "id": "2026-10-18:epl:SUN@BOU:moneyline:home",
-  "league": "epl",
-  "line": null,
-  "market": "moneyline",
-  "matchup": "Sunderland @ Bournemouth",
-  "odds": 117,
-  "result_units": null,
-  "selection": "Bournemouth ML",
-  "side": "home",
-  "status": "pending",
-  "summary": "Opta, Sports4cast and Dimers all above market; Sunderland missing Ballard, Mundle, Meunier, Isidor doubtful.",
-  "units": 0.5,
-  "win_probability": 0.5
  }
 ]
