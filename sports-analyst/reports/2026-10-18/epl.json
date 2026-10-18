@@ -1,0 +1,50 @@
+{
+ "league": "epl",
+ "report_markdown": "## Slate overview\nSunday Premier League. Model probabilities are home / draw / away.\n- **Bournemouth v Sunderland:** Opta 50.0 / 25.2 / 24.8 ([The Analyst](https://theanalyst.com/articles/premier-league-match-predictions)), Sports4cast 56 / 24 / 20 ([Sports4cast](https://sports4cast.com/4casts/football4cast/english-football-predictions/)), Dimers 46.9 / 25.4 / 27.7. Market: BOU +117, SUN +270 ([Dimers](https://www.dimers.com/epl/news/bournemouth-vs-sunderland-prediction-10-18-2026-ac)).\n- **Brighton v Palace:** Opta 59%, S4C 58% Brighton.\n- **Leeds v Man Utd:** 22bet 2.43 / 3.70 / 3.00, which is 40.6 / 26.6 / 32.8 no-vig. Opta 41.7 / 26.7 / 31.6 and S4C 38 / 29 / 33 both match the market ([MightyTips](https://www.mightytips.com/football-predictions/leeds-vs-manchester-united-prediction-18-10-2026/)).\n- **Forest v Arsenal:** Arsenal -156 (61%). Opta 58.3, S4C 63 and Dimers 66.6 average about the market ([Dimers](https://www.dimers.com/epl/news/nottingham-forest-vs-arsenal-prediction-10-18-2026-ac)).\n\n## Best bets\n### Bournemouth ML (+117) vs. Sunderland: 0.5 units\n- **Win probability 50% vs. 46.1% implied** (about 44% no-vig). All three models (Opta, Sports4cast, Dimers) put Bournemouth between 47% and 56%.\n- **Team-news reason (Oct 16 lesson):** Sunderland are without CB Dan Ballard and Romaine Mundle, Meunier misses a second game, and top scorer Wilson Isidor is doubtful. They needed a 93rd-minute winner in Portugal on Thursday and have lost three straight league games. Bournemouth beat Sturm 3-0 at home midweek. They're without Alex Scott, but Adli and Kluivert are back ([Sports Mole](https://www.sportsmole.co.uk/football/bournemouth/preview/bournemouth-vs-sunderland-prediction-team-news-lineups_607069.html)).\n- **Risk:** Bournemouth are still winless in the league, and Sports Mole predicts 2-2 with the draw at about 25%. A draw-no-bet price around +105 or better would be the safer version.\n\n## Leans & passes\n- **Leeds v Man Utd, Forest v Arsenal:** the models match the market. **Brighton v Palace:** we couldn't verify a price.\n\n## Risks\n- Check whether Isidor starts.",
+ "sources": [
+  {
+   "url": "https://theanalyst.com/articles/premier-league-match-predictions",
+   "title": "Opta supercomputer"
+  },
+  {
+   "url": "https://sports4cast.com/4casts/football4cast/english-football-predictions/",
+   "title": "Sports4cast"
+  },
+  {
+   "url": "https://www.dimers.com/epl/news/bournemouth-vs-sunderland-prediction-10-18-2026-ac",
+   "title": "Dimers Bournemouth-Sunderland"
+  },
+  {
+   "url": "https://www.sportsmole.co.uk/football/bournemouth/preview/bournemouth-vs-sunderland-prediction-team-news-lineups_607069.html",
+   "title": "Sports Mole team news"
+  },
+  {
+   "url": "https://www.mightytips.com/football-predictions/leeds-vs-manchester-united-prediction-18-10-2026/",
+   "title": "MightyTips Leeds-Man Utd"
+  },
+  {
+   "url": "https://www.dimers.com/epl/news/nottingham-forest-vs-arsenal-prediction-10-18-2026-ac",
+   "title": "Dimers Forest-Arsenal"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "SUN@BOU",
+   "matchup": "Sunderland @ Bournemouth",
+   "market": "moneyline",
+   "side": "home",
+   "selection": "Bournemouth ML",
+   "line": null,
+   "odds": 117,
+   "book": "Novig",
+   "win_probability": 0.5,
+   "units": 0.5,
+   "confidence": 2,
+   "summary": "Opta, Sports4cast and Dimers all above market; Sunderland missing Ballard, Mundle, Meunier, Isidor doubtful.",
+   "angles": [
+    "model_disagreement",
+    "injury_edge"
+   ]
+  }
+ ]
+}
