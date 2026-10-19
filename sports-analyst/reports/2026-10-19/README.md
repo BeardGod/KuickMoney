@@ -7,13 +7,14 @@
 | League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
 |---|---|---|---|---|---|---|---|---|
 | EPL | Coventry City @ Tottenham Hotspur | Coventry +0.5 (double chance X2) | +130 | min price; Kalshi implies ~36-40% | 0.5 | 47.0 | 43.5 | 2 |
+| NFL | Washington Commanders @ San Francisco 49ers | Under 52.5 | -110 | consensus | 0.25 | 54.0 | 52.4 | 1 |
 
 ## League reports
 
 - [English Premier League](epl.md) - 1 pick(s)
 - [La Liga](laliga.md) - 0 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
-- [NFL](nfl.md) - 0 pick(s)
+- [NFL](nfl.md) - 1 pick(s)
 - [Serie A](seriea.md) - 0 pick(s)
 
 ## Track record

@@ -756,5 +756,28 @@
   "summary": "Opta (24%) and Squawka (29%) rate Coventry far above 15% market; Spurs winless and missing four attackers/mids.",
   "units": 0.5,
   "win_probability": 0.47
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "public_fade"
+  ],
+  "book": "consensus",
+  "confidence": 1,
+  "date": "2026-10-19",
+  "game_id": "WAS@SF",
+  "id": "2026-10-19:nfl:WAS@SF:total:under",
+  "league": "nfl",
+  "line": 52.5,
+  "market": "total",
+  "matchup": "Washington Commanders @ San Francisco 49ers",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Under 52.5",
+  "side": "under",
+  "status": "pending",
+  "summary": "Total inflated 3 points over the opener; SF WR room depleted; wind; Covers model 49.4.",
+  "units": 0.25,
+  "win_probability": 0.54
  }
 ]
