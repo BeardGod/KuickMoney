@@ -4,16 +4,17 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 13-12-0 | -3.08 | -16.2% | 25 |
+| All | 15-14-1 | -3.04 | -14.5% | 30 |
 
 ## By league
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
+| epl | 1-0-0 | +0.58 | 117.0% | 1 |
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | ncaaf | 6-6-0 | -2.21 | -27.7% | 12 |
-| nfl | 3-3-0 | -0.73 | -13.4% | 6 |
+| nfl | 4-5-1 | -1.28 | -18.3% | 10 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
@@ -21,11 +22,11 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| moneyline | 4-3-0 | -0.1 | -1.7% | 7 |
-| spread | 9-6-0 | +0.02 | 0.2% | 15 |
+| moneyline | 5-3-0 | +0.49 | 8.1% | 8 |
+| spread | 10-8-1 | -0.52 | -4.4% | 19 |
 | total | 0-3-0 | -3.0 | -100.0% | 3 |
 
-Pending picks: 5
+Pending picks: 1
 
 ## Closing line value
 
@@ -33,13 +34,13 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 56.0% vs. actual 52.0% over 25 bets (Brier 0.247). Edge factor: not applied until 30 graded picks.
+Predicted 55.8% vs. actual 51.7% over 29 bets (Brier 0.25). Edge factor: not applied until 30 graded picks.
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 1 | 45.0% | 0.0% |
-| 50%-55% | 3 | 54.2% | 33.3% |
-| 55%-60% | 18 | 56.2% | 55.6% |
+| 50%-55% | 4 | 53.1% | 50.0% |
+| 55%-60% | 21 | 56.1% | 52.4% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
@@ -47,14 +48,14 @@ Predicted 56.0% vs. actual 52.0% over 25 bets (Brier 0.247). Edge factor: not ap
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 3-1 | +0.67 | 4 |
-| injury_edge | 6-2 | +2.0 | 8 |
-| key_number | 1-1 | -0.52 | 2 |
+| injury_edge | 7-2 | +2.58 | 10 |
+| key_number | 1-2 | -1.02 | 3 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 7-4 | +0.99 | 11 |
+| model_disagreement | 9-6 | +1.03 | 16 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 1-4 | -2.61 | 5 |
 | qb_change | 0-2 | -2.0 | 2 |
-| sharp_move | 4-2 | +0.28 | 6 |
+| sharp_move | 4-4 | -0.72 | 8 |
 | situational | 2-1 | +0.38 | 3 |
 
 Lessons log: `data/lessons.md`
@@ -63,6 +64,11 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-18 | NFL | Patriots -7 | -110 | 0.5 | PUSH | NYJ 19 - NE 26 | +0.0 |
+| 2026-10-18 | NFL | Buccaneers +3 | -110 | 0.5 | LOSS | PIT 26 - TB 19 | -0.5 |
+| 2026-10-18 | NFL | Cardinals +12.5 | -110 | 0.5 | WIN | ARI 18 - LAR 16 | +0.455 |
+| 2026-10-18 | NFL | Chargers +7.5 | -110 | 0.5 | LOSS | LAC 6 - KC 22 | -0.5 |
+| 2026-10-18 | EPL | Bournemouth ML | +117 | 0.5 | WIN | SUN 0 - BOU 2 | +0.585 |
 | 2026-10-17 | NCAAF | Auburn +20.5 | -102 | 0.5 | WIN | AUB 27 - UGA 24 | +0.49 |
 | 2026-10-17 | NCAAF | BYU +10.5 | -110 | 0.5 | WIN | ND 24 - BYU 28 | +0.455 |
 | 2026-10-17 | NCAAF | Penn State +6.5 | -103 | 0.5 | WIN | PSU 18 - MICH 21 | +0.485 |
