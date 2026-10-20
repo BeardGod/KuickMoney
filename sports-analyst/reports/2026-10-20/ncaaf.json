@@ -1,0 +1,23 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "## Slate overview\nThree Tuesday games ([Covers](https://www.covers.com/picks/ncaaf)):\n- **MTSU @ FIU:** FIU -10.5. Covers projects 27.7-16.9.\n- **Missouri State @ Delaware:** DEL -2.5/-3.5. Covers projects 28.1-24.2.\n- **South Alabama @ Marshall:** USA -2.5, total 64-65.5. Covers projects 33.6-30.8.\n\n## Best bets\nNone.\n\n## Leans & passes\n- **Delaware -3:** pass. Blue Chip has DEL -8 but flags it as a \"major disagreement, verify inputs\" ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-20-missouri-state-delaware/)). numberFire's 59.7% ([FanDuel](https://www.fanduel.com/research/delaware-vs-missouri-state-college-football-odds-picks-best-bets-for-10-20-2026)), Covers's 3.8 and Kalshi's -2.2 all sit at the market.\n- **South Alabama -2.5:** pass. Blue Chip has USA -5.5 ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-20-south-alabama-marshall/)), but Covers (2.9) and Kalshi (-1.8) match the market. That's only one model.\n- **USA/Marshall over 64.5:** pass. Both defenses are leaky, but the number already reflects it.\n- **FIU -10.5:** pass. The projection matches the line.\n\n## Risks\nN/A",
+ "sources": [
+  {
+   "url": "https://www.covers.com/picks/ncaaf",
+   "title": "Covers NCAAF"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-20-missouri-state-delaware/",
+   "title": "Blue Chip MOSU-DEL"
+  },
+  {
+   "url": "https://www.fanduel.com/research/delaware-vs-missouri-state-college-football-odds-picks-best-bets-for-10-20-2026",
+   "title": "FanDuel/numberFire MOSU-DEL"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-20-south-alabama-marshall/",
+   "title": "Blue Chip USA-MRSH"
+  }
+ ],
+ "picks": []
+}
