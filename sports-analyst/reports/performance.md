@@ -26,7 +26,7 @@
 | spread | 10-9-1 | -1.02 | -8.2% | 20 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 0
+Pending picks: 1
 
 ## Closing line value
 
@@ -34,7 +34,7 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.4% vs. actual 51.6% over 31 bets (Brier 0.247). Edge factor: **0.3** (the analyst scales its estimated edge by this).
+Predicted 55.4% vs. actual 51.6% over 31 bets (Brier 0.247). Edge factor: **0.5** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|

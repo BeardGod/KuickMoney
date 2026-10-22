@@ -21,6 +21,8 @@ None.
 ## Risks
 N/A
 
+**Rerun (9 AM) with edge factor 0.5:** still no bets. The projections match the lines.
+
 ## Sources
 
 - [Covers NCAAF](https://www.covers.com/picks/ncaaf)

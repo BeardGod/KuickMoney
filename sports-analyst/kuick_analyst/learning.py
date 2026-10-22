@@ -31,6 +31,11 @@ ANGLES: dict[str, str] = {
 
 BUCKETS = [(0.0, 0.50), (0.50, 0.55), (0.55, 0.60), (0.60, 0.65), (0.65, 1.01)]
 MIN_SAMPLE_TO_ADJUST = 30
+# Below this many graded picks the sample is too noisy to shrink edges hard,
+# so the edge factor is floored at EARLY_FACTOR_FLOOR instead of FACTOR_FLOOR.
+FULL_TRUST_SAMPLE = 50
+EARLY_FACTOR_FLOOR = 0.5
+FACTOR_FLOOR = 0.3
 
 
 def graded(picks: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -93,7 +98,8 @@ def calibration(picks: list[dict[str, Any]]) -> dict[str, Any]:
     # Edge shrink factor: how much of our claimed edge over 50% actually showed up.
     factor = None
     if n >= MIN_SAMPLE_TO_ADJUST and pred_edge > 0:
-        factor = round(min(1.2, max(0.3, sum(y - 0.5 for _, y in rows) / pred_edge)), 2)
+        floor = EARLY_FACTOR_FLOOR if n < FULL_TRUST_SAMPLE else FACTOR_FLOOR
+        factor = round(min(1.2, max(floor, sum(y - 0.5 for _, y in rows) / pred_edge)), 2)
     return {"n": n, "predicted": round(predicted, 3), "actual": round(actual, 3),
             "brier": round(sum((q - y) ** 2 for q, y in rows) / n, 3),
             "edge_factor": factor, "buckets": buckets}

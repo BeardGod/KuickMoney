@@ -21,6 +21,8 @@ None.
 ## Risks
 N/A
 
+**Rerun (9 AM) with edge factor 0.5:** still no bets. The largest edges (Dimers 76ers ML 63.5% becomes 56.8% vs. 59% implied, and Nuggets +8.5 54.6% becomes 52.3% vs. 51%) don't clear, and the others rest on a single model or none.
+
 ## Sources
 
 - [tips.gg UEL MD3](https://tips.gg/article/betting-digest-europa-league-2026-10-22/)

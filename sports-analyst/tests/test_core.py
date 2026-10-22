@@ -186,7 +186,10 @@ def test_calibration_and_edge_factor():
     assert c["n"] == 2 and c["actual"] == 0.5 and c["edge_factor"] is None
     # 40 picks at 60% that won only half the time: the claimed edge did not show up.
     many = [{"status": "win" if i % 2 else "loss", "win_probability": 0.6} for i in range(40)]
-    assert learning.calibration(many)["edge_factor"] == 0.3
+    # Under 50 graded picks the factor is floored at 0.5 (sample too small to shrink harder).
+    assert learning.calibration(many)["edge_factor"] == 0.5
+    lots = [{"status": "win" if i % 2 else "loss", "win_probability": 0.6} for i in range(60)]
+    assert learning.calibration(lots)["edge_factor"] == 0.3
     good = [{"status": "win" if i % 5 else "loss", "win_probability": 0.6} for i in range(40)]
     assert learning.calibration(good)["edge_factor"] == 1.2
 

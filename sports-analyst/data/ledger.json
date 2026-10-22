@@ -781,5 +781,28 @@
   "summary": "Total inflated 3 points over the opener; SF WR room depleted; wind; Covers model 49.4.",
   "units": 0.25,
   "win_probability": 0.54
+ },
+ {
+  "angles": [
+   "sharp_move",
+   "injury_edge"
+  ],
+  "book": "DraftKings",
+  "confidence": 2,
+  "date": "2026-10-22",
+  "game_id": "NE@CHI",
+  "id": "2026-10-22:nfl:NE@CHI:spread:home",
+  "league": "nfl",
+  "line": -3,
+  "market": "spread",
+  "matchup": "New England Patriots @ Chicago Bears",
+  "odds": -102,
+  "result_units": null,
+  "selection": "Bears -3",
+  "side": "home",
+  "status": "pending",
+  "summary": "Reverse line move to CHI against 78% NE tickets; NE missing two OL starters and three CBs; WagerTalk CHI 27-20.",
+  "units": 0.5,
+  "win_probability": 0.535
  }
 ]

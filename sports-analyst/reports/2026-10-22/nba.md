@@ -19,6 +19,8 @@ None. After the 0.3 factor, the largest edge (4.5%) shrinks to about 1.3 points.
 ## Risks
 N/A
 
+**Rerun (9 AM) with edge factor 0.5:** still no bets. The largest edges (Dimers 76ers ML 63.5% becomes 56.8% vs. 59% implied, and Nuggets +8.5 54.6% becomes 52.3% vs. 51%) don't clear, and the others rest on a single model or none.
+
 ## Sources
 
 - [Dimers NBA Oct 22](https://www.dimers.com/nba/news/nba-best-bets-10-22-2026-ac)

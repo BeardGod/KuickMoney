@@ -4,13 +4,15 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NFL | New England Patriots @ Chicago Bears | Bears -3 | -102 | DraftKings | 0.5 | 53.5 | 50.5 | 2 |
 
 ## League reports
 
 - [NBA](nba.md) - 0 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
-- [NFL](nfl.md) - 0 pick(s)
+- [NFL](nfl.md) - 1 pick(s)
 - [UEFA Europa League](uel.md) - 0 pick(s)
 
 ## Track record
@@ -28,7 +30,7 @@ Last 60 days overall: 16-15-1, -3.31 units, ROI -15.2%
 - total bets: 1-3-0, -2.77u, ROI -85.3%
 
 Calibration (31 graded): you predicted 55.4% on average, actual win rate 51.6%, Brier 0.247.
-ADJUST: multiply your estimated edge over 50% by 0.3 (e.g. 56% becomes 51.8%).
+ADJUST: multiply your estimated edge over 50% by 0.5 (e.g. 56% becomes 53.0%).
 Closing line value (10 picks): beat the close 20.0% of the time, avg +0.2 points / +0.1% implied probability. Consistently negative CLV means the edge is not real, whatever the record says.
 Results by angle: form_gap 3-1 (+0.67u); injury_edge 7-3 (+2.08u); key_number 1-2 (-1.02u); low_scoring_script 0-2 (-2.0u); model_disagreement 10-7 (+0.76u); pitching_mismatch 1-1 (-0.3u); public_fade 2-4 (-2.38u); qb_change 0-2 (-2.0u); sharp_move 4-4 (-0.72u); situational 2-1 (+0.38u)
 Recent lessons:
