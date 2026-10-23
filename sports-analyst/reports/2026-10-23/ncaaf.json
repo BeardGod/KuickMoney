@@ -1,0 +1,23 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "## Slate overview\nThree Friday games ([Covers](https://www.covers.com/picks/ncaaf)): **Duke @ Virginia** (UVA -1.5/-2.5, total 47.5), **Army @ Tulsa** (TUL -1.5, total 54.5) and **NC State @ Stanford** (NCSU -6.5, total 55.5).\n\n## Best bets\nNone. After the 0.5 edge factor, no side clears.\n\n## Leans & passes\n1. **Army +1.5 / ML +105:** Blue Chip has Army -3.8 and flags it as a \"major disagreement\" ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-army-tulsa/)). Kalshi implies TUL -0.5, while Covers projects TUL by 1.5. Tulsa has a new kicker and punter. Calibrated, it's about a 2-point edge.\n2. **Duke +2.5:** Blue Chip has Duke -0.4 and Kalshi UVA -1.0 ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-duke-virginia/)), but Covers has UVA by 2.4. Calibrated, the edge is under 1.\n3. **NC State -6.5:** Blue Chip has -9, but Kalshi has -5.7 ([Blue Chip](https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-nc-state-stanford/)). Split, so pass.\n- **Unders (Duke/UVA 47.5, Army/Tulsa 54.5):** the experts like them, but neither is above its opener, so they don't fit our under template. Pass.\n\n## Risks\nN/A",
+ "sources": [
+  {
+   "url": "https://www.covers.com/picks/ncaaf",
+   "title": "Covers NCAAF"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-army-tulsa/",
+   "title": "Blue Chip Army-Tulsa"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-duke-virginia/",
+   "title": "Blue Chip Duke-UVA"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week8/2026-10-23-nc-state-stanford/",
+   "title": "Blue Chip NCSU-STAN"
+  }
+ ],
+ "picks": []
+}
