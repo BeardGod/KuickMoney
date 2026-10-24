@@ -805,5 +805,28 @@
   "summary": "Reverse line move to CHI against 78% NE tickets; NE missing two OL starters and three CBs; WagerTalk CHI 27-20.",
   "units": 0.5,
   "win_probability": 0.535
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "consensus",
+  "confidence": 0.6,
+  "date": "2026-10-24",
+  "game_id": "TENN@SC",
+  "id": "2026-10-24:ncaaf:TENN@SC:spread:away",
+  "league": "ncaaf",
+  "line": 2.5,
+  "market": "spread",
+  "matchup": "Tennessee at South Carolina",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Tennessee +2.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "SportsLine, Covers AI and Blue Chip all favor Tennessee; Kalshi implies SC only -1; SC banged-up.",
+  "units": 1.0,
+  "win_probability": 0.545
  }
 ]

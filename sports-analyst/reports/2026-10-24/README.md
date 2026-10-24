@@ -4,13 +4,16 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | Tennessee at South Carolina | Tennessee +2.5 | -110 | consensus | 1.0 | 54.5 | 52.4 | 0.6 |
 
 ## League reports
 
 - [English Premier League](epl.md) - 0 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
 - [NBA](nba.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
 
 ## Track record
 
