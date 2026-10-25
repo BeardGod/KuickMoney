@@ -814,6 +814,7 @@
   "book": "consensus",
   "confidence": 0.6,
   "date": "2026-10-24",
+  "final": "Tennessee 24 - South Carolina 27",
   "game_id": "TENN@SC",
   "id": "2026-10-24:ncaaf:TENN@SC:spread:away",
   "league": "ncaaf",
@@ -821,12 +822,36 @@
   "market": "spread",
   "matchup": "Tennessee at South Carolina",
   "odds": -110,
-  "result_units": null,
+  "result_units": -1.0,
   "selection": "Tennessee +2.5",
   "side": "away",
-  "status": "pending",
+  "status": "loss",
   "summary": "SportsLine, Covers AI and Blue Chip all favor Tennessee; Kalshi implies SC only -1; SC banged-up.",
   "units": 1.0,
   "win_probability": 0.545
+ },
+ {
+  "angles": [
+   "injury_edge",
+   "qb_change",
+   "model_disagreement"
+  ],
+  "book": "consensus",
+  "confidence": 0.55,
+  "date": "2026-10-25",
+  "game_id": "CIN@BAL",
+  "id": "2026-10-25:nfl:CIN@BAL:spread:away",
+  "league": "nfl",
+  "line": -2.5,
+  "market": "spread",
+  "matchup": "Bengals at Ravens",
+  "odds": -117,
+  "result_units": null,
+  "selection": "Bengals -2.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Lamar Jackson out; Dimers 59% post-news, Covers AI near pick'em with Lamar; Bengals off bye.",
+  "units": 0.5,
+  "win_probability": 0.546
  }
 ]
