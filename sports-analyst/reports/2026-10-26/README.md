@@ -8,6 +8,8 @@ _No bets recommended._
 
 ## League reports
 
+- [La Liga](laliga.md) - 0 pick(s)
+- [Ligue 1](ligue1.md) - 0 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
 - [NBA](nba.md) - 0 pick(s)
 - [NFL](nfl.md) - 0 pick(s)
