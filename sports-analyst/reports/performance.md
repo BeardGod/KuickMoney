@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 17-16-1 | -3.82 | -16.4% | 34 |
+| All | 18-16-1 | -3.39 | -14.3% | 35 |
 
 ## By league
 
@@ -14,7 +14,7 @@
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | ncaaf | 6-7-0 | -3.21 | -35.7% | 13 |
-| nfl | 6-5-1 | -0.56 | -7.3% | 12 |
+| nfl | 7-5-1 | -0.14 | -1.6% | 13 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
@@ -23,10 +23,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 5-3-0 | +0.49 | 8.1% | 8 |
-| spread | 11-10-1 | -1.53 | -11.0% | 22 |
+| spread | 12-10-1 | -1.11 | -7.6% | 23 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 1
+Pending picks: 0
 
 ## Closing line value
 
@@ -34,12 +34,12 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.3% vs. actual 51.5% over 33 bets (Brier 0.248). Edge factor: **0.5** (the analyst scales its estimated edge by this).
+Predicted 55.3% vs. actual 52.9% over 34 bets (Brier 0.247). Edge factor: **0.55** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
-| 50%-55% | 7 | 53.5% | 57.1% |
+| 50%-55% | 8 | 53.6% | 62.5% |
 | 55%-60% | 21 | 56.1% | 52.4% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
@@ -48,13 +48,13 @@ Predicted 55.3% vs. actual 51.5% over 33 bets (Brier 0.248). Edge factor: **0.5*
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 3-1 | +0.67 | 4 |
-| injury_edge | 8-4 | +1.57 | 13 |
+| injury_edge | 9-4 | +2.0 | 14 |
 | key_number | 1-2 | -1.02 | 3 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 10-8 | -0.24 | 19 |
+| model_disagreement | 11-8 | +0.18 | 20 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-4 | -2.38 | 6 |
-| qb_change | 0-2 | -2.0 | 2 |
+| qb_change | 1-2 | -1.57 | 3 |
 | sharp_move | 5-4 | -0.23 | 9 |
 | situational | 2-1 | +0.38 | 3 |
 
@@ -64,6 +64,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-25 | NFL | Bengals -2.5 | -117 | 0.5 | WIN | Cincinnati Bengals 35 - Baltimore Ravens 13 | +0.427 |
 | 2026-10-24 | NCAAF | Tennessee +2.5 | -110 | 1.0 | LOSS | Tennessee 24 - South Carolina 27 | -1.0 |
 | 2026-10-22 | NFL | Bears -3 | -102 | 0.5 | WIN | NE 24 - CHI 30 | +0.49 |
 | 2026-10-19 | NFL | Under 52.5 | -110 | 0.25 | WIN | WAS 17 - SF 23 | +0.227 |
