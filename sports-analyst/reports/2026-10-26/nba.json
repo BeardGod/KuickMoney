@@ -1,6 +1,19 @@
 {
  "league": "nba",
- "report_markdown": "# NBA - Mon Oct 26\n\nPass: no NBA track record and no second independent projection found.\n",
- "sources": [],
+ "report_markdown": "# NBA - Mon Oct 26\n\nNo bets. Two-source checks:\n- Bulls +13.5 at Celtics: Dimers 58.5%, Covers ATS pick Bulls +14.5 - but DataSkrive projects Celtics by 16. Models split; lean Bulls only at +14 or better.\n- Grizzlies vs Jazz: Dimers lists both Grizzlies ML (54.4%) and Jazz -1.5 (53.8%) - self-contradictory; pass.\n- Suns +9.5 at Thunder: Dimers 55.3% and Thunder lost Jalen Williams (serious injury Sunday), but Covers picks Thunder -9.5. Lean Suns.\n- Heat -8.5 vs Mavericks: Covers pick contingent on Cooper Flagg sitting; check status before tip. Lean.\n",
+ "sources": [
+  {
+   "url": "https://www.dimers.com/nba/news/nba-best-bets-10-26-2026-ac",
+   "title": "Dimers NBA best bets 10/26"
+  },
+  {
+   "url": "https://www.covers.com/nba/against-the-spread-predictions-picks-monday-oct-26-2026",
+   "title": "Covers NBA ATS picks 10/26"
+  },
+  {
+   "url": "https://www.bleachernation.com/picks/2026/10/26/celtics-vs-bulls-prediction-expert-picks-odds-stats-and-best-bets-monday-october-26-2026/",
+   "title": "Bleacher Nation: Celtics vs Bulls"
+  }
+ ],
  "picks": []
 }
