@@ -1,0 +1,47 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF Tuesday - Oct 27\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Western Kentucky -1.5 vs Delaware (-105), 0.5u.** Reverse line movement: opened Delaware -2.5, now WKU -1.5 despite ~100% of spread bets/money on Delaware. Blue Chip model WKU -5.7; WagerTalk projection WKU 27-23. Against: Dimers 51.3% WKU win and Kalshi 50% (coin flip). Delaware QB Minicucci playing through a leg injury; Delaware also without Salazer and Spiller. Raw ~55% -> 52.9% vs 51.2% implied. Small because two sources call it a coin flip and we are buying after the move.\n\n## Passes\n- Sam Houston +6.5 at Missouri State: WagerTalk projects MSU by 3, but Dimers' 71.5% MSU win probability matches the -6.5 line. No edge.\n- Both unders (56.5, 49.5): totals have fallen below the openers (58.5, 50.5); under rule needs above the opener.\n",
+ "sources": [
+  {
+   "url": "https://www.wagertalk.com/news/college-football/delaware-blue-hens-vs-western-kentucky-hilltoppers-prediction-picks-odds-october-27-2026/",
+   "title": "WagerTalk: Delaware vs WKU"
+  },
+  {
+   "url": "https://bluechipanalytics.com/college-football/games/2026/week9/2026-10-27-delaware-western-kentucky/",
+   "title": "Blue Chip: Delaware at WKU"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions",
+   "title": "Dimers CFB predictions"
+  },
+  {
+   "url": "https://www.wagertalk.com/news/college-football/sam-houston-vs-missouri-state-prediction-picks-odds-october-27-2026/",
+   "title": "WagerTalk: Sam Houston vs Missouri State"
+  },
+  {
+   "url": "https://www.therx.com/college-football/sam-houston-vs-missouri-state-prediction-october-27-2026-week-9-college-football-picks/53867/",
+   "title": "The Rx: Sam Houston vs Missouri State"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "DEL@WKU",
+   "matchup": "Delaware at Western Kentucky",
+   "market": "spread",
+   "side": "home",
+   "selection": "Western Kentucky -1.5",
+   "line": -1.5,
+   "odds": -105,
+   "book": "consensus",
+   "win_probability": 0.529,
+   "units": 0.5,
+   "confidence": 0.5,
+   "summary": "Reverse line move against 100% Delaware money; Blue Chip WKU -5.7, WagerTalk 27-23; Dimers/Kalshi coin flip.",
+   "angles": [
+    "sharp_move",
+    "model_disagreement",
+    "public_fade"
+   ]
+  }
+ ]
+}

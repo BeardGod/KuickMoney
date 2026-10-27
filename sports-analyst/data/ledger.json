@@ -854,5 +854,29 @@
   "summary": "Lamar Jackson out; Dimers 59% post-news, Covers AI near pick'em with Lamar; Bengals off bye.",
   "units": 0.5,
   "win_probability": 0.546
+ },
+ {
+  "angles": [
+   "sharp_move",
+   "model_disagreement",
+   "public_fade"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-10-27",
+  "game_id": "DEL@WKU",
+  "id": "2026-10-27:ncaaf:DEL@WKU:spread:home",
+  "league": "ncaaf",
+  "line": -1.5,
+  "market": "spread",
+  "matchup": "Delaware at Western Kentucky",
+  "odds": -105,
+  "result_units": null,
+  "selection": "Western Kentucky -1.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "Reverse line move against 100% Delaware money; Blue Chip WKU -5.7, WagerTalk 27-23; Dimers/Kalshi coin flip.",
+  "units": 0.5,
+  "win_probability": 0.529
  }
 ]
