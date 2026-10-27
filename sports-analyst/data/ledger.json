@@ -878,5 +878,28 @@
   "summary": "Reverse line move against 100% Delaware money; Blue Chip WKU -5.7, WagerTalk 27-23; Dimers/Kalshi coin flip.",
   "units": 0.5,
   "win_probability": 0.529
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "situational"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-10-27",
+  "game_id": "SAC@SA",
+  "id": "2026-10-27:nba:SAC@SA:spread:away",
+  "league": "nba",
+  "line": 18.5,
+  "market": "spread",
+  "matchup": "Kings at Spurs",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Kings +18.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Dimers 59% cover plus two capper picks on a huge spread; Spurs may rest starters late.",
+  "units": 0.5,
+  "win_probability": 0.553
  }
 ]

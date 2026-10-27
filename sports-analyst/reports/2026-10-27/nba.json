@@ -1,15 +1,42 @@
 {
  "league": "nba",
- "report_markdown": "# NBA - Tue Oct 27\n\nPass. Dimers page could not be read; only single analyst picks found (Celtics -11.5 / Kings +18.5 from SGP, Knicks ML and Blazers ML from Covers). Monday's Bulls +13.5 lean lost by 35 - passing was right.\n",
+ "report_markdown": "# NBA - Tue Oct 27 (updated 3 PM ET)\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Kings +18.5 at Spurs (-110), 0.5u.** Dimers 59.1% cover; Sports Gambling Podcast and Doc's Sports also on Sacramento. Large spread: Spurs (1-2) likely to rest Wembanyama late in a blowout. Raw ~59% -> 55.3% vs 52.4% implied. Small: first NBA bet, and Kings defense ranks 25th.\n\n## Passes\n- Lakers ML vs Blazers: Dimers 62.2% vs Covers analyst on Portland ML. Split.\n- Nets +11.5: Dimers 54.5% vs SGP on Celtics -11.5. Split.\n- Knicks ML: Dimers 64.8% and Covers agree, but adjusted 58.6% is below the 61% price.\n",
  "sources": [
+  {
+   "url": "https://www.dimers.com/nba/news/nba-best-bets-10-27-2026-ac",
+   "title": "Dimers NBA best bets 10/27"
+  },
   {
    "url": "https://www.sportsgamblingpodcast.com/2026/10/26/nba-picks-preview-predictions-for-tuesday-oct-27th/",
    "title": "SGP: NBA picks 10/27"
+  },
+  {
+   "url": "https://www.docsports.com/free-picks/nba/2026/sacramento-kings-vs-san-antonio-spurs-prediction-10-27-2026-preview-and-pick.html",
+   "title": "Doc's Sports: Kings vs Spurs"
   },
   {
    "url": "https://www.covers.com/picks/nba",
    "title": "Covers NBA picks"
   }
  ],
- "picks": []
+ "picks": [
+  {
+   "game_id": "SAC@SA",
+   "matchup": "Kings at Spurs",
+   "market": "spread",
+   "side": "away",
+   "selection": "Kings +18.5",
+   "line": 18.5,
+   "odds": -110,
+   "book": "consensus",
+   "win_probability": 0.553,
+   "units": 0.5,
+   "confidence": 0.5,
+   "summary": "Dimers 59% cover plus two capper picks on a huge spread; Spurs may rest starters late.",
+   "angles": [
+    "model_disagreement",
+    "situational"
+   ]
+  }
+ ]
 }

@@ -6,13 +6,14 @@
 
 | League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
 |---|---|---|---|---|---|---|---|---|
+| NBA | Kings at Spurs | Kings +18.5 | -110 | consensus | 0.5 | 55.3 | 52.4 | 0.5 |
 | NCAAF | Delaware at Western Kentucky | Western Kentucky -1.5 | -105 | consensus | 0.5 | 52.9 | 51.2 | 0.5 |
 
 ## League reports
 
 - [ATP Tennis (men)](atp.md) - 0 pick(s)
 - [MLB](mlb.md) - 0 pick(s)
-- [NBA](nba.md) - 0 pick(s)
+- [NBA](nba.md) - 1 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
 - [Serie A](seriea.md) - 0 pick(s)
 - [WTA Tennis (women)](wta.md) - 0 pick(s)
