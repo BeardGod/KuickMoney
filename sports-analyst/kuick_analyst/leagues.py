@@ -44,6 +44,10 @@ LEAGUES: dict[str, League] = {
         League("seriea", "Serie A", "soccer", "ita.1", "soccer_italy_serie_a"),
         League("ligue1", "Ligue 1", "soccer", "fra.1", "soccer_france_ligue_one"),
         League("ligamx", "Liga MX", "soccer", "mex.1", "soccer_mexico_ligamx"),
+        # Tennis: settle with sets won as the score (home = first-listed player).
+        # Game-handicap or total-games picks are settled with games won instead.
+        League("atp", "ATP Tennis (men)", "tennis", "atp", None),
+        League("wta", "WTA Tennis (women)", "tennis", "wta", None),
     ]
 }
 

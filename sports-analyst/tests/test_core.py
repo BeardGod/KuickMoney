@@ -254,3 +254,11 @@ def test_uel_is_soccer_three_way():
              home=Team("ROM", "ROM", score=0), away=Team("LYO", "LYO", score=0))
     assert grade_pick({"league": "uel", "market": "moneyline", "side": "home"}, g) == "loss"
     assert grade_pick({"league": "uel", "market": "moneyline", "side": "draw"}, g) == "win"
+
+
+def test_tennis_leagues_exist_and_are_two_way():
+    from kuick_analyst.leagues import LEAGUES
+    for key in ("atp", "wta"):
+        lg = LEAGUES[key]
+        assert lg.espn_sport == "tennis"
+        assert lg.espn_sport != "soccer"  # no draws: moneyline is two-way
