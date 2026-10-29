@@ -1,0 +1,26 @@
+# NFL betting analysis - 2026-10-29
+
+> AI-generated analysis for entertainment and research. No outcome is guaranteed. Bet only what you can afford to lose. Problem gambling help: 1-800-GAMBLER.
+
+## Picks
+
+_No bets recommended._
+
+# TNF Week 8 - Panthers at Packers, Thu Oct 29
+
+Packers -3.5 (opened -3.5, up to -4.5 at some books), total 47.5-48 (opened 46.5-47.5). Micah Parsons (GB) out. Weather fine (56F, light wind).
+
+Projections: Dimers GB 25-21; Covers AI GB 24-19; SportsLine side hidden, total 46 (Under 55%).
+- Side: models make GB a 4-5 point winner; laying -3.5 puts the hook through 3 (forbidden), and Panthers +3.5 (Covers/SBD cappers) runs against both models. Pass.
+- **Lean Under 48:** three projections at 43-46, total at/above the opener, 57% of money on the under. Not a bet: the under rule also needs a depleted offense, and both offenses are intact (Parsons is a defensive loss, which argues the other way).
+
+
+## Sources
+
+- [Dimers: Panthers vs Packers](https://www.dimers.com/nfl/predictions/2026_8_gb_car)
+- [Covers AI Week 8](https://www.covers.com/nfl/ai-predictions-week-8-2026)
+- [CBS/SportsLine: Panthers vs Packers](https://www.cbssports.com/betting/news/panthers-packers-prediction-odds-time-thursday-night-football-picks/)
+- [Covers Week 8 opening lines](https://www.covers.com/nfl/week-8-odds-opening-lines-2026)
+- [SBD: Panthers vs Packers](https://www.sportsbettingdime.com/news/nfl/panthers-packers-predictions-picks-best-bets-tnf-week-8-oct-29/)
+
+<sub>tokens in/out: 0/0 | stop: claude-code</sub>
