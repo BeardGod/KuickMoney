@@ -13,6 +13,9 @@ _No bets recommended._
 - Kent State -7.5 at Sacramento State (10:30 PM): Blue Chip -9.3, Kalshi -7.0, Dimers 74.6%. Laying -7.5 is the hook through 7 - forbidden. Pass (would consider -7 or better).
 - Harvard -9.5 at Dartmouth (FCS/Ivy): no second model. Pass.
 
+## Update (Fri 9:45 AM)
+Kent State moved from -7.5 to -9.5 (ML -277). Dimers 28-19 (KSU by 9, Sac State cover ~51%), Blue Chip -9.3, Kalshi ~-7 (before the move). Sac State +9.5 is a lean only - one source below the number.
+
 
 ## Sources
 
@@ -22,5 +25,6 @@ _No bets recommended._
 - [Dimers: Baylor vs UCF](https://www.dimers.com/cfb/predictions/2026_9_ucf_bay)
 - [Blue Chip: Tulane at Charlotte](https://bluechipanalytics.com/college-football/games/2026/week9/2026-10-30-tulane-charlotte/)
 - [Blue Chip: Kent State at Sacramento State](https://bluechipanalytics.com/college-football/games/2026/week9/2026-10-30-kent-state-sacramento-state/)
+- [Dimers: Kent State vs Sacramento State](https://www.dimers.com/cfb/predictions/2026_9_sac_kent)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

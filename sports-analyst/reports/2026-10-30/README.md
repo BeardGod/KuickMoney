@@ -8,6 +8,8 @@ _No bets recommended._
 
 ## League reports
 
+- [ATP Tennis (men)](atp.md) - 0 pick(s)
+- [La Liga](laliga.md) - 0 pick(s)
 - [NBA](nba.md) - 0 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
 
