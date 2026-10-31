@@ -1,0 +1,59 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF Week 9 - Sat Oct 31\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Arizona +3.5 at Texas Tech (-108), 0.5u (noon ET).** Covers AI projects TTU 28-26 (Arizona covers and gets the key number 3). Texas Tech is in QB trouble: Brendan Sorsby is gone, Will Hammond has 13 turnover-worthy passes vs 8 big-time throws, and backup Tommy Castellanos may play - fading the shaky-QB side is the Bengals template. TTU pass defense allows 266 yds/g. Six of nine CBS experts, Covers and Pickswise (high confidence) also on Arizona. Raw ~56% -> 53.5% vs 51.9% implied. Small: only one true model projection.\n\n## Leans / passes\n- Mississippi State +20.5 at Texas: SportsLine >70% of sims, but MSU just lost QB Kamario Taylor for the season (backup-QB dogs 0-3). Pass.\n- Northwestern +3.5 at Oregon: SportsLine Oregon 30-21 (>60%) - against the dog; laying -3.5 is the hook through 3. Pass.\n- Ohio State -6.5 at USC: true freshman Luke Fahey's first start (Sayin out). No model; pass.\n- Minnesota +20.5 at Indiana: sharp move 22 -> 20.5 but 80% of tickets also on Minnesota; no model. Pass.\n- Iowa -3.5 vs Wisconsin (Covers AI 20-14): hook through 3. Pass.\n- Navy +30.5 (Covers AI ND by 30; sharps on ND). Pass.\n",
+ "sources": [
+  {
+   "url": "https://www.cbssports.com/college-football/news/texas-tech-arizona-prediction-picks-odds-spread-where-to-watch-live/",
+   "title": "CBS: Texas Tech vs Arizona"
+  },
+  {
+   "url": "https://covers.com/ncaaf/college-week-9-top-picks-saturday-oct-31-2026",
+   "title": "Covers Week 9 top picks"
+  },
+  {
+   "url": "https://www.pickswise.com/college-football/games/texas-tech-arizona-college-football-2026-10-31-1200/picks/",
+   "title": "Pickswise: Arizona vs Texas Tech"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/college-football-odds-lines-picks-spread-predictions-best-bets-week-9-2026/",
+   "title": "CBS/SportsLine Week 9 model"
+  },
+  {
+   "url": "https://vsin.com/college-football/week-9-college-football-betting-report-and-odds/",
+   "title": "VSiN Week 9 betting report"
+  },
+  {
+   "url": "https://theoddsbreakers.com/college-football-week-9-sharp-money-movement-4/",
+   "title": "OddsBreakers sharp moves"
+  },
+  {
+   "url": "https://www.covers.com/ncaaf/mississippi-state-vs-texas-prediction-picks-odds-oct-31-2026",
+   "title": "Covers: Mississippi State vs Texas"
+  },
+  {
+   "url": "https://sports.yahoo.com/articles/ohio-state-vs-usc-prediction-184418781.html",
+   "title": "Yahoo: Ohio State vs USC"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "ARIZ@TTU",
+   "matchup": "Arizona at Texas Tech",
+   "market": "spread",
+   "side": "away",
+   "selection": "Arizona +3.5",
+   "line": 3.5,
+   "odds": -108,
+   "book": "consensus",
+   "win_probability": 0.535,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Covers AI TTU by 2 with +3.5 through the key number; Texas Tech QB turmoil; broad expert agreement.",
+   "angles": [
+    "qb_change",
+    "key_number",
+    "model_disagreement"
+   ]
+  }
+ ]
+}

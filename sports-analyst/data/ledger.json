@@ -903,5 +903,52 @@
   "summary": "Dimers 59% cover plus two capper picks on a huge spread; Spurs may rest starters late.",
   "units": 0.5,
   "win_probability": 0.553
+ },
+ {
+  "angles": [
+   "qb_change",
+   "key_number",
+   "model_disagreement"
+  ],
+  "book": "consensus",
+  "confidence": 0.55,
+  "date": "2026-10-31",
+  "game_id": "ARIZ@TTU",
+  "id": "2026-10-31:ncaaf:ARIZ@TTU:spread:away",
+  "league": "ncaaf",
+  "line": 3.5,
+  "market": "spread",
+  "matchup": "Arizona at Texas Tech",
+  "odds": -108,
+  "result_units": null,
+  "selection": "Arizona +3.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Covers AI TTU by 2 with +3.5 through the key number; Texas Tech QB turmoil; broad expert agreement.",
+  "units": 0.5,
+  "win_probability": 0.535
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-10-31",
+  "game_id": "MUN@CHE",
+  "id": "2026-10-31:epl:MUN@CHE:moneyline:home",
+  "league": "epl",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Man United at Chelsea",
+  "odds": 108,
+  "result_units": null,
+  "selection": "Chelsea ML",
+  "side": "home",
+  "status": "pending",
+  "summary": "Opta and Dimers both above the price; Man United missing five regulars and winless in eight.",
+  "units": 0.5,
+  "win_probability": 0.509
  }
 ]

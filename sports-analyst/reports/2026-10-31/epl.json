@@ -1,0 +1,38 @@
+{
+ "league": "epl",
+ "report_markdown": "# EPL Matchday 9 - Sat Oct 31\n\n## Pick\n- **Chelsea ML vs Man United (+108), 0.5u (8:30 AM ET).** Opta 51.8% and Dimers 51.1% vs 48.1% implied - two models agree, gap ~3.5 pts (well under the 10-pt trust cap). Concrete team news: Man United without Sesko, Rashford, Ugarte, Dorgu and Shaw, winless in eight, manager under pressure. Chelsea also missing Joao Pedro, Reece James and Martinez, so stake small. Adjusted ~50.9% vs 48.1%.\n\n## Leans / passes\n- Hull v Ipswich: Opta 45%, Dimers 42% vs +182 (35%) - two models, but no team-news reason found. Lean Hull.\n- Man City v Brighton: Dimers City 61.9% but Opta 56.3% vs ~58% market. Split; pass.\n- Coventry v Sunderland: Dimers on Sunderland, Opta on Coventry. Pass.\n",
+ "sources": [
+  {
+   "url": "https://theanalyst.com/articles/premier-league-match-predictions",
+   "title": "Opta PL predictions"
+  },
+  {
+   "url": "https://dimers.com/epl/news/premier-league-best-bets-10-31-2026-ac",
+   "title": "Dimers EPL best bets 10/31"
+  },
+  {
+   "url": "https://khelnow.com/football/chelsea-vs-manchester-united-preview-premier-league-202610",
+   "title": "Khel Now: Chelsea vs Man United team news"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "MUN@CHE",
+   "matchup": "Man United at Chelsea",
+   "market": "moneyline",
+   "side": "home",
+   "selection": "Chelsea ML",
+   "line": null,
+   "odds": 108,
+   "book": "consensus",
+   "win_probability": 0.509,
+   "units": 0.5,
+   "confidence": 0.5,
+   "summary": "Opta and Dimers both above the price; Man United missing five regulars and winless in eight.",
+   "angles": [
+    "model_disagreement",
+    "injury_edge"
+   ]
+  }
+ ]
+}
