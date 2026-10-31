@@ -1,6 +1,6 @@
 {
  "league": "wnba",
- "report_markdown": "# WNBA Finals Game 7 - Dream at Valkyries, Sat Oct 31, 8 PM ET\n\nAtlanta forced Game 7 with an 80-69 win (Gray 23 pts with an injured hand). Pick'em: Valkyries -1.5, ML ~-104 each, total 144.5 -> 142.5. No model projection found; experts split. Under: total fell below the opener, so the under rule blocks it. Pass.\n",
+ "report_markdown": "# WNBA Finals Game 7 - Dream at Valkyries, Sat Oct 31, 8 PM ET\n\nAtlanta forced Game 7 with an 80-69 win (Gray 23 pts with an injured hand). Pick'em: Valkyries -1.5, ML ~-104 each, total 144.5 -> 142.5. No model projection found; experts split. Under: total fell below the opener, so the under rule blocks it. Pass.\n\nUpdate: Dimers rates Over 142.5 at 70.2% (+100). Single model, and the series has trended low; lean over only.\n",
  "sources": [
   {
    "url": "https://www.covers.com/wnba/dream-vs-valkyries-prediction-picks-saturday-oct-31-2026",
@@ -13,6 +13,10 @@
   {
    "url": "https://www.cbssports.com/wnba/news/wnba-finals-game-7-predictions-dream-valkyries/",
    "title": "CBS: Game 7 predictions"
+  },
+  {
+   "url": "https://www.dimers.com/news/best-bets-10-31-2026-ac",
+   "title": "Dimers best bets 10/31"
   }
  ],
  "picks": []

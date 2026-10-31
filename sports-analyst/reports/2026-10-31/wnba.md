@@ -10,11 +10,14 @@ _No bets recommended._
 
 Atlanta forced Game 7 with an 80-69 win (Gray 23 pts with an injured hand). Pick'em: Valkyries -1.5, ML ~-104 each, total 144.5 -> 142.5. No model projection found; experts split. Under: total fell below the opener, so the under rule blocks it. Pass.
 
+Update: Dimers rates Over 142.5 at 70.2% (+100). Single model, and the series has trended low; lean over only.
+
 
 ## Sources
 
 - [Covers: Dream vs Valkyries G7](https://www.covers.com/wnba/dream-vs-valkyries-prediction-picks-saturday-oct-31-2026)
 - [SBD: Game 7 opening odds](https://www.sportsbettingdime.com/news/wnba/opening-odds-for-valkyries-vs-dream-game-7-whos-favored-in-wnba-finals/)
 - [CBS: Game 7 predictions](https://www.cbssports.com/wnba/news/wnba-finals-game-7-predictions-dream-valkyries/)
+- [Dimers best bets 10/31](https://www.dimers.com/news/best-bets-10-31-2026-ac)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

@@ -1,6 +1,6 @@
 {
  "league": "ncaaf",
- "report_markdown": "# NCAAF Week 9 - Sat Oct 31\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Arizona +3.5 at Texas Tech (-108), 0.5u (noon ET).** Covers AI projects TTU 28-26 (Arizona covers and gets the key number 3). Texas Tech is in QB trouble: Brendan Sorsby is gone, Will Hammond has 13 turnover-worthy passes vs 8 big-time throws, and backup Tommy Castellanos may play - fading the shaky-QB side is the Bengals template. TTU pass defense allows 266 yds/g. Six of nine CBS experts, Covers and Pickswise (high confidence) also on Arizona. Raw ~56% -> 53.5% vs 51.9% implied. Small: only one true model projection.\n\n## Leans / passes\n- Mississippi State +20.5 at Texas: SportsLine >70% of sims, but MSU just lost QB Kamario Taylor for the season (backup-QB dogs 0-3). Pass.\n- Northwestern +3.5 at Oregon: SportsLine Oregon 30-21 (>60%) - against the dog; laying -3.5 is the hook through 3. Pass.\n- Ohio State -6.5 at USC: true freshman Luke Fahey's first start (Sayin out). No model; pass.\n- Minnesota +20.5 at Indiana: sharp move 22 -> 20.5 but 80% of tickets also on Minnesota; no model. Pass.\n- Iowa -3.5 vs Wisconsin (Covers AI 20-14): hook through 3. Pass.\n- Navy +30.5 (Covers AI ND by 30; sharps on ND). Pass.\n",
+ "report_markdown": "# NCAAF Week 9 - Sat Oct 31\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Arizona +3.5 at Texas Tech (-108), 0.5u (noon ET).** Covers AI projects TTU 28-26 (Arizona covers and gets the key number 3). Texas Tech is in QB trouble: Brendan Sorsby is gone, Will Hammond has 13 turnover-worthy passes vs 8 big-time throws, and backup Tommy Castellanos may play - fading the shaky-QB side is the Bengals template. TTU pass defense allows 266 yds/g. Six of nine CBS experts, Covers and Pickswise (high confidence) also on Arizona. Raw ~56% -> 53.5% vs 51.9% implied. Small: only one true model projection.\n\n## Leans / passes\n- Northwestern +3.5 at Oregon: SportsLine Oregon 30-21 (>60%) - against the dog; laying -3.5 is the hook through 3. Pass.\n- Ohio State -6.5 at USC: true freshman Luke Fahey's first start (Sayin out). No model; pass.\n- Minnesota +20.5 at Indiana: sharp move 22 -> 20.5 but 80% of tickets also on Minnesota; no model. Pass.\n- Iowa -3.5 vs Wisconsin (Covers AI 20-14): hook through 3. Pass.\n- Navy +30.5 (Covers AI ND by 30; sharps on ND). Pass.\n\n## Update (10:15 AM) - second pick\n- **Mississippi State +20.5 at Texas (-110), 0.5u (7:30 PM).** Two independent models now agree: SportsLine covers in >70% of sims and Covers AI projects Texas 34-20 (14-point margin). Kamario Taylor was hurt Sept 26, so MSU has played a month with the backup - the models' ratings already include it (unlike our losing fresh-backup spots). Big-spread model agreement is our best NCAAF template (Auburn +20.5, BYU +10.5, Cardinals +12.5). Raw ~62% -> 57% vs 52.4%. Small because of the QB and Texas's top-ranked defense.\n- Syracuse +9.5 vs SMU: Covers AI SMU by 4, but numberFire 82.8% SMU (~12) and Kalshi 77% (~9.5). Split; pass.\n- Other Covers AI single-model edges (Utah -6.5, Iowa State +9.5, Nevada +23.5, Auburn +13.5): no second model; pass.\n",
  "sources": [
   {
    "url": "https://www.cbssports.com/college-football/news/texas-tech-arizona-prediction-picks-odds-spread-where-to-watch-live/",
@@ -33,6 +33,18 @@
   {
    "url": "https://sports.yahoo.com/articles/ohio-state-vs-usc-prediction-184418781.html",
    "title": "Yahoo: Ohio State vs USC"
+  },
+  {
+   "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-9-2026",
+   "title": "Covers AI Week 9"
+  },
+  {
+   "url": "https://www.nbcsports.com/college-football/news/mississippi-state-qb-kamario-taylor-out-for-the-season-with-a-foot-injury-that-requires-surgery",
+   "title": "NBC: Kamario Taylor out for season"
+  },
+  {
+   "url": "https://www.fanduel.com/research/smu-vs-syracuse-college-football-odds-picks-best-bets-for-10-31-2026",
+   "title": "FanDuel Research: SMU vs Syracuse"
   }
  ],
  "picks": [
@@ -52,6 +64,23 @@
    "angles": [
     "qb_change",
     "key_number",
+    "model_disagreement"
+   ]
+  },
+  {
+   "game_id": "MSST@TEX",
+   "matchup": "Mississippi State at Texas",
+   "market": "spread",
+   "side": "away",
+   "selection": "Mississippi State +20.5",
+   "line": 20.5,
+   "odds": -110,
+   "book": "consensus",
+   "win_probability": 0.57,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "SportsLine >70% and Covers AI (Texas by 14) agree the big spread is inflated; backup QB already a month in.",
+   "angles": [
     "model_disagreement"
    ]
   }

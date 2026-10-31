@@ -906,6 +906,29 @@
  },
  {
   "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-10-31",
+  "game_id": "MUN@CHE",
+  "id": "2026-10-31:epl:MUN@CHE:moneyline:home",
+  "league": "epl",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Man United at Chelsea",
+  "odds": 108,
+  "result_units": null,
+  "selection": "Chelsea ML",
+  "side": "home",
+  "status": "pending",
+  "summary": "Opta and Dimers both above the price; Man United missing five regulars and winless in eight.",
+  "units": 0.5,
+  "win_probability": 0.509
+ },
+ {
+  "angles": [
    "qb_change",
    "key_number",
    "model_disagreement"
@@ -930,25 +953,24 @@
  },
  {
   "angles": [
-   "model_disagreement",
-   "injury_edge"
+   "model_disagreement"
   ],
   "book": "consensus",
-  "confidence": 0.5,
+  "confidence": 0.55,
   "date": "2026-10-31",
-  "game_id": "MUN@CHE",
-  "id": "2026-10-31:epl:MUN@CHE:moneyline:home",
-  "league": "epl",
-  "line": null,
-  "market": "moneyline",
-  "matchup": "Man United at Chelsea",
-  "odds": 108,
+  "game_id": "MSST@TEX",
+  "id": "2026-10-31:ncaaf:MSST@TEX:spread:away",
+  "league": "ncaaf",
+  "line": 20.5,
+  "market": "spread",
+  "matchup": "Mississippi State at Texas",
+  "odds": -110,
   "result_units": null,
-  "selection": "Chelsea ML",
-  "side": "home",
+  "selection": "Mississippi State +20.5",
+  "side": "away",
   "status": "pending",
-  "summary": "Opta and Dimers both above the price; Man United missing five regulars and winless in eight.",
+  "summary": "SportsLine >70% and Covers AI (Texas by 14) agree the big spread is inflated; backup QB already a month in.",
   "units": 0.5,
-  "win_probability": 0.509
+  "win_probability": 0.57
  }
 ]

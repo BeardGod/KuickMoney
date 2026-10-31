@@ -7,12 +7,14 @@
 | League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
 |---|---|---|---|---|---|---|---|---|
 | NCAAF | Arizona at Texas Tech | Arizona +3.5 | -108 | consensus | 0.5 | 53.5 | 51.9 | 0.55 |
+| NCAAF | Mississippi State at Texas | Mississippi State +20.5 | -110 | consensus | 0.5 | 57.0 | 52.4 | 0.55 |
 | EPL | Man United at Chelsea | Chelsea ML | +108 | consensus | 0.5 | 50.9 | 48.1 | 0.5 |
 
 ## League reports
 
 - [English Premier League](epl.md) - 1 pick(s)
-- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
+- [NBA](nba.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 2 pick(s)
 - [WNBA](wnba.md) - 0 pick(s)
 
 ## Track record
