@@ -197,6 +197,17 @@ def cmd_close(args: argparse.Namespace) -> int:
     return 0 if n else 1
 
 
+def cmd_kenpom(args: argparse.Namespace) -> int:
+    """Project a college basketball game from KenPom AdjO / AdjD / AdjT."""
+    from . import kenpom
+    a = kenpom.Team(args.a, args.a_o, args.a_d, args.a_t)
+    b = kenpom.Team(args.b, args.b_o, args.b_d, args.b_t)
+    p = kenpom.project(a, b, home=args.home, avg_eff=args.avg_eff, avg_tempo=args.avg_tempo,
+                       home_edge=args.home_edge)
+    print(kenpom.summary(p, args.a_spread, args.total))
+    return 0
+
+
 def cmd_tag(args: argparse.Namespace) -> int:
     angles = args.angles.split(",")
     if bad := unknown_angles(angles):
@@ -290,6 +301,19 @@ def main(argv: list[str] | None = None) -> int:
     sp.add_argument("--date", type=dt.date.fromisoformat, default=today())
     sp.add_argument("--pick-id", default=None)
     sp.set_defaults(func=cmd_lesson)
+    sp = sub.add_parser("kenpom", help="project an NCAAB game from KenPom AdjO/AdjD/AdjT")
+    for side in ("a", "b"):
+        sp.add_argument(f"--{side}", required=True, help=f"team {side.upper()} name")
+        sp.add_argument(f"--{side}-o", type=float, required=True, help="AdjO")
+        sp.add_argument(f"--{side}-d", type=float, required=True, help="AdjD")
+        sp.add_argument(f"--{side}-t", type=float, required=True, help="AdjT")
+    sp.add_argument("--home", choices=["a", "b", "neutral"], default="neutral")
+    sp.add_argument("--a-spread", type=float, default=None, help="team A's spread, e.g. -7.5")
+    sp.add_argument("--total", type=float, default=None)
+    sp.add_argument("--avg-eff", type=float, default=109.0, help="national average efficiency")
+    sp.add_argument("--avg-tempo", type=float, default=67.5, help="national average tempo")
+    sp.add_argument("--home-edge", type=float, default=0.022, help="home efficiency boost (~3.2 pts)")
+    sp.set_defaults(func=cmd_kenpom)
     sp = sub.add_parser("learn", help="show calibration, CLV, results by angle and recent lessons")
     sp.set_defaults(func=cmd_learn)
 

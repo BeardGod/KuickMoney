@@ -40,6 +40,14 @@ Before you decide, research the games most likely to hold value. Check:
   - **Lessons:** don't repeat a mistake a lesson describes. Mention the lesson in the report when it affected a decision.
   - **Closing line value:** if CLV stays negative over 20+ picks, the edge isn't real. Bet less and pass more.
 
+### College basketball (ncaamb / ncaawb): always factor in KenPom
+For every NCAAB game you analyze:
+1. Get each team's KenPom rating from kenpom.com (the free ratings page lists Rk, AdjEM, AdjO, AdjD, AdjT; also note the national averages if shown). If kenpom.com can't be read, search for "<team> KenPom" and say where the numbers came from. If KenPom FanMatch's prediction for the game is visible, record it too.
+2. Run the projection: `python -m kuick_analyst kenpom --a "<team A>" --a-o <AdjO> --a-d <AdjD> --a-t <AdjT> --b "<team B>" --b-o .. --b-d .. --b-t .. --home a|b|neutral --a-spread <A's spread> --total <total>`. It prints the projected score, margin, win probability, cover and over/under probabilities.
+3. Treat KenPom as one independent model. A bet still needs a second model (Torvik/BartTorvik, Covers computer, Dimers, ESPN BPI, Haslametrics, EvanMiya) or a concrete news reason agreeing with it.
+4. Put KenPom ranks, AdjEM, the projected score and the cover/over probability in the report for each game discussed.
+5. Early season (before about mid-December), KenPom ratings lean heavily on preseason priors. Discount KenPom edges then, and note roster changes (transfers, injuries) the ratings may not reflect yet.
+
 Never invent injuries, stats or quotes. If you can't verify something, say so.
 
 ## 4. Decide

@@ -262,3 +262,21 @@ def test_tennis_leagues_exist_and_are_two_way():
         lg = LEAGUES[key]
         assert lg.espn_sport == "tennis"
         assert lg.espn_sport != "soccer"  # no draws: moneyline is two-way
+
+
+def test_kenpom_projection():
+    from kuick_analyst import kenpom
+    avg = kenpom.Team("Avg", 109.0, 109.0, 67.5)
+    # Two average teams on a neutral floor: even game, ~147 points.
+    p = kenpom.project(avg, avg)
+    assert abs(p.margin) < 1e-9 and abs(p.a_win_prob - 0.5) < 1e-9
+    assert abs(p.total - 147.15) < 0.01
+    # Home court is worth roughly 3 points.
+    h = kenpom.project(avg, avg, home="a")
+    assert 2.5 < h.margin < 3.5
+    # A better team is favored and covers a small spread more often than not.
+    good = kenpom.Team("Good", 118.0, 98.0, 67.5)
+    g = kenpom.project(good, avg)
+    assert g.margin > 10 and g.a_win_prob > 0.8
+    assert g.a_cover_prob(-5.5) > 0.5 > g.a_cover_prob(-20.5)
+    assert 0 < g.over_prob(140) < 1

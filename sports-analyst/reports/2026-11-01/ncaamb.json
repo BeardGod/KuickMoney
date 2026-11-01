@@ -1,6 +1,6 @@
 {
  "league": "ncaamb",
- "report_markdown": "# NCAAB - Notre Dame vs Villanova (Rome), Sun Nov 1, 9:30 AM ET\n\nSeason opener at the Eternal City Tip-Off (Palazzo dello Sport, FOX). Villanova -7.5, ML -305/+245, total 147.5-148.5.\n- Covers computer: Villanova 78.2, Notre Dame 70.3 (by 8 vs 7.5; total 148.5) - essentially on the number.\n- Cappers (Yahoo, SportsLine's Eric Cohen) lean Under on jet lag and slow tempo; total has slipped 148.5 -> 147.5, so it is not above the opener (under rule).\n- Notes: Notre Dame C Logan Duncomb status unknown (barely played in exhibitions); Villanova transfer Kwame Evans Jr. expected back.\nNo edge; pass. First NCAAB card - no track record.\n",
+ "report_markdown": "# NCAAB - Notre Dame vs Villanova (Rome), Sun Nov 1, 9:30 AM ET\n\nSeason opener at the Eternal City Tip-Off (Palazzo dello Sport, FOX). Villanova -7.5, ML -305/+245, total 147.5-148.5.\n- Covers computer: Villanova 78.2, Notre Dame 70.3 (by 8 vs 7.5; total 148.5) - essentially on the number.\n- Cappers (Yahoo, SportsLine's Eric Cohen) lean Under on jet lag and slow tempo; total has slipped 148.5 -> 147.5, so it is not above the opener (under rule).\n- Notes: Notre Dame C Logan Duncomb status unknown (barely played in exhibitions); Villanova transfer Kwame Evans Jr. expected back.\nNo edge; pass. First NCAAB card - no track record.\n\n## KenPom / efficiency update\n- KenPom preseason: Villanova #32 (offense #22, defense #53). kenpom.com itself could not be read, and no published Notre Dame KenPom numbers were found, so the projection uses Bart Torvik's preseason efficiencies (same tempo-free method): Villanova #31 (AdjO 118.0, AdjD 98.5), Notre Dame #82 (AdjO 112.1, AdjD 102.1). Tempo not published; assumed 66 each (both teams expected to play slow).\n- `kuick_analyst kenpom` (neutral court): **Villanova 71.3, Notre Dame 65.4** - Villanova by 6.0, win 70.6% (market -305 ~ 73%); Notre Dame +7.5 covers 55.6%; total 136.7 (under 147.5 ~75%; ~61% if tempo is league-average 67.5).\n- Verdict: Notre Dame +7.5 is ~53% after the 0.58 factor vs 52.4% implied, and Covers' computer (Villanova by 8) disagrees - pass. Under: efficiency model + cappers agree, but tempo is assumed and the total has already dropped below the opener (under rule). Lean under only. Early-season ratings are mostly preseason priors and both rosters turned over heavily (ND lost its top three scorers; Villanova added six transfers).\n",
  "sources": [
   {
    "url": "https://www.bigeast.com/news/2026/10/31/villanova-set-to-tip-off-2026-27-mens-basketball-season-in-rome.aspx",
@@ -17,6 +17,18 @@
   {
    "url": "https://www.cbssports.com/betting/news/villanova-notre-dame-odds-prediction-date-time-2026-rome-college-basketball-opener-picks/",
    "title": "CBS: Villanova vs Notre Dame"
+  },
+  {
+   "url": "https://barttorvik.com/trankpre.php",
+   "title": "Bart Torvik 2026-27 preseason projections"
+  },
+  {
+   "url": "https://phlsportsnow.com/villanova-ranks-fourth-in-big-east-in-preliminary-kenpom-ratings/",
+   "title": "PHL Sports Now: Villanova preliminary KenPom"
+  },
+  {
+   "url": "https://www.cbssports.com/college-basketball/news/villanova-vs-notre-dame-prediction-pick-odds-spread-why-irish-wildcats-are-opening-season-in-rome/",
+   "title": "CBS: Villanova vs Notre Dame staff picks"
   }
  ],
  "picks": []
