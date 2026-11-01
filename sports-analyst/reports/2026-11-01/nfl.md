@@ -24,6 +24,11 @@ Edge factor ~0.58 applied.
 - Bills -3.5, Steelers -3.5: hook through 3. Cowboys -7.5: hook through 7. Pass.
 - Chiefs/Broncos: models split. Eagles +6 (McKee backup QB dog). Bears/Seahawks MNF: wait for Monday injury news.
 
+## Sunday 6:45 AM injury check
+- Patriots: A.J. Brown and TreVeyon Henderson OUT (confirmed); Carlton Davis III, Christian Elliss questionable. Dolphins: G/T Kadyn Proctor OUT. Dolphins +7 stands.
+- Chargers: Derwin James OUT (plus G Awosika, DB Leonard, WR Brenen Thompson). Rams: McDuffie, Shelton, Parkinson questionable. Rams -6.5 stands (do not lay -7).
+- Lamar Jackson off the report and starting vs Buffalo; Bills -3.5 is still the hook through 3 - pass.
+
 
 ## Sources
 
@@ -34,5 +39,6 @@ Edge factor ~0.58 applied.
 - [RotoWire Week 8 line moves and splits](https://www.rotowire.com/football/article/nfl-week-8-odds-biggest-line-moves-betting-splits-and-key-injuries-144292)
 - [Football Nation: Patriots at Dolphins](https://www.footballnationusa.com/post/patriots-at-dolphins-week-8-guide-injuries-fantasy-odds-and-prediction)
 - [Football Nation: Chargers at Rams](https://www.footballnationusa.com/post/chargers-at-rams-week-8-guide-2026)
+- [CBS: Week 8 final injury report](https://www.cbssports.com/nfl/news/nfl-week-8-injury-report-lamar-jackson-aj-brown-emeka-egbuka-more/)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

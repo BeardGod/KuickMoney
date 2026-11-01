@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 19-19-1 | -4.35 | -16.9% | 39 |
+| All | 19-20-1 | -4.85 | -18.5% | 40 |
 
 ## By league
 
@@ -14,7 +14,7 @@
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 0-1-0 | -0.5 | -100.0% | 1 |
-| ncaaf | 6-9-0 | -4.21 | -42.1% | 15 |
+| ncaaf | 6-10-0 | -4.71 | -44.9% | 16 |
 | nfl | 7-5-1 | -0.14 | -1.6% | 13 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
@@ -24,10 +24,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 6-3-0 | +1.03 | 15.8% | 9 |
-| spread | 12-13-1 | -2.61 | -16.3% | 26 |
+| spread | 12-14-1 | -3.11 | -18.8% | 27 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 3
+Pending picks: 2
 
 ## Closing line value
 
@@ -35,13 +35,13 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.1% vs. actual 50.0% over 38 bets (Brier 0.25). Edge factor: **0.5** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 48.7% over 39 bets (Brier 0.252). Edge factor: **0.5** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
 | 50%-55% | 11 | 53.3% | 54.5% |
-| 55%-60% | 22 | 56.1% | 50.0% |
+| 55%-60% | 23 | 56.1% | 47.8% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
@@ -52,7 +52,7 @@ Predicted 55.1% vs. actual 50.0% over 38 bets (Brier 0.25). Edge factor: **0.5**
 | injury_edge | 10-4 | +2.54 | 15 |
 | key_number | 1-3 | -1.52 | 4 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 12-11 | -0.78 | 24 |
+| model_disagreement | 12-12 | -1.28 | 25 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
 | qb_change | 1-3 | -2.07 | 4 |
@@ -65,6 +65,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-31 | NCAAF | Mississippi State +20.5 | -110 | 0.5 | LOSS | Mississippi State 3 - Texas 31 | -0.5 |
 | 2026-10-31 | NCAAF | Arizona +3.5 | -108 | 0.5 | LOSS | Arizona 26 - Texas Tech 34 | -0.5 |
 | 2026-10-31 | EPL | Chelsea ML | +108 | 0.5 | WIN | Manchester United 0 - Chelsea 2 | +0.54 |
 | 2026-10-27 | NBA | Kings +18.5 | -110 | 0.5 | LOSS | Sacramento Kings 103 - San Antonio Spurs 130 | -0.5 |

@@ -19,6 +19,11 @@ No edge; pass. First NCAAB card - no track record.
 - `kuick_analyst kenpom` (neutral court): **Villanova 71.3, Notre Dame 65.4** - Villanova by 6.0, win 70.6% (market -305 ~ 73%); Notre Dame +7.5 covers 55.6%; total 136.7 (under 147.5 ~75%; ~61% if tempo is league-average 67.5).
 - Verdict: Notre Dame +7.5 is ~53% after the 0.58 factor vs 52.4% implied, and Covers' computer (Villanova by 8) disagrees - pass. Under: efficiency model + cappers agree, but tempo is assumed and the total has already dropped below the opener (under rule). Lean under only. Early-season ratings are mostly preseason priors and both rosters turned over heavily (ND lost its top three scorers; Villanova added six transfers).
 
+## Sunday 6:45 AM re-run
+- KenPom: kenpom.com still blocks automated reads and no published Notre Dame KenPom figures were found; Villanova is KenPom #32 (O #22, D #53). Torvik-based efficiency projection unchanged: Villanova by 6.0, Notre Dame +7.5 covers 55.6%.
+- Kalshi: Villanova ~75% to win, "Villanova by over 7.5" at 47c (ND +7.5 ~53%), Over 146.5 at ~50-52%.
+- Two sources (efficiency model, Kalshi) lean Notre Dame +7.5, Covers' computer (Villanova by 8) does not. After the 0.58 factor ND +7.5 is ~53.2% vs 52.4% implied - under 1 point of edge with early-season, preseason-prior ratings. Pass. The market does not support the under (Kalshi has the over slightly favored).
+
 
 ## Sources
 
@@ -29,5 +34,6 @@ No edge; pass. First NCAAB card - no track record.
 - [Bart Torvik 2026-27 preseason projections](https://barttorvik.com/trankpre.php)
 - [PHL Sports Now: Villanova preliminary KenPom](https://phlsportsnow.com/villanova-ranks-fourth-in-big-east-in-preliminary-kenpom-ratings/)
 - [CBS: Villanova vs Notre Dame staff picks](https://www.cbssports.com/college-basketball/news/villanova-vs-notre-dame-prediction-pick-odds-spread-why-irish-wildcats-are-opening-season-in-rome/)
+- [Kalshi: Notre Dame vs Villanova](https://kalshi.com/markets/kxncaambgame/event/kxncaambgame-26nov01ndvill)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>
