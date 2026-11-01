@@ -974,5 +974,53 @@
   "summary": "SportsLine >70% and Covers AI (Texas by 14) agree the big spread is inflated; backup QB already a month in.",
   "units": 0.5,
   "win_probability": 0.57
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "sharp_move",
+   "injury_edge",
+   "key_number"
+  ],
+  "book": "consensus",
+  "confidence": 0.6,
+  "date": "2026-11-01",
+  "game_id": "NE@MIA",
+  "id": "2026-11-01:nfl:NE@MIA:spread:home",
+  "league": "nfl",
+  "line": 7,
+  "market": "spread",
+  "matchup": "Patriots at Dolphins",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Dolphins +7",
+  "side": "home",
+  "status": "pending",
+  "summary": "Covers AI and SportsLine AI both have NE winning by 3-4; reverse line move against 89% NE money; NE without A.J. Brown.",
+  "units": 0.75,
+  "win_probability": 0.546
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-11-01",
+  "game_id": "LAC@LAR",
+  "id": "2026-11-01:nfl:LAC@LAR:spread:home",
+  "league": "nfl",
+  "line": -6.5,
+  "market": "spread",
+  "matchup": "Chargers at Rams",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Rams -6.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "Covers AI and Dimers both project Rams by 7.5-10; Chargers OL banged up and allowing 3.5 sacks a game.",
+  "units": 0.5,
+  "win_probability": 0.54
  }
 ]

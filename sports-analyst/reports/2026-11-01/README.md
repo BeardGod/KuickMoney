@@ -4,11 +4,16 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NFL | Patriots at Dolphins | Dolphins +7 | -110 | consensus | 0.75 | 54.6 | 52.4 | 0.6 |
+| NFL | Chargers at Rams | Rams -6.5 | -110 | consensus | 0.5 | 54.0 | 52.4 | 0.5 |
 
 ## League reports
 
+- [English Premier League](epl.md) - 0 pick(s)
 - [NCAA Men's Basketball](ncaamb.md) - 0 pick(s)
+- [NFL](nfl.md) - 2 pick(s)
 
 ## Track record
 
