@@ -4,17 +4,17 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 18-18-1 | -4.39 | -17.7% | 37 |
+| All | 19-19-1 | -4.35 | -16.9% | 39 |
 
 ## By league
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| epl | 1-1-0 | +0.08 | 8.5% | 2 |
+| epl | 2-1-0 | +0.62 | 41.7% | 3 |
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 0-1-0 | -0.5 | -100.0% | 1 |
-| ncaaf | 6-8-0 | -3.71 | -39.1% | 14 |
+| ncaaf | 6-9-0 | -4.21 | -42.1% | 15 |
 | nfl | 7-5-1 | -0.14 | -1.6% | 13 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
@@ -23,11 +23,11 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| moneyline | 5-3-0 | +0.49 | 8.1% | 8 |
-| spread | 12-12-1 | -2.11 | -13.6% | 25 |
+| moneyline | 6-3-0 | +1.03 | 15.8% | 9 |
+| spread | 12-13-1 | -2.61 | -16.3% | 26 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 3
+Pending picks: 1
 
 ## Closing line value
 
@@ -35,12 +35,12 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.3% vs. actual 50.0% over 36 bets (Brier 0.249). Edge factor: **0.5** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 50.0% over 38 bets (Brier 0.25). Edge factor: **0.5** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
-| 50%-55% | 9 | 53.6% | 55.6% |
+| 50%-55% | 11 | 53.3% | 54.5% |
 | 55%-60% | 22 | 56.1% | 50.0% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
@@ -49,13 +49,13 @@ Predicted 55.3% vs. actual 50.0% over 36 bets (Brier 0.249). Edge factor: **0.5*
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 3-1 | +0.67 | 4 |
-| injury_edge | 9-4 | +2.0 | 14 |
-| key_number | 1-2 | -1.02 | 3 |
+| injury_edge | 10-4 | +2.54 | 15 |
+| key_number | 1-3 | -1.52 | 4 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 11-10 | -0.82 | 22 |
+| model_disagreement | 12-11 | -0.78 | 24 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
-| qb_change | 1-2 | -1.57 | 3 |
+| qb_change | 1-3 | -2.07 | 4 |
 | sharp_move | 5-5 | -0.73 | 10 |
 | situational | 2-2 | -0.12 | 4 |
 
@@ -65,6 +65,8 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-10-31 | NCAAF | Arizona +3.5 | -108 | 0.5 | LOSS | Arizona 26 - Texas Tech 34 | -0.5 |
+| 2026-10-31 | EPL | Chelsea ML | +108 | 0.5 | WIN | Manchester United 0 - Chelsea 2 | +0.54 |
 | 2026-10-27 | NBA | Kings +18.5 | -110 | 0.5 | LOSS | Sacramento Kings 103 - San Antonio Spurs 130 | -0.5 |
 | 2026-10-27 | NCAAF | Western Kentucky -1.5 | -105 | 0.5 | LOSS | Delaware 35 - Western Kentucky 21 | -0.5 |
 | 2026-10-25 | NFL | Bengals -2.5 | -117 | 0.5 | WIN | Cincinnati Bengals 35 - Baltimore Ravens 13 | +0.427 |
