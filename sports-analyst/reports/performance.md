@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 19-20-1 | -4.85 | -18.5% | 40 |
+| All | 21-20-1 | -3.71 | -13.5% | 42 |
 
 ## By league
 
@@ -15,7 +15,7 @@
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 0-1-0 | -0.5 | -100.0% | 1 |
 | ncaaf | 6-10-0 | -4.71 | -44.9% | 16 |
-| nfl | 7-5-1 | -0.14 | -1.6% | 13 |
+| nfl | 9-5-1 | +1.0 | 10.5% | 15 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
@@ -24,10 +24,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 6-3-0 | +1.03 | 15.8% | 9 |
-| spread | 12-14-1 | -3.11 | -18.8% | 27 |
+| spread | 14-14-1 | -1.97 | -11.1% | 29 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 2
+Pending picks: 0
 
 ## Closing line value
 
@@ -35,12 +35,12 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.1% vs. actual 48.7% over 39 bets (Brier 0.252). Edge factor: **0.5** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 51.2% over 41 bets (Brier 0.25). Edge factor: **0.5** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
-| 50%-55% | 11 | 53.3% | 54.5% |
+| 50%-55% | 13 | 53.5% | 61.5% |
 | 55%-60% | 23 | 56.1% | 47.8% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
@@ -49,14 +49,14 @@ Predicted 55.1% vs. actual 48.7% over 39 bets (Brier 0.252). Edge factor: **0.5*
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 3-1 | +0.67 | 4 |
-| injury_edge | 10-4 | +2.54 | 15 |
-| key_number | 1-3 | -1.52 | 4 |
+| injury_edge | 12-4 | +3.68 | 17 |
+| key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 12-12 | -1.28 | 25 |
+| model_disagreement | 14-12 | -0.14 | 27 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
 | qb_change | 1-3 | -2.07 | 4 |
-| sharp_move | 5-5 | -0.73 | 10 |
+| sharp_move | 6-5 | -0.05 | 11 |
 | situational | 2-2 | -0.12 | 4 |
 
 Lessons log: `data/lessons.md`
@@ -65,6 +65,8 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-01 | NFL | Rams -6.5 | -110 | 0.5 | WIN | Los Angeles Chargers 9 - Los Angeles Rams 24 | +0.455 |
+| 2026-11-01 | NFL | Dolphins +7 | -110 | 0.75 | WIN | New England Patriots 24 - Miami Dolphins 19 | +0.682 |
 | 2026-10-31 | NCAAF | Mississippi State +20.5 | -110 | 0.5 | LOSS | Mississippi State 3 - Texas 31 | -0.5 |
 | 2026-10-31 | NCAAF | Arizona +3.5 | -108 | 0.5 | LOSS | Arizona 26 - Texas Tech 34 | -0.5 |
 | 2026-10-31 | EPL | Chelsea ML | +108 | 0.5 | WIN | Manchester United 0 - Chelsea 2 | +0.54 |

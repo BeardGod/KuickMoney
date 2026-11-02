@@ -9,29 +9,28 @@ _No bets recommended._
 ## League reports
 
 - [NCAA Men's Basketball](ncaamb.md) - 0 pick(s)
+- [NFL](nfl.md) - 0 pick(s)
 
 ## Track record
 
-Last 60 days overall: 19-20-1, -4.85 units, ROI -18.5%
+Last 60 days overall: 21-20-1, -3.71 units, ROI -13.5%
 - epl: 2-1-0, +0.62u, ROI 41.7%
 - ligue1: 0-1-0, -0.5u, ROI -100.0%
 - mlb: 1-1-0, -0.3u, ROI -14.8%
 - nba: 0-1-0, -0.5u, ROI -100.0%
 - ncaaf: 6-10-0, -4.71u, ROI -44.9%
-- nfl: 7-5-1, -0.14u, ROI -1.6%
+- nfl: 9-5-1, +1.0u, ROI 10.5%
 - ucl: 2-0-0, +0.87u, ROI 87.0%
 - unl: 1-1-0, -0.2u, ROI -10.0%
 - moneyline bets: 6-3-0, +1.03u, ROI 15.8%
-- spread bets: 12-14-1, -3.11u, ROI -18.8%
+- spread bets: 14-14-1, -1.97u, ROI -11.1%
 - total bets: 1-3-0, -2.77u, ROI -85.3%
 
-Calibration (39 graded): you predicted 55.1% on average, actual win rate 48.7%, Brier 0.252.
+Calibration (41 graded): you predicted 55.1% on average, actual win rate 51.2%, Brier 0.25.
 ADJUST: multiply your estimated edge over 50% by 0.5 (e.g. 56% becomes 53.0%).
 Closing line value (10 picks): beat the close 20.0% of the time, avg +0.2 points / +0.1% implied probability. Consistently negative CLV means the edge is not real, whatever the record says.
-Results by angle: form_gap 3-1 (+0.67u); injury_edge 10-4 (+2.54u); key_number 1-3 (-1.52u); low_scoring_script 0-2 (-2.0u); model_disagreement 12-12 (-1.28u); pitching_mismatch 1-1 (-0.3u); public_fade 2-5 (-2.88u); qb_change 1-3 (-2.07u); sharp_move 5-5 (-0.73u); situational 2-2 (-0.12u)
+Results by angle: form_gap 3-1 (+0.67u); injury_edge 12-4 (+3.68u); key_number 2-3 (-0.84u); low_scoring_script 0-2 (-2.0u); model_disagreement 14-12 (-0.14u); pitching_mismatch 1-1 (-0.3u); public_fade 2-5 (-2.88u); qb_change 1-3 (-2.07u); sharp_move 6-5 (-0.05u); situational 2-2 (-0.12u)
 Recent lessons:
-- **2026-10-18** `2026-10-18:epl:SUN@BOU:moneyline:home`: Bournemouth ML won 2-0 (Sunderland's Danso sent off). Three soccer models above market PLUS a concrete team-news reason (opponent missing CB, scorer doubtful, fatigued from a late Thursday away win) worked, unlike the model-only Le Mans pick. Keep requiring both.
-- **2026-10-18** `2026-10-18:nfl:LAC@KC:spread:away`: Chargers +7.5 lost 22-6. Sharp money on a dog with a gutted offensive line (Alt out) vs an elite pass rush was not enough; LAC scored 6. Same failure as Iowa State: the dog's offense was the weak link. Don't back a dog whose OL injuries hit the unit that has to score.
 - **2026-10-18** `2026-10-18:nfl:ARI@LAR:spread:away`: Cardinals +12.5 won outright 18-16. SportsLine + Covers AI agreeing that a double-digit favorite's margin was inflated (line already falling 14 to 12.5) was a strong combo again; large NFL spreads are where model agreement has been most reliable.
 - **2026-10-18** `2026-10-18:nfl:PIT@TB:spread:home`: Bucs +3 lost 26-19 in OT. A rookie backup QB dog at the key number 3, even with sharp money and a 1-point model projection, lost to a better roster in overtime; qb_change-adjacent spots keep losing (now part of a pattern). Avoid dogs starting backup QBs unless the edge is large.
 - **2026-10-18** `2026-10-18:nfl:NYJ@NE:spread:home`: Patriots -7 pushed (26-19). Two models agreeing on NE was right on the side but the margin landed exactly on the key number; refusing -7.5 saved the bet. Keep never laying the hook through 7.
@@ -45,3 +44,5 @@ Recent lessons:
 - **2026-11-01** `2026-10-31:epl:MUN@CHE:moneyline:home`: Chelsea ML +108 won 2-0 (Rogers, Palmer pen; United down to 10). Two soccer models a few points above the market (well under the 10-point cap) PLUS a concrete absences reason (United missing five regulars) is the soccer template that works - now 2-0 with it (Bournemouth, Chelsea).
 - **2026-11-01** `2026-10-31:ncaaf:ARIZ@TTU:spread:away`: Arizona +3.5 lost 34-26 (blew another halftime lead; TTU's run game took over). One model projection plus a crowd of expert picks is not two models; the 'favorite has QB trouble' angle failed because TTU won on the ground. Require a second true model even when experts pile on.
 - **2026-11-01** `2026-10-31:ncaaf:MSST@TEX:spread:away`: Mississippi State +20.5 lost 31-3. Two models agreed the spread was inflated, but the dog's offense (backup QB vs the nation's top defense by EPA) scored 3 - the 'can the dog score?' check failed again, the same way Iowa State and the Chargers did. Do not override the backup-QB-dog rule because the injury is a month old; require evidence the backup offense can score against a top-10 defense.
+- **2026-11-02** `2026-11-01:nfl:NE@MIA:spread:home`: Dolphins +7 won (lost 24-19). Two AI projections inside the number + reverse line movement against 89% public money + the favorite missing its WR1 is the NFL template that keeps working (Bears -3, Dolphins +7). Owning the key number 7 mattered: a Patriots TD-margin win would have pushed.
+- **2026-11-02** `2026-11-01:nfl:LAC@LAR:spread:home`: Rams -6.5 won 24-9. Fading a dog whose offensive line can't protect (Chargers 31st in sacks allowed, S Derwin James out) with two models at 7.5-10 worked - the mirror image of the Chargers +7.5 loss. Laying 6.5 rather than 7 kept the key number on our side.
