@@ -29,6 +29,10 @@ Edge factor ~0.58 applied.
 - Chargers: Derwin James OUT (plus G Awosika, DB Leonard, WR Brenen Thompson). Rams: McDuffie, Shelton, Parkinson questionable. Rams -6.5 stands (do not lay -7).
 - Lamar Jackson off the report and starting vs Buffalo; Bills -3.5 is still the hook through 3 - pass.
 
+## SNF deep dive - Eagles at Commanders (8:20 PM)
+Commanders -6 (opened -4.5; moved on injuries, tickets ~52/48), ML WAS -250, total 40 (opened 40.5). Eagles: Hurts (IR, blood clot), DeVonta Smith, Wicks, Jihaad Campbell out; Barkley cleared but banged up; McKee starts. Commanders: Daniels starts (elbow, no designation); McLaurin out for season.
+Models: Dimers WAS 70.8% (~6 points, on the number); Covers AI WAS 23-20 (Eagles cover). Prediction: Commanders 23-17. No bet: models split on the side, and the Eagles are a backup-QB dog (0-3 for us). Total: Covers AI 43 vs TheSpread under 40 - no edge.
+
 
 ## Sources
 
@@ -40,5 +44,6 @@ Edge factor ~0.58 applied.
 - [Football Nation: Patriots at Dolphins](https://www.footballnationusa.com/post/patriots-at-dolphins-week-8-guide-injuries-fantasy-odds-and-prediction)
 - [Football Nation: Chargers at Rams](https://www.footballnationusa.com/post/chargers-at-rams-week-8-guide-2026)
 - [CBS: Week 8 final injury report](https://www.cbssports.com/nfl/news/nfl-week-8-injury-report-lamar-jackson-aj-brown-emeka-egbuka-more/)
+- [TheSpread: Eagles vs Commanders](https://www.thespread.com/nfl-articles/eagles-vs-commanders-prediction-sunday-night-week-8-november-1/)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

@@ -12,6 +12,7 @@
 ## League reports
 
 - [English Premier League](epl.md) - 0 pick(s)
+- [NBA](nba.md) - 0 pick(s)
 - [NCAA Men's Basketball](ncaamb.md) - 0 pick(s)
 - [NFL](nfl.md) - 2 pick(s)
 
