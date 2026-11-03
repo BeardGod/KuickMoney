@@ -1025,5 +1025,27 @@
   "summary": "Covers AI and Dimers both project Rams by 7.5-10; Chargers OL banged up and allowing 3.5 sacks a game.",
   "units": 0.5,
   "win_probability": 0.54
+ },
+ {
+  "angles": [
+   "model_disagreement"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-11-03",
+  "game_id": "BUFF@M-OH",
+  "id": "2026-11-03:ncaaf:BUFF@M-OH:total:over",
+  "league": "ncaaf",
+  "line": 44.5,
+  "market": "total",
+  "matchup": "Buffalo at Miami (OH)",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Over 44.5",
+  "side": "over",
+  "status": "pending",
+  "summary": "SportsLine (64% over) and Dimers (46 projected) both above 44.5.",
+  "units": 0.5,
+  "win_probability": 0.553
  }
 ]

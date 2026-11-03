@@ -4,10 +4,16 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | Buffalo at Miami (OH) | Over 44.5 | -110 | consensus | 0.5 | 55.3 | 52.4 | 0.5 |
 
 ## League reports
 
+- [ATP Tennis (men)](atp.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
+- [NCAA Men's Basketball](ncaamb.md) - 0 pick(s)
+- [NHL](nhl.md) - 0 pick(s)
 - [UEFA Champions League](ucl.md) - 0 pick(s)
 
 ## Track record

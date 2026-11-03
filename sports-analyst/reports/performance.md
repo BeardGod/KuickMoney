@@ -27,7 +27,7 @@
 | spread | 14-14-1 | -1.97 | -11.1% | 29 |
 | total | 1-3-0 | -2.77 | -85.3% | 4 |
 
-Pending picks: 0
+Pending picks: 1
 
 ## Closing line value
 
