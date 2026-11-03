@@ -1,0 +1,43 @@
+{
+ "league": "ucl",
+ "report_markdown": "# UEFA Champions League Matchday 4 - Tue Nov 3\n\nSoccer rule: two models above the market (gap under ~10 points) PLUS a concrete team-news reason. Market = no-vig from bookmaker decimal odds (gobet) and Kalshi.\n\n| Match (ET) | Market (H/D/A) | Models | Verdict |\n|---|---|---|---|\n| Galatasaray v Stuttgart (12:45) | 44/24/33 | none found | Pass (Stuttgart without Stiller) |\n| Shakhtar v Sporting (12:45, at Stamford Bridge) | 26/26/48 | none | Pass (Sporting coaching change) |\n| Atletico v Bayern (3:00) | 33/26/40 | none | **Lean Atletico +0.5** |\n| Barcelona v Aston Villa (3:00) | 78/13/9 | Opta 72/15/13; Elofoot 79/12/9 | Split - pass, lean Villa |\n| Bodo/Glimt v Lille (3:00) | 52/23/24 | Kickoff algo 53/21/25; Kalshi 52 | On the number - pass |\n| Feyenoord v Inter (3:00) | 26/23/52 | none | Pass |\n| LASK v Slovan (3:00) | 69/19/14 | Kalshi LASK 69 | Pass |\n| Man United v Roma (3:00) | 42/24/34 | Opta 41/24/35 | On the number - pass |\n| Villarreal v PSG (3:00) | 18/21/60 | Kalshi PSG 60 | Pass |\n\nNotes:\n- Atletico v Bayern: Bayern without Musiala, Luis Diaz and Neuer; Olise, Gnabry, Saibari doubtful after the Dortmund draw. Atletico without Hjulmand (suspended), Koke and Cardoso (midfield gutted). Atletico 8-1-1 last 10, 75% home clean sheets, never lost to Bayern at home. Atletico or draw ~60% in the market; no model to confirm - lean only.\n- Barcelona v Villa: Opta gives Villa 12.7% vs ~9% market (+33% EV at 10.5) with Barca missing Kounde, Eric Garcia, Christensen and no UCL clean sheet in 18; but Elofoot (79/12/9) matches the market. Split - lean Villa double chance / +1.5 only.\n- Man United v Roma: Opta mirrors the market; United without Sesko (Rashford, Shaw also listed out), Roma without Kone and Svilar, Dybala doubtful.\nNo bets.\n",
+ "sources": [
+  {
+   "url": "https://www.livescore.com/en/news/football/champions-league/predictions/champions-league-predictions-all-nine-matchday-four-games-on-tuesday/",
+   "title": "LiveScore: matchday 4 Tuesday predictions"
+  },
+  {
+   "url": "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-4-2026",
+   "title": "Covers: matchday 4 moneyline picks (Kalshi)"
+  },
+  {
+   "url": "https://theanalyst.com/articles/man-utd-vs-roma-prediction-champions-league-preview-11-2026",
+   "title": "Opta: Man Utd vs Roma"
+  },
+  {
+   "url": "https://theanalyst.com/articles/barcelona-vs-aston-villa-prediction-champions-league-preview-11-2026",
+   "title": "Opta: Barcelona vs Aston Villa"
+  },
+  {
+   "url": "https://www.elofoot.com/en/prediction/champions-league/barcelona-aston-villa-2026-11-03",
+   "title": "Elofoot: Barcelona vs Aston Villa"
+  },
+  {
+   "url": "https://www.kickoff.co.uk/uefa-champions-league-predictions-stats-odds/bodo-glimt-vs-lille/",
+   "title": "Kickoff: Bodo/Glimt vs Lille"
+  },
+  {
+   "url": "https://footballpredictions.com/footballpredictions/championsleaguepredictions/atletico-madrid-vs-bayern-munich-prediction-03-11-2026/",
+   "title": "FootballPredictions: Atletico vs Bayern"
+  },
+  {
+   "url": "https://www.gobet.com.au/champions-league-tips/champions-league-matchday-4-2026-27/",
+   "title": "GoBet: matchday 4 odds"
+  },
+  {
+   "url": "https://www.si.com/soccer/champions-league-predictions-psg-barcelona-carrick-fights-man-utd-job",
+   "title": "SI: Tuesday predictions"
+  }
+ ],
+ "picks": []
+}
