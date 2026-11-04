@@ -1,0 +1,27 @@
+{
+ "league": "ucl",
+ "report_markdown": "# UEFA Champions League Matchday 4 - Wed Nov 4\n\nMarket (no-vig from GoBet decimals) vs models where found.\n| Match (ET) | Market H/D/A | Models | Verdict |\n|---|---|---|---|\n| AEK v Real Madrid (12:45) | 8/14/77 | Kalshi Real 76 | Pass (Rodrygo, Asencio out) |\n| Fenerbahce v Liverpool (12:45) | 17/21/62 | Opta 19.5/21.5/59 | Opta 2-3 pts off - no edge; Liverpool without Gravenberch, Ekitike, Frimpong, Bradley, Leoni; Fener without Ake, Asensio. Pass |\n| Dortmund v Betis (3:00) | 54/22/22 | Kalshi BVB 56 | Pass (Betis without Cucho, Firpo) |\n| Porto v Napoli (3:00) | 46/25/27 | Kalshi Porto 48 | Lean Porto: Napoli many absentees, De Bruyne/Hojlund/Milinkovic-Savic late checks; no model found |\n| Lens v Como (3:00) | 30/27/45 | Kalshi Como 45 | Pass (Como without Kean, Diao; Chalobah doubtful) |\n| PSV v Brugge (3:00) | 46/22/31 | none | Pass |\n| Leipzig v Man City (3:00) | 18/22/58 | Kalshi City 62 | Pass |\n| Slavia v Arsenal (3:00) | 9/13/77 | Kalshi Arsenal 74 | Pass (Saka, Saliba out) |\n| Viking v Sabah (3:00) | 65/19/15 | Kalshi Viking 66 | Pass |\nNo match had two models above the market plus a team-news reason. No bets.\n",
+ "sources": [
+  {
+   "url": "https://www.livescore.com/en/news/football/champions-league/predictions/champions-league-predictions-all-nine-matchday-four-games-on-wednesday/",
+   "title": "LiveScore: Wednesday predictions and team news"
+  },
+  {
+   "url": "https://www.covers.com/soccer/champions-league-moneyline-picks-matchday-4-2026",
+   "title": "Covers: matchday 4 moneyline picks (Kalshi)"
+  },
+  {
+   "url": "https://www.gobet.com.au/champions-league-tips/champions-league-matchday-4-2026-27/",
+   "title": "GoBet: matchday 4 odds"
+  },
+  {
+   "url": "https://players.bio/news/prediksi-fenerbahce-vs-liverpool/911580",
+   "title": "Opta supercomputer: Fenerbahce vs Liverpool"
+  },
+  {
+   "url": "https://www.fanduel.com/research/champions-league-today-picks-predictions-best-bets-wednesday-nov-4",
+   "title": "FanDuel Research: UCL Wednesday"
+  }
+ ],
+ "picks": []
+}

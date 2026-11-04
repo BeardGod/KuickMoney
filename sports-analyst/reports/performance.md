@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 21-20-1 | -3.71 | -13.5% | 42 |
+| All | 22-20-1 | -3.26 | -11.6% | 43 |
 
 ## By league
 
@@ -14,7 +14,7 @@
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 0-1-0 | -0.5 | -100.0% | 1 |
-| ncaaf | 6-10-0 | -4.71 | -44.9% | 16 |
+| ncaaf | 7-10-0 | -4.26 | -38.7% | 17 |
 | nfl | 9-5-1 | +1.0 | 10.5% | 15 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
@@ -25,9 +25,9 @@
 |---|---|---|---|---|
 | moneyline | 6-3-0 | +1.03 | 15.8% | 9 |
 | spread | 14-14-1 | -1.97 | -11.1% | 29 |
-| total | 1-3-0 | -2.77 | -85.3% | 4 |
+| total | 2-3-0 | -2.32 | -61.8% | 5 |
 
-Pending picks: 1
+Pending picks: 0
 
 ## Closing line value
 
@@ -35,13 +35,13 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.1% vs. actual 51.2% over 41 bets (Brier 0.25). Edge factor: **0.5** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 52.4% over 42 bets (Brier 0.249). Edge factor: **0.5** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
 | 50%-55% | 13 | 53.5% | 61.5% |
-| 55%-60% | 23 | 56.1% | 47.8% |
+| 55%-60% | 24 | 56.1% | 50.0% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
@@ -52,7 +52,7 @@ Predicted 55.1% vs. actual 51.2% over 41 bets (Brier 0.25). Edge factor: **0.5**
 | injury_edge | 12-4 | +3.68 | 17 |
 | key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 14-12 | -0.14 | 27 |
+| model_disagreement | 15-12 | +0.32 | 28 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
 | qb_change | 1-3 | -2.07 | 4 |
@@ -65,6 +65,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-03 | NCAAF | Over 44.5 | -110 | 0.5 | WIN | Buffalo 34 - Miami (OH) 31 | +0.455 |
 | 2026-11-01 | NFL | Rams -6.5 | -110 | 0.5 | WIN | Los Angeles Chargers 9 - Los Angeles Rams 24 | +0.455 |
 | 2026-11-01 | NFL | Dolphins +7 | -110 | 0.75 | WIN | New England Patriots 24 - Miami Dolphins 19 | +0.682 |
 | 2026-10-31 | NCAAF | Mississippi State +20.5 | -110 | 0.5 | LOSS | Mississippi State 3 - Texas 31 | -0.5 |
