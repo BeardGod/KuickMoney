@@ -1,0 +1,23 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF Thursday - Nov 5\n\n- UTSA -6.5 at FAU (7:30): Dimers 38-32 (UTSA by 6, on the number); Kalshi \"UTSA by over 6.5\" 55%. Total 70.5. No edge; pass.\n- JMU -15.5 at Southern Miss (8:00): Dimers JMU 35-22 (by ~13) and picks USM +15.5; Kalshi \"JMU by over 14.5\" 48% (neutral). Line moved 14.5 -> 15.5 toward JMU. ~53.5% after the factor vs 53.5% implied at -115 - no edge. Lean Southern Miss +15.5.\n",
+ "sources": [
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_10_fau_utsa",
+   "title": "Dimers: UTSA vs FAU"
+  },
+  {
+   "url": "https://kalshi.com/markets/kxncaafspread/event/kxncaafspread-26nov05utsafau",
+   "title": "Kalshi: UTSA vs FAU spread"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_10_usm_jmu",
+   "title": "Dimers: JMU vs Southern Miss"
+  },
+  {
+   "url": "https://kalshi.com/markets/kxncaafgame/event/kxncaafgame-26nov05jmuusm",
+   "title": "Kalshi: JMU vs Southern Miss"
+  }
+ ],
+ "picks": []
+}
