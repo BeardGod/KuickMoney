@@ -1,0 +1,47 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF Saturday - Nov 7\n\nCovers AI (Kalshi lines) vs Dimers win probabilities vs Kalshi. Dimers' listed spreads are openers; current lines used below.\n- Iowa at Northwestern: opened NW -2.5; Covers AI Iowa 21-20, Dimers Iowa 55.8%, Predictem Iowa 21-17 - but the market flipped to Iowa ~56% (Kalshi), so the edge is gone. Pass.\n- Miami at Notre Dame: ND -3.5 -> -7 after Miami WR Malachi Toney (1,027 yds, 13 TD) went out. Covers AI ND by 6, Dimers 72% (~7.5). On the number; pass.\n- Oregon at Ohio State: OSU opened -14, now -7.5. Covers AI OSU by 14, Dimers 74.5% (~9) - both favor OSU but laying -7.5 is the hook through 7. Pass.\n- Alabama at LSU (-5.5/-6.5): Covers AI LSU by 4, Dimers ~6, Kalshi \"LSU by 6.5+\" 49%. Alabama QB Jett Thomalla doubtful (backup-QB dog). Pass.\n- Oklahoma at Florida (-6.5): Covers AI FLA by 3, Dimers ~6, Kalshi \"FLA by 5.5+\" 52%. OU QB Mateer possible benching, eight players out. Pass.\n- BYU at Utah (-3.5/-4.5): Covers AI Utah by 11, Dimers ~4.5 - Utah -3.5 is the hook through 3. Pass.\n- Georgia at Ole Miss (+3.5): Covers AI UGA by 1, Dimers ~3.5-4. Lean Ole Miss +3.5 only.\n- Texas at Missouri, Kentucky at Tennessee, UCLA at Minnesota, Houston, Texas Tech, Boise: Covers AI and Dimers split or on the number. Pass.\nNo bets.\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-10-2026",
+   "title": "Covers AI Week 10"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions",
+   "title": "Dimers CFB predictions"
+  },
+  {
+   "url": "https://kalshi.com/markets/kxncaafgame/iowa-vs-northwestern/kxncaafgame-26nov07iowanw",
+   "title": "Kalshi: Iowa vs Northwestern"
+  },
+  {
+   "url": "https://www.predictem.com/college-football/iowa-vs-northwestern-prediction-big-ten-night-game-odds/",
+   "title": "Predictem: Iowa vs Northwestern"
+  },
+  {
+   "url": "https://www.sportsbettingdime.com/news/college-football/miami-vs-notre-dame-odds-spread-malachi-toney-injury/",
+   "title": "SBD: Miami vs Notre Dame after Toney injury"
+  },
+  {
+   "url": "https://247sports.com/college/oregon/article/oregon-vs-ohio-state-betting-line-sees-massive-movement-ahead-of-saturdays-showdown-292217855/",
+   "title": "247: Oregon-Ohio State line move"
+  },
+  {
+   "url": "https://kalshi.com/markets/kxncaafgame/alabama-vs-lsu/kxncaafgame-26nov07alalsu",
+   "title": "Kalshi: Alabama vs LSU"
+  },
+  {
+   "url": "https://bamahammer.com/alabama-vs-lsu-how-to-watch-odds-injuries-more-as-tide-travels-to-death-valley",
+   "title": "BamaHammer: Alabama vs LSU injuries"
+  },
+  {
+   "url": "https://kalshi.com/markets/kxncaafgame/oklahoma-vs-florida/kxncaafgame-26nov07oklafla",
+   "title": "Kalshi: Oklahoma vs Florida"
+  },
+  {
+   "url": "https://stormininnorman.com/oklahoma-vs-florida-how-to-watch-weather-injuries-odds-announcers-and-more",
+   "title": "Stormin in Norman: Oklahoma vs Florida injuries"
+  }
+ ],
+ "picks": []
+}
