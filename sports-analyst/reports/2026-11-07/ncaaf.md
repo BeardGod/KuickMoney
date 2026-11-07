@@ -4,7 +4,9 @@
 
 ## Picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | Iowa at Northwestern | Iowa ML | +115 | consensus | 0.5 | 53.2 | 46.5 | 0.55 |
 
 # NCAAF Saturday - Nov 7
 
@@ -20,6 +22,21 @@ Covers AI (Kalshi lines) vs Dimers win probabilities vs Kalshi. Dimers' listed s
 No bets.
 
 
+## 10:20 AM re-run (with leans)
+New inputs: SportsLine model (CBS), CLEATZ handle splits, SBD line moves.
+
+### Pick
+- **Iowa ML at Northwestern (+115), 0.5u (night, Wrigley).** Books still have Northwestern -2.5 (moved from -1.5), but every projection has Iowa winning: Covers AI 21-20, Dimers 55.8%, Predictem 21-17, and Kalshi prices Iowa ~56%. Per the Tennessee lesson (road dog at +2.5 -> take the ML). ~53% after the 0.58 factor vs 46.5% implied. Small: Iowa's offense is the weak link (projections are all low-scoring).
+
+### Leans (ranked)
+1. Ohio State -7.5 vs Oregon - SportsLine >60% cover (double-digit win), Covers AI by 14, Dimers ~9. Three models, but it is the hook through 7, which the rules forbid. Play only at -7.
+2. Oklahoma +6/+6.5 at Florida - SportsLine "well over 50%", Covers AI FLA by 3; Dimers/Kalshi on the number. QB Mateer benching unresolved (backup-QB dog risk).
+3. Tennessee -6.5 vs Kentucky - SportsLine 27-19 (53%), Covers AI by 11, Dimers ~5.5. Under 49.5 SportsLine 62% but total fell below the opener.
+4. Miami +7.5 at Notre Dame - Covers AI ND by 6; 82% of handle on Miami, yet the line moved to ND (reverse move = sharp ND). Conflicted.
+5. Boston College +6.5 vs Florida State - 92% of handle on 26% of bets (big money gap); no model.
+6. Ole Miss +3.5 vs Georgia - Covers AI UGA by 1, Dimers ~3.5.
+
+
 ## Sources
 
 - [Covers AI Week 10](https://www.covers.com/ncaaf/college-football-ai-predictions-week-10-2026)
@@ -32,5 +49,9 @@ No bets.
 - [BamaHammer: Alabama vs LSU injuries](https://bamahammer.com/alabama-vs-lsu-how-to-watch-odds-injuries-more-as-tide-travels-to-death-valley)
 - [Kalshi: Oklahoma vs Florida](https://kalshi.com/markets/kxncaafgame/oklahoma-vs-florida/kxncaafgame-26nov07oklafla)
 - [Stormin in Norman: Oklahoma vs Florida injuries](https://stormininnorman.com/oklahoma-vs-florida-how-to-watch-weather-injuries-odds-announcers-and-more)
+- [CBS: SportsLine score predictions Week 10](https://www.cbssports.com/betting/news/college-football-picks-score-predictions-game-best-bets-for-week-10-2026/)
+- [CBS: computer picks Week 10](https://www.cbssports.com/betting/news/college-football-odds-spreads-picks-predictions-best-bets-week-10-2026/)
+- [CLEATZ Week 10 betting report](https://cleatz.com/college-football-week-10-betting-report/)
+- [SBD: Week 10 line moves](https://www.sportsbettingdime.com/news/college-football/updated-week-10-odds-latest-spreads-biggest-moves-nov-7/)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

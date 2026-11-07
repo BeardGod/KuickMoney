@@ -1,6 +1,6 @@
 {
  "league": "ncaaf",
- "report_markdown": "# NCAAF Saturday - Nov 7\n\nCovers AI (Kalshi lines) vs Dimers win probabilities vs Kalshi. Dimers' listed spreads are openers; current lines used below.\n- Iowa at Northwestern: opened NW -2.5; Covers AI Iowa 21-20, Dimers Iowa 55.8%, Predictem Iowa 21-17 - but the market flipped to Iowa ~56% (Kalshi), so the edge is gone. Pass.\n- Miami at Notre Dame: ND -3.5 -> -7 after Miami WR Malachi Toney (1,027 yds, 13 TD) went out. Covers AI ND by 6, Dimers 72% (~7.5). On the number; pass.\n- Oregon at Ohio State: OSU opened -14, now -7.5. Covers AI OSU by 14, Dimers 74.5% (~9) - both favor OSU but laying -7.5 is the hook through 7. Pass.\n- Alabama at LSU (-5.5/-6.5): Covers AI LSU by 4, Dimers ~6, Kalshi \"LSU by 6.5+\" 49%. Alabama QB Jett Thomalla doubtful (backup-QB dog). Pass.\n- Oklahoma at Florida (-6.5): Covers AI FLA by 3, Dimers ~6, Kalshi \"FLA by 5.5+\" 52%. OU QB Mateer possible benching, eight players out. Pass.\n- BYU at Utah (-3.5/-4.5): Covers AI Utah by 11, Dimers ~4.5 - Utah -3.5 is the hook through 3. Pass.\n- Georgia at Ole Miss (+3.5): Covers AI UGA by 1, Dimers ~3.5-4. Lean Ole Miss +3.5 only.\n- Texas at Missouri, Kentucky at Tennessee, UCLA at Minnesota, Houston, Texas Tech, Boise: Covers AI and Dimers split or on the number. Pass.\nNo bets.\n",
+ "report_markdown": "# NCAAF Saturday - Nov 7\n\nCovers AI (Kalshi lines) vs Dimers win probabilities vs Kalshi. Dimers' listed spreads are openers; current lines used below.\n- Iowa at Northwestern: opened NW -2.5; Covers AI Iowa 21-20, Dimers Iowa 55.8%, Predictem Iowa 21-17 - but the market flipped to Iowa ~56% (Kalshi), so the edge is gone. Pass.\n- Miami at Notre Dame: ND -3.5 -> -7 after Miami WR Malachi Toney (1,027 yds, 13 TD) went out. Covers AI ND by 6, Dimers 72% (~7.5). On the number; pass.\n- Oregon at Ohio State: OSU opened -14, now -7.5. Covers AI OSU by 14, Dimers 74.5% (~9) - both favor OSU but laying -7.5 is the hook through 7. Pass.\n- Alabama at LSU (-5.5/-6.5): Covers AI LSU by 4, Dimers ~6, Kalshi \"LSU by 6.5+\" 49%. Alabama QB Jett Thomalla doubtful (backup-QB dog). Pass.\n- Oklahoma at Florida (-6.5): Covers AI FLA by 3, Dimers ~6, Kalshi \"FLA by 5.5+\" 52%. OU QB Mateer possible benching, eight players out. Pass.\n- BYU at Utah (-3.5/-4.5): Covers AI Utah by 11, Dimers ~4.5 - Utah -3.5 is the hook through 3. Pass.\n- Georgia at Ole Miss (+3.5): Covers AI UGA by 1, Dimers ~3.5-4. Lean Ole Miss +3.5 only.\n- Texas at Missouri, Kentucky at Tennessee, UCLA at Minnesota, Houston, Texas Tech, Boise: Covers AI and Dimers split or on the number. Pass.\nNo bets.\n\n\n## 10:20 AM re-run (with leans)\nNew inputs: SportsLine model (CBS), CLEATZ handle splits, SBD line moves.\n\n### Pick\n- **Iowa ML at Northwestern (+115), 0.5u (night, Wrigley).** Books still have Northwestern -2.5 (moved from -1.5), but every projection has Iowa winning: Covers AI 21-20, Dimers 55.8%, Predictem 21-17, and Kalshi prices Iowa ~56%. Per the Tennessee lesson (road dog at +2.5 -> take the ML). ~53% after the 0.58 factor vs 46.5% implied. Small: Iowa's offense is the weak link (projections are all low-scoring).\n\n### Leans (ranked)\n1. Ohio State -7.5 vs Oregon - SportsLine >60% cover (double-digit win), Covers AI by 14, Dimers ~9. Three models, but it is the hook through 7, which the rules forbid. Play only at -7.\n2. Oklahoma +6/+6.5 at Florida - SportsLine \"well over 50%\", Covers AI FLA by 3; Dimers/Kalshi on the number. QB Mateer benching unresolved (backup-QB dog risk).\n3. Tennessee -6.5 vs Kentucky - SportsLine 27-19 (53%), Covers AI by 11, Dimers ~5.5. Under 49.5 SportsLine 62% but total fell below the opener.\n4. Miami +7.5 at Notre Dame - Covers AI ND by 6; 82% of handle on Miami, yet the line moved to ND (reverse move = sharp ND). Conflicted.\n5. Boston College +6.5 vs Florida State - 92% of handle on 26% of bets (big money gap); no model.\n6. Ole Miss +3.5 vs Georgia - Covers AI UGA by 1, Dimers ~3.5.\n",
  "sources": [
   {
    "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-10-2026",
@@ -41,7 +41,41 @@
   {
    "url": "https://stormininnorman.com/oklahoma-vs-florida-how-to-watch-weather-injuries-odds-announcers-and-more",
    "title": "Stormin in Norman: Oklahoma vs Florida injuries"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/college-football-picks-score-predictions-game-best-bets-for-week-10-2026/",
+   "title": "CBS: SportsLine score predictions Week 10"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/college-football-odds-spreads-picks-predictions-best-bets-week-10-2026/",
+   "title": "CBS: computer picks Week 10"
+  },
+  {
+   "url": "https://cleatz.com/college-football-week-10-betting-report/",
+   "title": "CLEATZ Week 10 betting report"
+  },
+  {
+   "url": "https://www.sportsbettingdime.com/news/college-football/updated-week-10-odds-latest-spreads-biggest-moves-nov-7/",
+   "title": "SBD: Week 10 line moves"
   }
  ],
- "picks": []
+ "picks": [
+  {
+   "game_id": "IOWA@NW",
+   "matchup": "Iowa at Northwestern",
+   "market": "moneyline",
+   "side": "away",
+   "selection": "Iowa ML",
+   "line": null,
+   "odds": 115,
+   "book": "consensus",
+   "win_probability": 0.532,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Covers AI, Dimers, Predictem and Kalshi all have Iowa winning while books keep Northwestern -2.5.",
+   "angles": [
+    "model_disagreement"
+   ]
+  }
+ ]
 }

@@ -1048,5 +1048,27 @@
   "summary": "SportsLine (64% over) and Dimers (46 projected) both above 44.5.",
   "units": 0.5,
   "win_probability": 0.553
+ },
+ {
+  "angles": [
+   "model_disagreement"
+  ],
+  "book": "consensus",
+  "confidence": 0.55,
+  "date": "2026-11-07",
+  "game_id": "IOWA@NW",
+  "id": "2026-11-07:ncaaf:IOWA@NW:moneyline:away",
+  "league": "ncaaf",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Iowa at Northwestern",
+  "odds": 115,
+  "result_units": null,
+  "selection": "Iowa ML",
+  "side": "away",
+  "status": "pending",
+  "summary": "Covers AI, Dimers, Predictem and Kalshi all have Iowa winning while books keep Northwestern -2.5.",
+  "units": 0.5,
+  "win_probability": 0.532
  }
 ]

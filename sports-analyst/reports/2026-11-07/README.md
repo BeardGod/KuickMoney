@@ -4,12 +4,14 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | Iowa at Northwestern | Iowa ML | +115 | consensus | 0.5 | 53.2 | 46.5 | 0.55 |
 
 ## League reports
 
 - [English Premier League](epl.md) - 0 pick(s)
-- [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
 
 ## Track record
 
