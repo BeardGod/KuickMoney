@@ -27,10 +27,24 @@ Covers AI (Kalshi lines) vs Dimers win probability (converted to an approximate 
 | Vikings @ Bills (MNF) | BUF -3.5 | MIN 23-22 | 62.3% (~3) | **Lean Vikings +3.5** (both inside 3.5) |
 No two models clear the number by enough for a bet after the 0.58 factor. No bets.
 
+## 11:45 AM update - QB news and line moves
+- Seahawks: Sam Darnold (quad) OUT, Drew Lock starts; line SEA -13 open -> -8.5, total 44.5 -> 39.5. Cardinals start Gardner Minshew (Brissett traded, RB Love on IR). Covers AI SEA by 9 and Dimers ~8 were built at the old number/QB; now on the number. Lean Seahawks -8.5 only if you trust Lock (31-7 over Arizona earlier this year); pass.
+- Eagles: third-string Joe Milton III makes his first start; Lane Johnson, DeVonta Smith, Wicks also out. Giants -2.5 -> -3.5, total 40.5 -> 38.5. Kalshi Giants 61%, "Giants by 3.5+" 44%. Fading the backup fits our angle, but -3.5 is the hook through 3. Lean Giants only at -3 or better.
+- Browns: Shedeur Sanders starts (Watson concussion); Saints -2.5 -> -3. Lean Saints -2.5 if still available.
+- Vikings: Carson Wentz starts for Minnesota (Monday); the Vikings +3.5 lean is downgraded to a pass.
+- Chiefs -10 at most books (opened -10): above both models' ~9-10 - Chiefs lean dropped.
+- Texans -4.5 (from -3): lean only at -4.5; Raiders +10 (from 8.5) vs SF projections ~10 - pass.
+Still no bets.
+
 
 ## Sources
 
 - [Covers AI Week 9](https://www.covers.com/nfl/ai-predictions-week-9-2026)
 - [Dimers NFL predictions](https://www.dimers.com/nfl/predictions)
+- [SBD: Week 9 line moves](https://www.sportsbettingdime.com/news/nfl/tracking-biggest-nfl-odds-movement-week-9-spread-total-shifts/)
+- [Yahoo: Week 9 live updates](https://sports.yahoo.com/nfl/live/nfl-scores-news-live-updates-week-9-schedule-inactives-highlights-stats-where-to-watch-140628566.html)
+- [PhillyVoice: Eagles-Giants inactives](https://www.phillyvoice.com/eagles-giants-week-9-inactives-analysis-jalen-hurts-jaxson-dart-devonta-smith-cam-skattebo/)
+- [Kalshi: Giants vs Eagles](https://news.kalshi.com/p/giants-vs-eagles-odds-new-york-a-clear-favorite-in-philadelphia)
+- [Yahoo: Cardinals vs Seahawks](https://sports.yahoo.com/articles/cardinals-vs-seahawks-prediction-pick-145004758.html)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>
