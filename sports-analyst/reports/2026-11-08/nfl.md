@@ -36,6 +36,13 @@ No two models clear the number by enough for a bet after the 0.58 factor. No bet
 - Texans -4.5 (from -3): lean only at -4.5; Raiders +10 (from 8.5) vs SF projections ~10 - pass.
 Still no bets.
 
+## SNF - Buccaneers at Bears (8:20 PM)
+Close: Bears -6/-6.5 (opened -6), ML CHI -257 (Kalshi 72%), total 47.5 (opened 46.5). Weather clear, 45F, 9 mph wind.
+Inactives: TB OLB Yaya Diaby, G Keegan, G Schrauth; Egbuka ACTIVE; Mayfield playing with the thumb. CHI RB Kyle Monangai, CB Malik Muhammad.
+Models: SportsLine CHI 28-20; Dimers CHI 71.7% (~6.5); Covers AI CHI 24-20. Split around the number (8 / 6.5 / 4).
+Prediction: Bears 26, Buccaneers 20.
+No bet. Leans: Bears -6 (only at -6, SportsLine by 8); Under 48 (Covers AI 44, CBS analyst; but SportsLine projects 48 and neither offense is depleted, so the under rule is not met).
+
 
 ## Sources
 
@@ -46,5 +53,8 @@ Still no bets.
 - [PhillyVoice: Eagles-Giants inactives](https://www.phillyvoice.com/eagles-giants-week-9-inactives-analysis-jalen-hurts-jaxson-dart-devonta-smith-cam-skattebo/)
 - [Kalshi: Giants vs Eagles](https://news.kalshi.com/p/giants-vs-eagles-odds-new-york-a-clear-favorite-in-philadelphia)
 - [Yahoo: Cardinals vs Seahawks](https://sports.yahoo.com/articles/cardinals-vs-seahawks-prediction-pick-145004758.html)
+- [SBD: Buccaneers vs Bears closing odds](https://www.sportsbettingdime.com/news/nfl/buccaneers-vs-bears-predictions-closing-odds-weather-for-snf-nov-8/)
+- [CBS: SNF prediction](https://www.cbssports.com/betting/news/sunday-night-football-prediction-odds-spread-time-bears-buccaneers-expert-picks/)
+- [PFT: SNF inactives](https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/sunday-night-football-emeka-egbuka-active-kyle-monangai-inactive-for-bucs-bears)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>
