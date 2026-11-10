@@ -1071,5 +1071,27 @@
   "summary": "Covers AI, Dimers, Predictem and Kalshi all have Iowa winning while books keep Northwestern -2.5.",
   "units": 0.5,
   "win_probability": 0.532
+ },
+ {
+  "angles": [
+   "model_disagreement"
+  ],
+  "book": "consensus",
+  "confidence": 0.5,
+  "date": "2026-11-10",
+  "game_id": "BOS@PHI",
+  "id": "2026-11-10:nba:BOS@PHI:moneyline:away",
+  "league": "nba",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Celtics at 76ers",
+  "odds": -116,
+  "result_units": null,
+  "selection": "Celtics ML",
+  "side": "away",
+  "status": "pending",
+  "summary": "numberFire 63.5% and Dimers 56.4% both above the near pick'em price.",
+  "units": 0.5,
+  "win_probability": 0.558
  }
 ]

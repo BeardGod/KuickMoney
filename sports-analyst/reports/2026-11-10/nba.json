@@ -1,0 +1,41 @@
+{
+ "league": "nba",
+ "report_markdown": "# NBA - Tue Nov 10\n\nEdge factor ~0.58 applied.\n\n## Pick\n- **Celtics ML at 76ers (-116 or better), 0.5u (8 PM).** Two models agree: numberFire Celtics 63.5%, Dimers 56.4%. Blend ~60% -> 55.8% after the factor vs 53.7% implied at -116 (some books -106). Celtics 8-2, 76ers 9-2; Embiid (plantar fasciitis) expected to play, Boston's Devin Carter out sick. Against: cappers at Bleacher Nation and Lineups (110-107 Sixers) take Philadelphia. Small: thin edge, NBA bets are 0-1.\n\n## Passes\n- Bucks +15.5 at Knicks: Dimers 56.6%, but big NBA dogs on one model are banned. Pass.\n",
+ "sources": [
+  {
+   "url": "https://www.fanduel.com/research/76ers-vs-celtics-prediction-nba-odds-spread-best-bets-for-11-10-2026",
+   "title": "FanDuel Research: 76ers vs Celtics"
+  },
+  {
+   "url": "https://www.dimers.com/news/best-bets-11-10-2026-ac",
+   "title": "Dimers best bets 11/10"
+  },
+  {
+   "url": "https://www.bleachernation.com/picks/2026/11/10/celtics-vs-76ers-predictions-best-bets-and-odds-tuesday-november-10-2026/",
+   "title": "Bleacher Nation: Celtics vs 76ers"
+  },
+  {
+   "url": "https://www.lineups.com/articles/celtics-76ers-nba-picks-predictions-odds-for-tuesday-november-10-2026/",
+   "title": "Lineups: Celtics vs 76ers"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "BOS@PHI",
+   "matchup": "Celtics at 76ers",
+   "market": "moneyline",
+   "side": "away",
+   "selection": "Celtics ML",
+   "line": null,
+   "odds": -116,
+   "book": "consensus",
+   "win_probability": 0.558,
+   "units": 0.5,
+   "confidence": 0.5,
+   "summary": "numberFire 63.5% and Dimers 56.4% both above the near pick'em price.",
+   "angles": [
+    "model_disagreement"
+   ]
+  }
+ ]
+}
