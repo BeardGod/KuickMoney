@@ -10,6 +10,7 @@ _No bets recommended._
 
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
 - [NFL](nfl.md) - 0 pick(s)
+- [UEFA Nations League](unl.md) - 0 pick(s)
 
 ## Track record
 
