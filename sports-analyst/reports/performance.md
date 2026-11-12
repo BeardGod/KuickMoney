@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 23-20-1 | -2.69 | -9.4% | 44 |
+| All | 24-20-1 | -2.25 | -7.8% | 45 |
 
 ## By league
 
@@ -13,7 +13,7 @@
 | epl | 2-1-0 | +0.62 | 41.7% | 3 |
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
-| nba | 0-1-0 | -0.5 | -100.0% | 1 |
+| nba | 1-1-0 | -0.07 | -6.9% | 2 |
 | ncaaf | 8-10-0 | -3.69 | -32.0% | 18 |
 | nfl | 9-5-1 | +1.0 | 10.5% | 15 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
@@ -23,11 +23,11 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| moneyline | 7-3-0 | +1.6 | 22.9% | 10 |
+| moneyline | 8-3-0 | +2.04 | 27.1% | 11 |
 | spread | 14-14-1 | -1.97 | -11.1% | 29 |
 | total | 2-3-0 | -2.32 | -61.8% | 5 |
 
-Pending picks: 1
+Pending picks: 0
 
 ## Closing line value
 
@@ -35,13 +35,13 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.1% vs. actual 53.5% over 43 bets (Brier 0.248). Edge factor: **0.69** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 54.5% over 44 bets (Brier 0.247). Edge factor: **0.89** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
 | 50%-55% | 14 | 53.4% | 64.3% |
-| 55%-60% | 24 | 56.1% | 50.0% |
+| 55%-60% | 25 | 56.1% | 52.0% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
@@ -52,7 +52,7 @@ Predicted 55.1% vs. actual 53.5% over 43 bets (Brier 0.248). Edge factor: **0.69
 | injury_edge | 12-4 | +3.68 | 17 |
 | key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 16-12 | +0.89 | 29 |
+| model_disagreement | 17-12 | +1.32 | 30 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
 | qb_change | 1-3 | -2.07 | 4 |
@@ -65,6 +65,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-10 | NBA | Celtics ML | -116 | 0.5 | WIN | Boston Celtics 123 - Philadelphia 76ers 101 | +0.431 |
 | 2026-11-07 | NCAAF | Iowa ML | +115 | 0.5 | WIN | Iowa 10 - Northwestern 7 | +0.575 |
 | 2026-11-03 | NCAAF | Over 44.5 | -110 | 0.5 | WIN | Buffalo 34 - Miami (OH) 31 | +0.455 |
 | 2026-11-01 | NFL | Rams -6.5 | -110 | 0.5 | WIN | Los Angeles Chargers 9 - Los Angeles Rams 24 | +0.455 |
