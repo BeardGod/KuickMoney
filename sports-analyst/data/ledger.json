@@ -1094,5 +1094,51 @@
   "summary": "numberFire 63.5% and Dimers 56.4% both above the near pick'em price.",
   "units": 0.5,
   "win_probability": 0.558
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "injury_edge"
+  ],
+  "book": "consensus",
+  "confidence": 0.6,
+  "date": "2026-11-14",
+  "game_id": "WAKE@SMU",
+  "id": "2026-11-14:ncaaf:WAKE@SMU:spread:away",
+  "league": "ncaaf",
+  "line": 1.5,
+  "market": "spread",
+  "matchup": "Wake Forest at SMU",
+  "odds": -112,
+  "result_units": null,
+  "selection": "Wake Forest +1.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "SportsLine >60% and Covers AI (Wake by 7) agree; line moved on Lopez's injury and he is now probable; SMU short-handed.",
+  "units": 0.75,
+  "win_probability": 0.552
+ },
+ {
+  "angles": [
+   "model_disagreement",
+   "qb_change"
+  ],
+  "book": "consensus",
+  "confidence": 0.55,
+  "date": "2026-11-14",
+  "game_id": "MICH@ORE",
+  "id": "2026-11-14:ncaaf:MICH@ORE:spread:home",
+  "league": "ncaaf",
+  "line": -10.5,
+  "market": "spread",
+  "matchup": "Michigan at Oregon",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Oregon -10.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "SportsLine by 16 and Covers AI by 13; Michigan has an interim play-caller, an open QB job and a broken line.",
+  "units": 0.5,
+  "win_probability": 0.546
  }
 ]

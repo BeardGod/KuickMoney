@@ -1,0 +1,84 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF Week 11 - Sat Nov 14\n\nEdge factor ~0.58 applied. Sources: SportsLine model (CBS), Covers AI (Kalshi lines), Dimers, sharp-move and splits reports. Ole Miss at Oklahoma moved to Sunday; Utah at Arizona pushed to 10:30 PM ET (Friday FAA ground stop).\n\n## Picks\n- **Wake Forest +1.5 at SMU (-112), 0.75u (noon).** SportsLine covers \"well over 60%\" of sims; Covers AI Wake 34-27; Dimers a coin flip (Wake 48.3%). The line flipped from Wake -2.5 to SMU -1/-1.5 while QB Gio Lopez (lower body) was in doubt - he is now listed probable. SMU out: RB Link Rhodes, WR Carterrious Brown, DE Ira Singleton IV, S Tyren Polley Jr.; safeties Moses and Milliner-Jones questionable. Against: Wake missing two OL; SMU unbeaten at home. Raw ~59% -> 55.2% vs 52.8%.\n- **Oregon -10.5 vs Michigan (-110), 0.5u (3:30).** SportsLine Oregon by 16 (covers well over 60%); Covers AI 27-14; ScoreGPT panel 25-13; Dimers on the number (81.2%). Michigan fired its OC after the Michigan State loss (OL coach calling plays), has reopened the QB job (Underwood/Carr) and has allowed 16 sacks behind five line combinations. Fading the side in QB turmoil with two models. Only at -10.5 (some books -11.5); small because the line already moved from -8.5.\n\n## Leans (ranked)\n1. Michigan/Oregon Over 38.5 - SportsLine well over 70%, Covers AI 41. Correlated with the Oregon bet, and Michigan's defense is elite; not stacking.\n2. South Carolina -7 at Arkansas - SportsLine 31-20 (57%), Covers AI 31-21, Dimers on the number. At -7.5 it is the hook through 7; bet only at -7.\n3. Northwestern/Ohio State Over 45.5 - SportsLine over, Covers AI 49. No cover % published.\n4. Florida/Kentucky Under 52.5 - SportsLine 49 (58%) but Covers AI 55. Split.\n5. Indiana -9.5 vs USC - Covers AI by 13; Dimers on the number; Indiana QB uncertainty, sharp money on the under. Pass.\n6. Tennessee/Texas A&M - line has flipped around pick'em on 97% Tennessee money; Dimers 50/50. Pass.\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-11-2026",
+   "title": "Covers AI Week 11"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions",
+   "title": "Dimers CFB predictions"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/college-football-odds-picks-predictions-betting-lines-spreads-for-week-11-2026/",
+   "title": "CBS: SportsLine model picks Week 11"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/college-football-score-predictions-lines-picks-best-bets-week-11-2026/",
+   "title": "CBS: SportsLine score predictions Week 11"
+  },
+  {
+   "url": "https://www.thespread.com/ncaaf-articles/wake-forest-vs-smu-prediction-november-14-2026/",
+   "title": "TheSpread: Wake Forest vs SMU"
+  },
+  {
+   "url": "https://athlonsports.com/college-football/wake-forest-demon-deacons-at-smu-mustangs-ncaaf-prediction-picks-odds-week11-2026",
+   "title": "Athlon: Wake Forest at SMU"
+  },
+  {
+   "url": "https://www.thespread.com/ncaaf-articles/michigan-vs-oregon-prediction-november-14-2026/",
+   "title": "TheSpread: Michigan vs Oregon"
+  },
+  {
+   "url": "https://scoregpt.app/ai-college-football-predictions/michigan-vs-oregon-2026-11-14",
+   "title": "ScoreGPT: Michigan vs Oregon"
+  },
+  {
+   "url": "https://www.sportsbettingdime.com/news/college-football/updated-week-11-odds-spreads-texas-lsu-usc-indiana/",
+   "title": "SBD: Week 11 line moves"
+  },
+  {
+   "url": "https://theoddsbreakers.com/college-football-week-11-sharp-money-movement-4/",
+   "title": "OddsBreakers: Week 11 sharp moves"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "WAKE@SMU",
+   "matchup": "Wake Forest at SMU",
+   "market": "spread",
+   "side": "away",
+   "selection": "Wake Forest +1.5",
+   "line": 1.5,
+   "odds": -112,
+   "book": "consensus",
+   "win_probability": 0.552,
+   "units": 0.75,
+   "confidence": 0.6,
+   "summary": "SportsLine >60% and Covers AI (Wake by 7) agree; line moved on Lopez's injury and he is now probable; SMU short-handed.",
+   "angles": [
+    "model_disagreement",
+    "injury_edge"
+   ]
+  },
+  {
+   "game_id": "MICH@ORE",
+   "matchup": "Michigan at Oregon",
+   "market": "spread",
+   "side": "home",
+   "selection": "Oregon -10.5",
+   "line": -10.5,
+   "odds": -110,
+   "book": "consensus",
+   "win_probability": 0.546,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "SportsLine by 16 and Covers AI by 13; Michigan has an interim play-caller, an open QB job and a broken line.",
+   "angles": [
+    "model_disagreement",
+    "qb_change"
+   ]
+  }
+ ]
+}
