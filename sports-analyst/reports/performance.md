@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 24-20-1 | -2.25 | -7.8% | 45 |
+| All | 26-20-1 | -1.13 | -3.7% | 47 |
 
 ## By league
 
@@ -14,7 +14,7 @@
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 1-1-0 | -0.07 | -6.9% | 2 |
-| ncaaf | 8-10-0 | -3.69 | -32.0% | 18 |
+| ncaaf | 10-10-0 | -2.56 | -20.1% | 20 |
 | nfl | 9-5-1 | +1.0 | 10.5% | 15 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
@@ -24,10 +24,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 8-3-0 | +2.04 | 27.1% | 11 |
-| spread | 14-14-1 | -1.97 | -11.1% | 29 |
+| spread | 16-14-1 | -0.85 | -4.5% | 31 |
 | total | 2-3-0 | -2.32 | -61.8% | 5 |
 
-Pending picks: 2
+Pending picks: 1
 
 ## Closing line value
 
@@ -35,13 +35,13 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.1% vs. actual 54.5% over 44 bets (Brier 0.247). Edge factor: **0.89** (the analyst scales its estimated edge by this).
+Predicted 55.1% vs. actual 56.5% over 46 bets (Brier 0.245). Edge factor: **1.2** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
-| 50%-55% | 14 | 53.4% | 64.3% |
-| 55%-60% | 25 | 56.1% | 52.0% |
+| 50%-55% | 15 | 53.5% | 66.7% |
+| 55%-60% | 26 | 56.1% | 53.8% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
@@ -49,13 +49,13 @@ Predicted 55.1% vs. actual 54.5% over 44 bets (Brier 0.247). Edge factor: **0.89
 | Angle | Record | Units | Bets |
 |---|---|---|---|
 | form_gap | 3-1 | +0.67 | 4 |
-| injury_edge | 12-4 | +3.68 | 17 |
+| injury_edge | 13-4 | +4.35 | 18 |
 | key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_disagreement | 17-12 | +1.32 | 30 |
+| model_disagreement | 19-12 | +2.45 | 32 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
-| qb_change | 1-3 | -2.07 | 4 |
+| qb_change | 2-3 | -1.62 | 5 |
 | sharp_move | 6-5 | -0.05 | 11 |
 | situational | 2-2 | -0.12 | 4 |
 
@@ -65,6 +65,8 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-14 | NCAAF | Oregon -10.5 | -110 | 0.5 | WIN | Michigan 7 - Oregon 31 | +0.455 |
+| 2026-11-14 | NCAAF | Wake Forest +1.5 | -112 | 0.75 | WIN | Wake Forest 49 - SMU 7 | +0.67 |
 | 2026-11-10 | NBA | Celtics ML | -116 | 0.5 | WIN | Boston Celtics 123 - Philadelphia 76ers 101 | +0.431 |
 | 2026-11-07 | NCAAF | Iowa ML | +115 | 0.5 | WIN | Iowa 10 - Northwestern 7 | +0.575 |
 | 2026-11-03 | NCAAF | Over 44.5 | -110 | 0.5 | WIN | Buffalo 34 - Miami (OH) 31 | +0.455 |
