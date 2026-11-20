@@ -1,0 +1,27 @@
+{
+ "league": "nfl",
+ "report_markdown": "# NFL TNF 2026-11-19: Colts at Texans\n\nNo bet.\n\n- Market: Texans -10.5 (Kalshi) to -12.5 (DraftKings); opened -9.5/-10. Total 44.5.\n- Covers AI: Texans 27-20, picks Colts +13.5 and Over 44.5 (proj total 47).\n- Dimers (updated): Texans 28-16, 85% win, roughly 52.5/47.5 Texans at -10.5.\n- Models split on the side (one has a 7-pt margin, the other 12-13) and on the total. Two-model rule fails.\n- Line move toward Houston is backed by real injury news: Colts starting OTs Raimann (concussion) and Travis (knee) out, CBs Gardner and Ward missed practice. Houston without Al-Shaair (IR); Hunter, Harrison Jr., Marks missed Tuesday.\n- Lean: Colts +12.5 (Houston 1-5 in one-score games, 0 home wins, 8-14 ATS as home fav under Ryans). Bet-worthy only if a second model joins.\n- Pass: total (models split).\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/nfl/ai-predictions-week-11-2026",
+   "title": "Covers AI predictions Week 11"
+  },
+  {
+   "url": "https://www.dimers.com/nfl/predictions/2026_11_hou_ind",
+   "title": "Dimers Colts vs Texans"
+  },
+  {
+   "url": "https://www.covers.com/nfl/colts-vs-texans-prediction-picks-nov-19-2026",
+   "title": "Covers Colts vs Texans"
+  },
+  {
+   "url": "https://clutchpoints.com/betting/colts-vs-texans-prediction-odds-pick-for-week-11-thursday-night-football",
+   "title": "ClutchPoints injuries"
+  },
+  {
+   "url": "https://www.cbssports.com/nfl/news/texans-vs-colts-how-to-watch-odds-preview-prediction/",
+   "title": "CBS Sports preview"
+  }
+ ],
+ "picks": []
+}
