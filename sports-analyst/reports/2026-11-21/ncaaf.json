@@ -1,0 +1,31 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF 2026-11-21 (Week 12)\n\nNo bets. Every model checked sat at or near the number.\n\n- BYU -5.5 at Kansas: Dimers BYU 26-21 (65.4%), numberFire BYU 63.3%; market ML -208/-215 (~67%). Both models a shade under the market. Lean Kansas +5.5.\n- UCLA at Michigan (-3.5 to -6.5, total 37.5-38.5): Dimers UCLA 23-19/20, Michigan +5.5 54.3%; BetMGM model UCLA covers -6.5 at 50.7%. Split. Lean Michigan only at +6.5. Total: Dimers 42-43 vs analysts under; pass.\n- Texas A&M at Oklahoma (-6.5/-7.5, 37.5): Dimers Oklahoma 24-16 (74.6%), 54.9% at -6.5. Laying 7.5 puts hook through 7; pass.\n- Wake Forest -20.5 at Georgia Tech: Dimers Wake 38-17 (21 pts), on the number; pass.\n- NBA, soccer, NCAAB, tennis: no current-dated model data found; no plays.\n",
+ "sources": [
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_12_ku_byu",
+   "title": "Dimers BYU vs Kansas"
+  },
+  {
+   "url": "https://fanduel.com/research/byu-vs-kansas-college-football-odds-picks-best-bets-for-11-21-2026",
+   "title": "numberFire BYU vs Kansas"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_12_mich_ucla",
+   "title": "Dimers UCLA vs Michigan"
+  },
+  {
+   "url": "https://sports.betmgm.com/en/blog/college-football/ucla-michigan-prediction-odds-player-prop-bets-picks-ncaaf-week-12-jaa/",
+   "title": "BetMGM UCLA vs Michigan"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_12_okla_txam",
+   "title": "Dimers Texas A&M vs Oklahoma"
+  },
+  {
+   "url": "https://www.dimers.com/cfb/predictions/2026_12_gt_wake",
+   "title": "Dimers Wake Forest vs Georgia Tech"
+  }
+ ],
+ "picks": []
+}
