@@ -4,11 +4,13 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NCAAF | BYU at Kansas | Kansas +5.5 | -110 | FanDuel | 0.5 | 53.5 | 52.4 | 0.55 |
 
 ## League reports
 
-- [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
+- [NCAA Football (FBS)](ncaaf.md) - 1 pick(s)
 
 ## Track record
 

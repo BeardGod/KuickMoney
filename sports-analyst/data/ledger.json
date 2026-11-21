@@ -1166,5 +1166,28 @@
   "summary": "SportsLine and Covers AI (by 7) back Houston; Browns allow a league-worst 3.82 sacks a game.",
   "units": 0.5,
   "win_probability": 0.545
+ },
+ {
+  "angles": [
+   "model_consensus",
+   "home_dog"
+  ],
+  "book": "FanDuel",
+  "confidence": 0.55,
+  "date": "2026-11-21",
+  "game_id": "BYU@KU",
+  "id": "2026-11-21:ncaaf:BYU@KU:spread:home",
+  "league": "ncaaf",
+  "line": 5.5,
+  "market": "spread",
+  "matchup": "BYU at Kansas",
+  "odds": -110,
+  "result_units": null,
+  "selection": "Kansas +5.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "Covers AI (BYU by 3), Dimers (BYU by 5) and numberFire (~4) all under 5.5; Marshall healthy.",
+  "units": 0.5,
+  "win_probability": 0.535
  }
 ]
