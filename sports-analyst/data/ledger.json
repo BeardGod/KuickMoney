@@ -1175,6 +1175,7 @@
   "book": "FanDuel",
   "confidence": 0.55,
   "date": "2026-11-21",
+  "final": "BYU 31 - Kansas 29",
   "game_id": "BYU@KU",
   "id": "2026-11-21:ncaaf:BYU@KU:spread:home",
   "league": "ncaaf",
@@ -1182,12 +1183,35 @@
   "market": "spread",
   "matchup": "BYU at Kansas",
   "odds": -110,
-  "result_units": null,
+  "result_units": 0.455,
   "selection": "Kansas +5.5",
   "side": "home",
-  "status": "pending",
+  "status": "win",
   "summary": "Covers AI (BYU by 3), Dimers (BYU by 5) and numberFire (~4) all under 5.5; Marshall healthy.",
   "units": 0.5,
   "win_probability": 0.535
+ },
+ {
+  "angles": [
+   "model_consensus",
+   "big_dog"
+  ],
+  "book": "DraftKings",
+  "confidence": 0.55,
+  "date": "2026-11-22",
+  "game_id": "NO@CHI",
+  "id": "2026-11-22:nfl:NO@CHI:spread:away",
+  "league": "nfl",
+  "line": 11.5,
+  "market": "spread",
+  "matchup": "Saints at Bears",
+  "odds": -108,
+  "result_units": null,
+  "selection": "Saints +11.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "SportsLine, Covers AI, Statz and Opta all project Chicago by 7-10, under 11.5.",
+  "units": 0.5,
+  "win_probability": 0.55
  }
 ]

@@ -1,0 +1,54 @@
+{
+ "league": "nfl",
+ "report_markdown": "# NFL 2026-11-22 (Week 11 Sunday)\n\n## Bet\n- Saints +11.5 at Bears (-108, 0.5u). SportsLine model (covers >50%), Covers AI (CHI 27-20), Statz (Bears -6.9, 27-20) and Opta (CHI 82.8%, ~9-10 pts) all under 11.5. Risks: Saints OL (Richards out, McCoy doubtful), Chicago's league-best third-down D off a bye. Bet at +10.5 or better.\n\n## Leans\n- Eagles +4.5 vs Steelers: Covers AI PIT 20-17, SBR AI PIT 24-20, Opta PIT 60.8%. All ~3-4 pts; thin.\n- Vikings +3 vs 49ers (Mexico City SNF): Covers AI SF 23-20, SBR AI MIN 34-31, Opta SF 61.2%. Only at +3.5.\n- Dolphins +16.5 at Bills: Covers AI BUF by 14, SportsLine AI BUF 28-17; SBR AI BUF by 21. Backup-QB dog rule; lean only.\n\n## Passes\n- Cowboys -8.5 vs Titans: SportsLine model A-rated DAL, Covers AI DAL by 10, SBR by 14; but Statz 70% (~6), GidStats 5.9, Stats Insider 29-21. Split. Total 54.5 split.\n- Broncos -10, Lions -6.5, Chiefs -16.5, Jaguars -6, Panthers -2.5, Chargers -3.5: models at the number or split.\n- MNF Bengals -6.5 at Commanders: Covers AI CIN by 3, SBR by 10. Split; revisit Monday.\n- NBA, soccer, NCAAB, tennis: no current-dated model data found.\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/nfl/ai-predictions-week-11-2026",
+   "title": "Covers NFL AI Week 11"
+  },
+  {
+   "url": "https://www.sportsbookreview.com/picks/nfl/nfl-ai-predictions-odds-picks-week-11-2026/",
+   "title": "SBR NFL AI Week 11"
+  },
+  {
+   "url": "https://www.cbssports.com/betting/news/nfl-odds-picks-predictions-week-11-2026/",
+   "title": "SportsLine model Week 11"
+  },
+  {
+   "url": "https://theanalyst.com/?p=268677",
+   "title": "Opta NFL Week 11"
+  },
+  {
+   "url": "https://statz.ai/nfl/news/saints-vs-bears-prediction-picks-odds-november-22-2026",
+   "title": "Statz Saints vs Bears"
+  },
+  {
+   "url": "https://statz.ai/nfl/projections/game-simulator/1009/titans-vs-cowboys",
+   "title": "Statz Titans vs Cowboys"
+  },
+  {
+   "url": "https://www.si.com/betting/saints-vs-bears-prediction-odds-spread-injuries-trends-for-nfl-week-11-2026",
+   "title": "SI Saints vs Bears odds"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "NO@CHI",
+   "matchup": "Saints at Bears",
+   "market": "spread",
+   "side": "away",
+   "selection": "Saints +11.5",
+   "line": 11.5,
+   "odds": -108,
+   "book": "DraftKings",
+   "win_probability": 0.55,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "SportsLine, Covers AI, Statz and Opta all project Chicago by 7-10, under 11.5.",
+   "angles": [
+    "model_consensus",
+    "big_dog"
+   ]
+  }
+ ]
+}
