@@ -1199,6 +1199,7 @@
   "book": "DraftKings",
   "confidence": 0.55,
   "date": "2026-11-22",
+  "final": "Saints 13 - Bears 21",
   "game_id": "NO@CHI",
   "id": "2026-11-22:nfl:NO@CHI:spread:away",
   "league": "nfl",
@@ -1206,12 +1207,57 @@
   "market": "spread",
   "matchup": "Saints at Bears",
   "odds": -108,
-  "result_units": null,
+  "result_units": 0.463,
   "selection": "Saints +11.5",
   "side": "away",
-  "status": "pending",
+  "status": "win",
   "summary": "SportsLine, Covers AI, Statz and Opta all project Chicago by 7-10, under 11.5.",
   "units": 0.5,
   "win_probability": 0.55
+ },
+ {
+  "angles": [
+   "model_consensus"
+  ],
+  "book": "FanDuel",
+  "confidence": 0.55,
+  "date": "2026-11-24",
+  "game_id": "DET@ORL",
+  "id": "2026-11-24:nba:DET@ORL:spread:away",
+  "league": "nba",
+  "line": -2.5,
+  "market": "spread",
+  "matchup": "Pistons at Magic",
+  "odds": -106,
+  "result_units": null,
+  "selection": "Pistons -2.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Dimers 52.8% and Covers projection (DET by ~4) both on Detroit.",
+  "units": 0.5,
+  "win_probability": 0.535
+ },
+ {
+  "angles": [
+   "model_consensus",
+   "home_dog"
+  ],
+  "book": "DraftKings",
+  "confidence": 0.55,
+  "date": "2026-11-24",
+  "game_id": "BOS@WAS",
+  "id": "2026-11-24:nba:BOS@WAS:spread:home",
+  "league": "nba",
+  "line": 10.5,
+  "market": "spread",
+  "matchup": "Celtics at Wizards",
+  "odds": -105,
+  "result_units": null,
+  "selection": "Wizards +10.5",
+  "side": "home",
+  "status": "pending",
+  "summary": "Dimers 54.8% plus numberFire on Wizards +10.5; Boston slow pace and slumping.",
+  "units": 0.5,
+  "win_probability": 0.54
  }
 ]

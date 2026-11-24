@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 27-21-1 | -1.17 | -3.8% | 49 |
+| All | 28-21-1 | -0.71 | -2.2% | 50 |
 
 ## By league
 
@@ -15,7 +15,7 @@
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
 | nba | 1-1-0 | -0.07 | -6.9% | 2 |
 | ncaaf | 11-10-0 | -2.1 | -15.9% | 21 |
-| nfl | 9-6-1 | +0.5 | 5.0% | 16 |
+| nfl | 10-6-1 | +0.96 | 9.2% | 17 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
 | unl | 1-1-0 | -0.2 | -10.0% | 2 |
 
@@ -24,10 +24,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 8-3-0 | +2.04 | 27.1% | 11 |
-| spread | 17-15-1 | -0.89 | -4.5% | 33 |
+| spread | 18-15-1 | -0.43 | -2.1% | 34 |
 | total | 2-3-0 | -2.32 | -61.8% | 5 |
 
-Pending picks: 1
+Pending picks: 2
 
 ## Closing line value
 
@@ -35,25 +35,26 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.0% vs. actual 56.2% over 48 bets (Brier 0.245). Edge factor: **1.2** (the analyst scales its estimated edge by this).
+Predicted 55.0% vs. actual 57.1% over 49 bets (Brier 0.245). Edge factor: **1.2** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
 | 50%-55% | 17 | 53.6% | 64.7% |
-| 55%-60% | 26 | 56.1% | 53.8% |
+| 55%-60% | 27 | 56.0% | 55.6% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
 ## By angle
 
 | Angle | Record | Units | Bets |
 |---|---|---|---|
+| big_dog | 1-0 | +0.46 | 1 |
 | form_gap | 3-1 | +0.67 | 4 |
 | home_dog | 1-0 | +0.46 | 1 |
 | injury_edge | 13-5 | +3.85 | 19 |
 | key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_consensus | 1-0 | +0.46 | 1 |
+| model_consensus | 2-0 | +0.92 | 2 |
 | model_disagreement | 19-13 | +1.95 | 33 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
@@ -67,6 +68,7 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-22 | NFL | Saints +11.5 | -108 | 0.5 | WIN | Saints 13 - Bears 21 | +0.463 |
 | 2026-11-21 | NCAAF | Kansas +5.5 | -110 | 0.5 | WIN | BYU 31 - Kansas 29 | +0.455 |
 | 2026-11-15 | NFL | Texans -4.5 | -110 | 0.5 | LOSS | Texans 24 - Browns 27 | -0.5 |
 | 2026-11-14 | NCAAF | Oregon -10.5 | -110 | 0.5 | WIN | Michigan 7 - Oregon 31 | +0.455 |

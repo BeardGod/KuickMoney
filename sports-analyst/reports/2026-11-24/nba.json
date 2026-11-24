@@ -1,0 +1,63 @@
+{
+ "league": "nba",
+ "report_markdown": "# NBA 2026-11-24\n\n## Bets\n- Pistons -2.5 at Magic (-106, 0.5u): Dimers 52.8% cover; Covers projection DET 108.6-104.7 (~4 pts); Polymarket 56% ML.\n- Wizards +10.5 vs Celtics (-105, 0.5u): Dimers 54.8% cover (its top play); numberFire/FanDuel Research also on Wizards +10.5. Boston on a 4-game skid, slow pace; Washington 3 straight covers.\n\n## Lean / pass\n- Mavericks +8.5 at Nuggets: Dimers 54.1%, but numberFire takes Nuggets -8.5. Split; pass.\n\n## Soccer (UCL MD5 Tuesday)\n- Arsenal vs Dortmund: Opta 65.2% vs market 67.5-68.5%; no edge. Other Tuesday ties: no two-model edge found. Pass.\n",
+ "sources": [
+  {
+   "url": "https://www.dimers.com/nba/news/nba-best-bets-11-24-2026-ac",
+   "title": "Dimers NBA best bets 11/24"
+  },
+  {
+   "url": "https://www.covers.com/picks/nba",
+   "title": "Covers NBA projections"
+  },
+  {
+   "url": "https://www.fanduel.com/research/6-best-nba-bets-and-nba-player-props-today-tuesday-november-24-2026",
+   "title": "FanDuel Research NBA 11/24"
+  },
+  {
+   "url": "https://www.covers.com/nba/moneyline-predictions-picks-nov-24-2026",
+   "title": "Covers moneyline picks 11/24"
+  },
+  {
+   "url": "https://www.aljazeera.com/sports/2026/11/24/arsenal-borussia-dortmund-champions-league-predictions-lineups-streaming",
+   "title": "Arsenal vs Dortmund Opta"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "DET@ORL",
+   "matchup": "Pistons at Magic",
+   "market": "spread",
+   "side": "away",
+   "selection": "Pistons -2.5",
+   "line": -2.5,
+   "odds": -106,
+   "book": "FanDuel",
+   "win_probability": 0.535,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Dimers 52.8% and Covers projection (DET by ~4) both on Detroit.",
+   "angles": [
+    "model_consensus"
+   ]
+  },
+  {
+   "game_id": "BOS@WAS",
+   "matchup": "Celtics at Wizards",
+   "market": "spread",
+   "side": "home",
+   "selection": "Wizards +10.5",
+   "line": 10.5,
+   "odds": -105,
+   "book": "DraftKings",
+   "win_probability": 0.54,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Dimers 54.8% plus numberFire on Wizards +10.5; Boston slow pace and slumping.",
+   "angles": [
+    "model_consensus",
+    "home_dog"
+   ]
+  }
+ ]
+}
