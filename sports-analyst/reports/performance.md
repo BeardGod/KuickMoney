@@ -4,7 +4,7 @@
 
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
-| All | 28-21-1 | -0.71 | -2.2% | 50 |
+| All | 29-22-1 | -0.74 | -2.3% | 52 |
 
 ## By league
 
@@ -13,7 +13,7 @@
 | epl | 2-1-0 | +0.62 | 41.7% | 3 |
 | ligue1 | 0-1-0 | -0.5 | -100.0% | 1 |
 | mlb | 1-1-0 | -0.3 | -14.8% | 2 |
-| nba | 1-1-0 | -0.07 | -6.9% | 2 |
+| nba | 2-2-0 | -0.1 | -4.9% | 4 |
 | ncaaf | 11-10-0 | -2.1 | -15.9% | 21 |
 | nfl | 10-6-1 | +0.96 | 9.2% | 17 |
 | ucl | 2-0-0 | +0.87 | 87.0% | 2 |
@@ -24,10 +24,10 @@
 | | Record | Units | ROI | Bets |
 |---|---|---|---|---|
 | moneyline | 8-3-0 | +2.04 | 27.1% | 11 |
-| spread | 18-15-1 | -0.43 | -2.1% | 34 |
+| spread | 19-16-1 | -0.46 | -2.1% | 36 |
 | total | 2-3-0 | -2.32 | -61.8% | 5 |
 
-Pending picks: 2
+Pending picks: 0
 
 ## Closing line value
 
@@ -35,12 +35,12 @@ Beat the closing line on **20.0%** of 10 picks; average +0.2 points and +0.1% im
 
 ## Calibration
 
-Predicted 55.0% vs. actual 57.1% over 49 bets (Brier 0.245). Edge factor: **1.2** (the analyst scales its estimated edge by this).
+Predicted 55.0% vs. actual 56.9% over 51 bets (Brier 0.245). Edge factor: **1.2** (the analyst scales its estimated edge by this).
 
 | Predicted range | Bets | Avg predicted | Actual win rate |
 |---|---|---|---|
 | 0%-50% | 2 | 46.0% | 0.0% |
-| 50%-55% | 17 | 53.6% | 64.7% |
+| 50%-55% | 19 | 53.6% | 63.2% |
 | 55%-60% | 27 | 56.0% | 55.6% |
 | 60%-65% | 3 | 60.3% | 66.7% |
 
@@ -50,11 +50,11 @@ Predicted 55.0% vs. actual 57.1% over 49 bets (Brier 0.245). Edge factor: **1.2*
 |---|---|---|---|
 | big_dog | 1-0 | +0.46 | 1 |
 | form_gap | 3-1 | +0.67 | 4 |
-| home_dog | 1-0 | +0.46 | 1 |
+| home_dog | 1-1 | -0.04 | 2 |
 | injury_edge | 13-5 | +3.85 | 19 |
 | key_number | 2-3 | -0.84 | 5 |
 | low_scoring_script | 0-2 | -2.0 | 2 |
-| model_consensus | 2-0 | +0.92 | 2 |
+| model_consensus | 3-1 | +0.89 | 4 |
 | model_disagreement | 19-13 | +1.95 | 33 |
 | pitching_mismatch | 1-1 | -0.3 | 2 |
 | public_fade | 2-5 | -2.88 | 7 |
@@ -68,6 +68,8 @@ Lessons log: `data/lessons.md`
 
 | Date | League | Bet | Odds | Units | Result | Final | Units +/- |
 |---|---|---|---|---|---|---|---|
+| 2026-11-24 | NBA | Wizards +10.5 | -105 | 0.5 | LOSS | Celtics 131 - Wizards 116 | -0.5 |
+| 2026-11-24 | NBA | Pistons -2.5 | -106 | 0.5 | WIN | Pistons 104 - Magic 86 | +0.472 |
 | 2026-11-22 | NFL | Saints +11.5 | -108 | 0.5 | WIN | Saints 13 - Bears 21 | +0.463 |
 | 2026-11-21 | NCAAF | Kansas +5.5 | -110 | 0.5 | WIN | BYU 31 - Kansas 29 | +0.455 |
 | 2026-11-15 | NFL | Texans -4.5 | -110 | 0.5 | LOSS | Texans 24 - Browns 27 | -0.5 |
@@ -116,5 +118,3 @@ Lessons log: `data/lessons.md`
 | 2026-10-05 | NFL | Falcons +2.5 | -110 | 1 | WIN | ATL 45 - NO 24 | +0.909 |
 | 2026-10-04 | NFL | Commanders +4.5 | -104 | 1 | LOSS | IND 30 - WAS 13 | -1.0 |
 | 2026-10-04 | MLB | Brewers ML | -142 | 1 | WIN | SD 3 - MIL 4 | +0.704 |
-| 2026-10-04 | NFL | Titans +11.5 | -112 | 1 | WIN | TEN 18 - BAL 24 | +0.893 |
-| 2026-10-04 | NFL | Eagles +3.5 | -110 | 1 | LOSS | LAR 24 - PHI 20 | -1.0 |

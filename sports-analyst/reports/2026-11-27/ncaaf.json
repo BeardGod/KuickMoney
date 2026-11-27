@@ -1,0 +1,19 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF + NFL 2026-11-27 (Black Friday)\n\nNo bets. Only one outlet (Covers) had current-dated model numbers; Dimers' 2026 pages for these games were last updated in May/June, so the two-model rule can't be met independently.\n\n## Leans (Covers AI and Covers projections agree, same outlet)\n- Texas A&M +11.5 vs Texas (7:30 ET): Covers AI Texas 24-14 (10 pts); Covers projections also A&M +11.5.\n- Iowa -4.5 vs Nebraska (noon): Covers AI Iowa 22-14; projections Iowa -4.5. Expert takes Nebraska +5.5.\n- Florida State +6.5 vs Florida: Covers AI Florida 27-26. One model.\n\n## Passes\n- Wisconsin -7.5: hook through 7.\n- Ole Miss -17.5, Utah -23.5: single model, big numbers.\n- NFL Broncos -1.5 at Steelers (3 PM, Prime): no current model found (GidStats toss-up from Nov 6, Dimers page stale). Pass.\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-13-2026",
+   "title": "Covers CFB AI predictions Week 13 2026"
+  },
+  {
+   "url": "https://www2.teamrankings.com/nfl/matchup/broncos-steelers-week-12-2026/injuries",
+   "title": "TeamRankings Broncos-Steelers line"
+  },
+  {
+   "url": "https://gidstats.com/nfl/2026/week-12/denver-broncos-vs-pittsburgh-steelers/",
+   "title": "GidStats Broncos-Steelers"
+  }
+ ],
+ "picks": []
+}
