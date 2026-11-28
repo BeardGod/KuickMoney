@@ -1261,5 +1261,49 @@
   "summary": "Dimers 54.8% plus numberFire on Wizards +10.5; Boston slow pace and slumping.",
   "units": 0.5,
   "win_probability": 0.54
+ },
+ {
+  "angles": [
+   "model_consensus"
+  ],
+  "book": "BetMGM",
+  "confidence": 0.55,
+  "date": "2026-11-28",
+  "game_id": "BKN@CHA",
+  "id": "2026-11-28:nba:BKN@CHA:spread:away",
+  "league": "nba",
+  "line": 6.5,
+  "market": "spread",
+  "matchup": "Nets at Hornets",
+  "odds": -102,
+  "result_units": null,
+  "selection": "Nets +6.5",
+  "side": "away",
+  "status": "pending",
+  "summary": "Dimers and Covers projection both have Charlotte by under 6.5.",
+  "units": 0.5,
+  "win_probability": 0.54
+ },
+ {
+  "angles": [
+   "model_consensus"
+  ],
+  "book": "DraftKings",
+  "confidence": 0.55,
+  "date": "2026-11-28",
+  "game_id": "ORL@WAS",
+  "id": "2026-11-28:nba:ORL@WAS:moneyline:away",
+  "league": "nba",
+  "line": null,
+  "market": "moneyline",
+  "matchup": "Magic at Wizards",
+  "odds": -147,
+  "result_units": null,
+  "selection": "Magic ML",
+  "side": "away",
+  "status": "pending",
+  "summary": "Dimers 62.2% and Covers projection (ORL by 3.4) both above 59.5% implied.",
+  "units": 0.5,
+  "win_probability": 0.61
  }
 ]

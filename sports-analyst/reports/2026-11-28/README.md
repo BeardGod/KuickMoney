@@ -4,10 +4,14 @@
 
 ## All picks
 
-_No bets recommended._
+| League | Matchup | Bet | Odds | Book | Units | Win % | Implied % | Conf |
+|---|---|---|---|---|---|---|---|---|
+| NBA | Nets at Hornets | Nets +6.5 | -102 | BetMGM | 0.5 | 54.0 | 50.5 | 0.55 |
+| NBA | Magic at Wizards | Magic ML | -147 | DraftKings | 0.5 | 61.0 | 59.5 | 0.55 |
 
 ## League reports
 
+- [NBA](nba.md) - 2 pick(s)
 - [NCAA Football (FBS)](ncaaf.md) - 0 pick(s)
 
 ## Track record

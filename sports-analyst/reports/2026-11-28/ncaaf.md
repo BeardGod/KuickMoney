@@ -24,10 +24,15 @@ No bets yet. Only Covers had current numbers; Dimers' 2026 pages for these games
 - Arizona -7.5: hook through 7.
 - Big spreads (Georgia -35.5, Miami -24.5, Notre Dame -24.5, Boise -21.5, Indiana -21.5): single model.
 
+## Saturday-morning update
+- UCLA: numberFire now has UCLA winning 56.7% (ML +202) and Covers AI UCLA 28-21, two models on UCLA outright. But QB Ty Dieffenbach (hip, carted off vs Michigan) is questionable; the line reflects that. Backup-QB rule: bet UCLA ML only if Dieffenbach is confirmed starting; otherwise pass.
+
 
 ## Sources
 
 - [Covers CFB AI predictions Week 13 2026](https://www.covers.com/ncaaf/college-football-ai-predictions-week-13-2026)
 - [TeamRankings Auburn at Alabama line](https://betiq.teamrankings.com/college-football/matchups/tigers-crimson-tide-week-13-2026/)
+- [numberFire USC vs UCLA](https://www.fanduel.com/research/usc-vs-ucla-college-football-odds-picks-best-bets-for-11-28-2026)
+- [247 UCLA injury report](https://247sports.com/college/ucla/article/ucla-football-injury-report-ty-dieffenbach-questionable-to-play-against-usc-293324586/)
 
 <sub>tokens in/out: 0/0 | stop: claude-code</sub>

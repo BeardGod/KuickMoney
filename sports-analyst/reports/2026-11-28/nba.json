@@ -1,0 +1,54 @@
+{
+ "league": "nba",
+ "report_markdown": "# NBA 2026-11-28\n\n## Bets\n- Nets +6.5 at Hornets (-102, 0.5u, 6 PM): Dimers 52.9% at +5.5; Covers projection CHA 108.6-104.0 (4.6 pts). Both under 6.5.\n- Magic ML at Wizards (-147, 0.5u, 5 PM): Dimers 62.2%; Covers projection ORL 110.9-107.5 (~62%). Implied 59.5%. Thin edge.\n\n## Leans\n- Bucks +11.5 vs Thunder: Dimers 54%, Covers OKC by 11.2 (on number). Bucks 1-13; OKC without Holmgren, Jalen Williams, Wallace.\n- 76ers +12.5 at Rockets: Dimers 55%, Covers HOU by 12.5 (on number).\n\n## Pass\n- Nets/Hornets over 213.5: Dimers 52.8%, Covers 212.6. Split.\n",
+ "sources": [
+  {
+   "url": "https://www.dimers.com/nba/news/nba-best-bets-11-28-2026-ac",
+   "title": "Dimers NBA best bets 11/28/2026"
+  },
+  {
+   "url": "https://www.covers.com/picks/nba",
+   "title": "Covers NBA projections"
+  },
+  {
+   "url": "https://www.sportbusy.com/games/nba/14330318-oklahoma-city-thunder-at-milwaukee-bucks-2026-11-28/",
+   "title": "Thunder at Bucks injuries"
+  }
+ ],
+ "picks": [
+  {
+   "game_id": "BKN@CHA",
+   "matchup": "Nets at Hornets",
+   "market": "spread",
+   "side": "away",
+   "selection": "Nets +6.5",
+   "line": 6.5,
+   "odds": -102,
+   "book": "BetMGM",
+   "win_probability": 0.54,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Dimers and Covers projection both have Charlotte by under 6.5.",
+   "angles": [
+    "model_consensus"
+   ]
+  },
+  {
+   "game_id": "ORL@WAS",
+   "matchup": "Magic at Wizards",
+   "market": "moneyline",
+   "side": "away",
+   "selection": "Magic ML",
+   "line": null,
+   "odds": -147,
+   "book": "DraftKings",
+   "win_probability": 0.61,
+   "units": 0.5,
+   "confidence": 0.55,
+   "summary": "Dimers 62.2% and Covers projection (ORL by 3.4) both above 59.5% implied.",
+   "angles": [
+    "model_consensus"
+   ]
+  }
+ ]
+}
