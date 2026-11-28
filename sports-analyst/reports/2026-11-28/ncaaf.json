@@ -1,0 +1,15 @@
+{
+ "league": "ncaaf",
+ "report_markdown": "# NCAAF 2026-11-28 (Rivalry Saturday), built Friday night\n\nNo bets yet. Only Covers had current numbers; Dimers' 2026 pages for these games are stale (June), and Saturday's numberFire/Dimers NBA pages weren't posted yet.\n\n## Leans (Covers AI + Covers projections + Covers expert all agree)\n- UCLA +6.5 vs USC: AI projects UCLA 28-21 outright. If confirmed by a second outlet, take the ML per the road/home-dog-winning-outright rule.\n- Ohio State -10.5 vs Michigan: AI 28-13.\n- Alabama -14.5 vs Auburn: AI 32-15. Note TeamRankings lists Alabama -10, so lines vary.\n- Oregon -13.5 vs Washington: AI 31-17.\n\n## Single-model notes\n- Clemson +6.5 vs South Carolina: AI has South Carolina by 1.\n- Duke +14.5 at Wake Forest: AI Wake by 14 (on the number).\n\n## Passes\n- Arizona -7.5: hook through 7.\n- Big spreads (Georgia -35.5, Miami -24.5, Notre Dame -24.5, Boise -21.5, Indiana -21.5): single model.\n",
+ "sources": [
+  {
+   "url": "https://www.covers.com/ncaaf/college-football-ai-predictions-week-13-2026",
+   "title": "Covers CFB AI predictions Week 13 2026"
+  },
+  {
+   "url": "https://betiq.teamrankings.com/college-football/matchups/tigers-crimson-tide-week-13-2026/",
+   "title": "TeamRankings Auburn at Alabama line"
+  }
+ ],
+ "picks": []
+}
